@@ -30,7 +30,7 @@ import sys
 import time
 from datetime import datetime, timedelta, timezone
 
-import requests
+import httpx
 
 IST = timezone(timedelta(hours=5, minutes=30))
 
@@ -61,22 +61,26 @@ HEADERS = {
 class NseSession:
     """Handles the cookie handshake NSE requires before its API endpoints
     will respond (visiting the HTML site first establishes session cookies;
-    calling the API directly without them returns 403)."""
+    calling the API directly without them returns 403). Uses httpx with
+    HTTP/2 enabled, since NSE's server-environment IP blocking has been
+    documented to behave differently with HTTP/2 vs plain HTTP/1.1
+    clients (e.g. the 'requests' library, which is HTTP/1.1 only)."""
 
     def __init__(self):
-        self.session = requests.Session()
-        self.session.headers.update(HEADERS)
+        self.client = httpx.Client(
+            headers=HEADERS,
+            http2=True,
+            timeout=TIMEOUT,
+            follow_redirects=True,
+        )
         self._warm_up()
 
     def _warm_up(self):
         # A normal browser hits the homepage (and usually the relevant
         # section page) before any API call. We do the same.
-        self.session.get(NSE_BASE, timeout=TIMEOUT)
+        self.client.get(NSE_BASE)
         time.sleep(1)
-        self.session.get(
-            f"{NSE_BASE}/companies-listing/corporate-filings-actions",
-            timeout=TIMEOUT,
-        )
+        self.client.get(f"{NSE_BASE}/companies-listing/corporate-filings-actions")
         time.sleep(1)
 
     def get_json(self, path, params=None, retries=2):
@@ -84,7 +88,7 @@ class NseSession:
         last_err = None
         for attempt in range(retries + 1):
             try:
-                resp = self.session.get(url, params=params, timeout=TIMEOUT)
+                resp = self.client.get(url, params=params)
                 if resp.status_code == 200:
                     return resp.json()
                 last_err = f"HTTP {resp.status_code} for {url}"
