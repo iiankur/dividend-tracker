@@ -90,7 +90,7 @@ class NseSession:
 def fetch_corporate_actions(nse: NseSession):
     """Returns the list of forthcoming corporate actions for equities."""
     data = nse.get_json(
-        "/api/corporate-actions",
+        "/api/corporates-corporateActions",
         params={"index": "equities"},
     )
     # The endpoint returns a flat list of dicts with keys like:
