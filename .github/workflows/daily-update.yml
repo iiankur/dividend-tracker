@@ -24,7 +24,7 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install "httpx[http2]"
 
       - name: Run dividend tracker script
         run: python3 dividend_tracker.py
