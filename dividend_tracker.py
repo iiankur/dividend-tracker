@@ -2,9 +2,14 @@
 """
 dividend_tracker.py
 
-Fetches upcoming NSE corporate actions (dividends), filters for stocks
-paying a dividend >= MIN_DIVIDEND tomorrow, enriches each with previous
-day's closing price and volume, and writes a static HTML page.
+Fetches upcoming NSE corporate actions (dividends) for TODAY and TOMORROW
+(IST), enriches each with previous day's closing price and volume, and
+writes a static HTML page with interactive tabs (Today / Tomorrow) and
+dividend-amount filter buttons (>0, >5, >10, >20).
+
+All matching stocks (any dividend amount > 0) are fetched and embedded in
+the page; filtering by amount happens in the browser via JavaScript, so no
+re-run is needed to see different thresholds.
 
 This uses NSE India's public website JSON endpoints (the same ones the
 nseindia.com site itself uses). These are not an official/published API,
@@ -23,15 +28,19 @@ import json
 import os
 import sys
 import time
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 import requests
+
+IST = timezone(timedelta(hours=5, minutes=30))
 
 # ---------------------------------------------------------------------------
 # Config
 # ---------------------------------------------------------------------------
 
-MIN_DIVIDEND = 5.0          # rupees per share
+MIN_DIVIDEND_TO_FETCH = 0.01   # fetch anything with a real dividend amount;
+                               # the four filter buttons on the page do the
+                               # actual >0 / >5 / >10 / >20 filtering live
 OUTPUT_DIR = "docs"
 DATA_DIR = "data"
 TIMEOUT = 15
@@ -169,7 +178,7 @@ def parse_nse_date(date_str: str):
 
 
 def build_dataset(min_dividend: float):
-    today = datetime.now().date()
+    today = datetime.now(IST).date()
     tomorrow = today + timedelta(days=1)
 
     print("Connecting to NSE...")
@@ -179,52 +188,67 @@ def build_dataset(min_dividend: float):
     actions = fetch_corporate_actions(nse)
     print(f"  {len(actions)} total corporate actions returned")
 
-    results = []
+    quote_cache = {}  # symbol -> enrichment dict, avoids re-fetching same stock twice
+
+    def enrich(symbol):
+        if symbol not in quote_cache:
+            quote = fetch_quote(nse, symbol)
+            time.sleep(0.4)
+            volume = fetch_volume(nse, symbol)
+            time.sleep(0.4)
+            quote_cache[symbol] = {
+                "previousClose": quote.get("previousClose"),
+                "lastPrice": quote.get("lastPrice"),
+                "pChange": quote.get("pChange"),
+                "previousDayVolume": volume,
+            }
+        return quote_cache[symbol]
+
+    today_results = []
+    tomorrow_results = []
+
     for action in actions:
         subject = action.get("subject", "")
         amount = parse_dividend_amount(subject)
         if amount is None or amount < min_dividend:
             continue
 
-        # NSE's corporate-actions feed mixes ex-date and other dates
-        # depending on action type; for dividends, 'exDate' is the date
-        # the stock trades ex-dividend, and the actual cash payout date
-        # is usually some days later and not always provided in this feed.
-        # We treat exDate as the relevant trigger date here; you may need
-        # to adjust this once you see real output, since "exDate" and
-        # "pay date" are not the same thing for dividends.
+        # NSE's corporate-actions feed gives 'exDate' (ex-dividend date) and
+        # 'recDate' (record date), but no separate cash "pay date" field.
+        # Ex-date is the practically meaningful date for tracking purposes
+        # (it's when the stock starts trading without the dividend value
+        # attached), so that's what "today" / "tomorrow" refer to here.
         ex_date = parse_nse_date(action.get("exDate", ""))
-        if ex_date != tomorrow:
+        if ex_date not in (today, tomorrow):
             continue
 
         symbol = action.get("symbol")
         company = action.get("comp") or action.get("companyName") or symbol
 
         print(f"  Match: {symbol} - Rs {amount} - ex-date {ex_date}")
+        enrichment = enrich(symbol)
 
-        quote = fetch_quote(nse, symbol)
-        time.sleep(0.5)
-        volume = fetch_volume(nse, symbol)
-        time.sleep(0.5)
-
-        results.append({
+        record = {
             "symbol": symbol,
             "company": company,
             "dividend": amount,
             "exDate": ex_date.isoformat() if ex_date else None,
             "subject": subject,
-            "previousClose": quote.get("previousClose"),
-            "lastPrice": quote.get("lastPrice"),
-            "pChange": quote.get("pChange"),
-            "previousDayVolume": volume,
-        })
+            **enrichment,
+        }
+
+        if ex_date == today:
+            today_results.append(record)
+        else:
+            tomorrow_results.append(record)
+
+    today_results.sort(key=lambda r: r["dividend"], reverse=True)
+    tomorrow_results.sort(key=lambda r: r["dividend"], reverse=True)
 
     return {
-        "generatedAt": datetime.now().isoformat(),
-        "asOfDate": today.isoformat(),
-        "targetDate": tomorrow.isoformat(),
-        "minDividend": min_dividend,
-        "stocks": sorted(results, key=lambda r: r["dividend"], reverse=True),
+        "generatedAt": datetime.now(IST).strftime("%d-%b-%Y %I:%M %p IST"),
+        "today": {"date": today.isoformat(), "stocks": today_results},
+        "tomorrow": {"date": tomorrow.isoformat(), "stocks": tomorrow_results},
     }
 
 
@@ -232,75 +256,200 @@ def tradingview_link(symbol: str) -> str:
     return f"https://www.tradingview.com/chart/?symbol=NSE:{symbol}"
 
 
-def render_html(dataset: dict) -> str:
-    stocks = dataset["stocks"]
-    target_date = dataset["targetDate"]
-    generated_at = dataset["generatedAt"]
-    min_div = dataset["minDividend"]
 
-    if not stocks:
-        rows_html = (
-            '<tr><td colspan="6" class="empty">'
-            "No stocks found paying a dividend of this size on this date."
-            "</td></tr>"
-        )
-    else:
-        rows = []
-        for s in stocks:
-            vol = s["previousDayVolume"]
-            vol_display = f"{vol:,}" if isinstance(vol, (int, float)) else "—"
-            price = s["lastPrice"]
-            price_display = f"₹{price:,.2f}" if isinstance(price, (int, float)) else "—"
-            rows.append(f"""
-            <tr>
-              <td class="name">{s['company']}<span class="tk">{s['symbol']}</span></td>
-              <td>₹{s['dividend']:.2f}</td>
-              <td>{s['exDate'] or '—'}</td>
-              <td>{vol_display}</td>
-              <td>{price_display}</td>
-              <td><a class="chart-link" href="{tradingview_link(s['symbol'])}" target="_blank" rel="noopener">Chart →</a></td>
-            </tr>""")
-        rows_html = "".join(rows)
+def render_html(dataset: dict) -> str:
+    generated_at = dataset["generatedAt"]
+    today_date = dataset["today"]["date"]
+    tomorrow_date = dataset["tomorrow"]["date"]
+
+    # Pre-compute TradingView links and embed everything as JSON for the
+    # browser to render/filter client-side (no page regeneration needed
+    # just to change the dividend threshold or switch days).
+    payload = {
+        "generatedAt": generated_at,
+        "today": {
+            "date": today_date,
+            "stocks": [
+                {**s, "chartUrl": tradingview_link(s["symbol"])}
+                for s in dataset["today"]["stocks"]
+            ],
+        },
+        "tomorrow": {
+            "date": tomorrow_date,
+            "stocks": [
+                {**s, "chartUrl": tradingview_link(s["symbol"])}
+                for s in dataset["tomorrow"]["stocks"]
+            ],
+        },
+    }
+    payload_json = json.dumps(payload)
 
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ex-Div Tomorrow</title>
+<title>Dividend Tracker — NSE</title>
 <style>
   :root{{
     --bg:#0b0d10; --panel:#11151a; --border:#1f2730;
-    --ink:#e8edf2; --dim:#8b97a3; --accent:#ffb454; --green:#3ddc84;
+    --ink:#e8edf2; --dim:#8b97a3; --faint:#5c6773;
+    --accent:#ffb454; --green:#3ddc84; --red:#ff5c5c;
   }}
   *{{box-sizing:border-box;}}
   body{{margin:0;background:var(--bg);color:var(--ink);
-       font-family:-apple-system,Segoe UI,sans-serif;padding:20px;}}
+       font-family:-apple-system,Segoe UI,sans-serif;padding:18px;
+       max-width:980px;margin:0 auto;}}
   h1{{font-size:18px;margin:0 0 4px;}}
-  .meta{{color:var(--dim);font-size:12.5px;margin-bottom:18px;}}
+  .meta{{color:var(--dim);font-size:12px;margin-bottom:18px;}}
+
+  .tabs{{display:flex;gap:8px;margin-bottom:14px;}}
+  .tab{{flex:1;text-align:center;padding:10px 8px;border-radius:8px;
+        background:var(--panel);border:1px solid var(--border);
+        color:var(--dim);font-size:13.5px;font-weight:600;cursor:pointer;
+        font-family:monospace;}}
+  .tab.active{{background:var(--accent);color:#1a1206;border-color:var(--accent);}}
+  .tab .count{{display:block;font-size:10.5px;font-weight:400;margin-top:2px;
+               opacity:.85;}}
+
+  .filter-row{{display:flex;gap:7px;margin-bottom:16px;flex-wrap:wrap;}}
+  .filter-chip{{font-family:monospace;font-size:11.5px;color:var(--dim);
+      background:var(--panel);border:1px solid var(--border);
+      padding:6px 13px;border-radius:20px;cursor:pointer;}}
+  .filter-chip.active{{background:var(--accent);color:#1a1206;
+      border-color:var(--accent);font-weight:600;}}
+
   table{{width:100%;border-collapse:collapse;font-size:13.5px;}}
   th{{text-align:left;font-size:10.5px;text-transform:uppercase;letter-spacing:.05em;
-      color:var(--dim);padding:8px 6px;border-bottom:1px solid var(--border);}}
+      color:var(--dim);padding:8px 6px;border-bottom:1px solid var(--border);
+      white-space:nowrap;}}
   td{{padding:10px 6px;border-bottom:1px solid #161b21;font-family:monospace;}}
   td.name{{font-family:-apple-system,sans-serif;font-weight:600;}}
-  td.name .tk{{display:block;font-family:monospace;color:var(--dim);font-size:11px;}}
-  td.empty{{text-align:center;color:var(--dim);padding:40px 0;font-family:-apple-system,sans-serif;}}
-  .chart-link{{color:var(--accent);text-decoration:none;border:1px solid rgba(255,180,84,.3);
-      padding:4px 8px;border-radius:5px;font-size:11.5px;}}
-  @media (max-width:600px){{ table{{display:block;overflow-x:auto;white-space:nowrap;}} }}
+  td.name .tk{{display:block;font-family:monospace;color:var(--dim);font-size:11px;
+               font-weight:400;}}
+  td.empty{{text-align:center;color:var(--dim);padding:40px 0;
+            font-family:-apple-system,sans-serif;}}
+  td.up{{color:var(--green);}}
+  td.down{{color:var(--red);}}
+  .chart-link{{color:var(--accent);text-decoration:none;
+      border:1px solid rgba(255,180,84,.3);padding:4px 8px;border-radius:5px;
+      font-size:11.5px;white-space:nowrap;}}
+  .div-amt{{color:var(--green);font-weight:700;}}
+
+  footer{{margin-top:30px;font-size:11px;color:var(--faint);line-height:1.6;}}
+
+  @media (max-width:640px){{
+    table{{display:block;overflow-x:auto;white-space:nowrap;}}
+    .tab{{font-size:12px;}}
+  }}
 </style>
 </head>
 <body>
-  <h1>Stocks paying ≥ ₹{min_div:.0f} dividend on {target_date}</h1>
-  <div class="meta">Generated {generated_at} · NSE equities only</div>
+  <h1>Dividend Tracker — NSE</h1>
+  <div class="meta">Generated {generated_at} · ex-date based · dividend amount parsed from NSE filing text</div>
+
+  <div class="tabs" id="tabs"></div>
+  <div class="filter-row" id="filters"></div>
   <table>
     <thead>
-      <tr><th>Stock</th><th>Dividend</th><th>Ex-date</th><th>Prev. day volume</th><th>Last price</th><th>Chart</th></tr>
+      <tr>
+        <th>Stock</th><th>Dividend</th><th>Ex-date</th>
+        <th>Prev. day volume</th><th>Last price</th><th>Chg %</th><th>Chart</th>
+      </tr>
     </thead>
-    <tbody>
-      {rows_html}
-    </tbody>
+    <tbody id="rows"></tbody>
   </table>
+
+  <footer>
+    Data source: NSE corporate-actions filings (unofficial endpoint) ·
+    "Ex-date" is shown, not the cash payout date — NSE's feed doesn't
+    publish a separate pay date · Dividend amount is parsed from each
+    filing's free-text subject line and may occasionally fail to parse for
+    unusually worded filings.
+  </footer>
+
+<script>
+const DATA = {payload_json};
+
+let activeDay = DATA.today.stocks.length > 0 ? 'today' : 'tomorrow';
+let activeMin = 5;
+
+const dayLabel = (iso) => {{
+  const d = new Date(iso + 'T00:00:00');
+  return d.toLocaleDateString('en-IN', {{weekday:'short', day:'2-digit', month:'short'}});
+}};
+
+function renderTabs(){{
+  const tabs = document.getElementById('tabs');
+  tabs.innerHTML = ['today','tomorrow'].map(day => {{
+    const d = DATA[day];
+    const label = day === 'today' ? 'Today' : 'Tomorrow';
+    return `<div class="tab ${{day===activeDay?'active':''}}" data-day="${{day}}">
+      ${{label}} — ${{dayLabel(d.date)}}
+      <span class="count">${{d.stocks.length}} dividend${{d.stocks.length===1?'':'s'}} announced</span>
+    </div>`;
+  }}).join('');
+  tabs.querySelectorAll('.tab').forEach(t => {{
+    t.addEventListener('click', () => {{ activeDay = t.dataset.day; renderAll(); }});
+  }});
+}}
+
+function renderFilters(){{
+  const filters = document.getElementById('filters');
+  const opts = [[0,'All (>₹0)'],[5,'≥ ₹5'],[10,'≥ ₹10'],[20,'≥ ₹20']];
+  filters.innerHTML = opts.map(([min,label]) =>
+    `<div class="filter-chip ${{min===activeMin?'active':''}}" data-min="${{min}}">${{label}}</div>`
+  ).join('');
+  filters.querySelectorAll('.filter-chip').forEach(c => {{
+    c.addEventListener('click', () => {{ activeMin = Number(c.dataset.min); renderAll(); }});
+  }});
+}}
+
+function fmtVol(v){{
+  if (v === null || v === undefined) return '—';
+  if (v >= 1e7) return (v/1e7).toFixed(2) + ' Cr';
+  if (v >= 1e5) return (v/1e5).toFixed(2) + ' L';
+  if (v >= 1e3) return (v/1e3).toFixed(1) + 'K';
+  return String(v);
+}}
+
+function renderRows(){{
+  const stocks = DATA[activeDay].stocks.filter(s => s.dividend >= activeMin);
+  const tbody = document.getElementById('rows');
+
+  if (stocks.length === 0){{
+    tbody.innerHTML = `<tr><td colspan="7" class="empty">No stocks at this threshold for ${{activeDay==='today'?'today':'tomorrow'}}.</td></tr>`;
+    return;
+  }}
+
+  tbody.innerHTML = stocks.map(s => {{
+    const price = (s.lastPrice !== null && s.lastPrice !== undefined)
+      ? '₹' + Number(s.lastPrice).toLocaleString('en-IN', {{minimumFractionDigits:2}})
+      : '—';
+    const chg = s.pChange;
+    const chgClass = (chg === null || chg === undefined) ? '' : (chg >= 0 ? 'up' : 'down');
+    const chgDisplay = (chg === null || chg === undefined) ? '—' : (chg >= 0 ? '+' : '') + Number(chg).toFixed(2) + '%';
+    return `
+    <tr>
+      <td class="name">${{s.company}}<span class="tk">${{s.symbol}}</span></td>
+      <td class="div-amt">₹${{Number(s.dividend).toFixed(2)}}</td>
+      <td>${{s.exDate || '—'}}</td>
+      <td>${{fmtVol(s.previousDayVolume)}}</td>
+      <td>${{price}}</td>
+      <td class="${{chgClass}}">${{chgDisplay}}</td>
+      <td><a class="chart-link" href="${{s.chartUrl}}" target="_blank" rel="noopener">Chart →</a></td>
+    </tr>`;
+  }}).join('');
+}}
+
+function renderAll(){{
+  renderTabs();
+  renderFilters();
+  renderRows();
+}}
+
+renderAll();
+</script>
 </body>
 </html>"""
 
@@ -309,7 +458,7 @@ def main():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     os.makedirs(DATA_DIR, exist_ok=True)
 
-    dataset = build_dataset(MIN_DIVIDEND)
+    dataset = build_dataset(MIN_DIVIDEND_TO_FETCH)
 
     json_path = os.path.join(DATA_DIR, "latest.json")
     with open(json_path, "w") as f:
@@ -321,7 +470,10 @@ def main():
         f.write(render_html(dataset))
     print(f"Wrote {html_path}")
 
-    print(f"\nFound {len(dataset['stocks'])} stock(s) paying >= Rs{MIN_DIVIDEND} on {dataset['targetDate']}")
+    today_count = len(dataset["today"]["stocks"])
+    tomorrow_count = len(dataset["tomorrow"]["stocks"])
+    print(f"\nToday ({dataset['today']['date']}): {today_count} dividend-paying stock(s)")
+    print(f"Tomorrow ({dataset['tomorrow']['date']}): {tomorrow_count} dividend-paying stock(s)")
 
 
 if __name__ == "__main__":
