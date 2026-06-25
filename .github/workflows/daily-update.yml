@@ -1,0 +1,38 @@
+name: Update dividend tracker
+
+on:
+  schedule:
+    # Runs at 23:30 UTC = 05:00 IST (next day).
+    # Adjust the hour below if you want a different time of day.
+    # Remember: GitHub Actions cron is ALWAYS in UTC.
+    - cron: "30 23 * * *"
+  workflow_dispatch: {}   # lets you click "Run workflow" manually on GitHub
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run dividend tracker script
+        run: python3 dividend_tracker.py
+
+      - name: Commit and push updated output
+        run: |
+          git config user.name "dividend-tracker-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/ data/
+          git diff --quiet --cached || git commit -m "Update dividend data $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push
