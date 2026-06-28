@@ -1,11 +1,45 @@
 {
-  "generatedAt": "27-Jun-2026 06:58 AM IST",
+  "generatedAt": "28-Jun-2026 07:05 AM IST",
   "today": {
-    "date": "2026-06-27",
+    "date": "2026-06-28",
     "stocks": []
   },
   "tomorrow": {
-    "date": "2026-06-28",
-    "stocks": []
+    "date": "2026-06-29",
+    "stocks": [
+      {
+        "symbol": "KPIL",
+        "company": "Kalpataru Projects International Limited",
+        "dividend": 11.0,
+        "exDate": "2026-06-29",
+        "subject": "Dividend - Rs 11 Per Share",
+        "previousClose": null,
+        "lastPrice": null,
+        "pChange": null,
+        "previousDayVolume": null
+      },
+      {
+        "symbol": "JYOTHYLAB",
+        "company": "Jyothy Labs Limited",
+        "dividend": 3.5,
+        "exDate": "2026-06-29",
+        "subject": "Dividend - Rs 3.50 Per Share",
+        "previousClose": null,
+        "lastPrice": null,
+        "pChange": null,
+        "previousDayVolume": null
+      },
+      {
+        "symbol": "KANSAINER",
+        "company": "Kansai Nerolac Paints Limited",
+        "dividend": 2.5,
+        "exDate": "2026-06-29",
+        "subject": "Dividend - Rs 2.50 Per Share",
+        "previousClose": null,
+        "lastPrice": null,
+        "pChange": null,
+        "previousDayVolume": null
+      }
+    ]
   }
 }
