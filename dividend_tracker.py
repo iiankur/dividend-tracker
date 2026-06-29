@@ -83,7 +83,7 @@ class NseSession:
         self.client.get(f"{NSE_BASE}/companies-listing/corporate-filings-actions")
         time.sleep(1)
 
-    def get_json(self, path, params=None, retries=2):
+    def get_json(self, path, params=None, retries=1):
         url = f"{NSE_BASE}{path}"
         last_err = None
         for attempt in range(retries + 1):
@@ -91,12 +91,20 @@ class NseSession:
                 resp = self.client.get(url, params=params)
                 if resp.status_code == 200:
                     return resp.json()
+                # A clean HTTP error response (403/404/etc) means we did
+                # reach NSE and it said no -- retrying immediately with the
+                # same session is unlikely to help, so don't burn time
+                # re-warming up; just fail this one call.
                 last_err = f"HTTP {resp.status_code} for {url}"
+                break
             except Exception as e:  # noqa: BLE001
+                # A connection-level error (timeout, reset, etc) might
+                # genuinely be fixed by a fresh session, so it's worth one
+                # retry with re-warm-up here -- but only for this case.
                 last_err = str(e)
-            # session may have gone stale; re-warm and retry once
-            time.sleep(2)
-            self._warm_up()
+                if attempt < retries:
+                    time.sleep(2)
+                    self._warm_up()
         raise RuntimeError(f"Failed to fetch {url}: {last_err}")
 
 
@@ -116,39 +124,33 @@ def fetch_corporate_actions(nse: NseSession):
 
 
 def fetch_quote(nse: NseSession, symbol: str):
-    """Returns live quote info for a symbol, including previous close and
-    previous day's traded volume."""
+    """Returns last traded price and previous day's traded volume for a
+    symbol, from NSE's GetQuoteApi (NextApi) endpoint -- confirmed working
+    via direct inspection of the live site's network requests. Note: this
+    endpoint's response does not include a clean 'previous close' or
+    'change %' field (checked directly), so those are not returned here."""
     try:
         data = nse.get_json(
-            "/api/quote-equity",
-            params={"symbol": symbol},
+            "/api/NextApi/apiClient/GetQuoteApi",
+            params={
+                "functionName": "getSymbolData",
+                "marketType": "N",
+                "series": "EQ",
+                "symbol": symbol,
+            },
         )
-        price_info = data.get("priceInfo", {})
-        trade_info = data.get("preOpenMarket", {}) or {}
+        rows = data.get("equityResponse", [])
+        if not rows:
+            return {}
+        trade_info = rows[0].get("tradeInfo", {}) or {}
+
         return {
-            "lastPrice": price_info.get("lastPrice"),
-            "previousClose": price_info.get("previousClose"),
-            "change": price_info.get("change"),
-            "pChange": price_info.get("pChange"),
+            "lastPrice": trade_info.get("lastPrice"),
+            "previousDayVolume": trade_info.get("totalTradedVolume"),
         }
     except Exception as e:  # noqa: BLE001
         print(f"  [warn] quote fetch failed for {symbol}: {e}", file=sys.stderr)
         return {}
-
-
-def fetch_volume(nse: NseSession, symbol: str):
-    """Returns previous trading day's volume from the trade info endpoint."""
-    try:
-        data = nse.get_json(
-            "/api/quote-equity",
-            params={"symbol": symbol, "section": "trade_info"},
-        )
-        market_deets = data.get("marketDeptOrderBook", {})
-        trade_info = market_deets.get("tradeInfo", {})
-        return trade_info.get("totalTradedVolume")
-    except Exception as e:  # noqa: BLE001
-        print(f"  [warn] volume fetch failed for {symbol}: {e}", file=sys.stderr)
-        return None
 
 
 def parse_dividend_amount(subject: str):
@@ -183,7 +185,10 @@ def parse_nse_date(date_str: str):
 
 def build_dataset(min_dividend: float):
     today = datetime.now(IST).date()
-    tomorrow = today + timedelta(days=1)
+    target_dates = [today, today + timedelta(days=1), today + timedelta(days=2)]
+    start_time = time.monotonic()
+    MAX_SECONDS = 180  # hard ceiling on enrichment phase; safety net so a
+                        # run-away condition can't silently eat the whole job
 
     print("Connecting to NSE...")
     nse = NseSession()
@@ -196,20 +201,20 @@ def build_dataset(min_dividend: float):
 
     def enrich(symbol):
         if symbol not in quote_cache:
+            if time.monotonic() - start_time > MAX_SECONDS:
+                print(f"  [warn] time budget exceeded, skipping enrichment for {symbol}", file=sys.stderr)
+                quote_cache[symbol] = {"lastPrice": None, "previousDayVolume": None}
+                return quote_cache[symbol]
             quote = fetch_quote(nse, symbol)
             time.sleep(0.4)
-            volume = fetch_volume(nse, symbol)
-            time.sleep(0.4)
             quote_cache[symbol] = {
-                "previousClose": quote.get("previousClose"),
                 "lastPrice": quote.get("lastPrice"),
-                "pChange": quote.get("pChange"),
-                "previousDayVolume": volume,
+                "previousDayVolume": quote.get("previousDayVolume"),
             }
         return quote_cache[symbol]
 
-    today_results = []
-    tomorrow_results = []
+    # results_by_date[date] -> list of matching stock records
+    results_by_date = {d: [] for d in target_dates}
 
     for action in actions:
         subject = action.get("subject", "")
@@ -221,9 +226,9 @@ def build_dataset(min_dividend: float):
         # 'recDate' (record date), but no separate cash "pay date" field.
         # Ex-date is the practically meaningful date for tracking purposes
         # (it's when the stock starts trading without the dividend value
-        # attached), so that's what "today" / "tomorrow" refer to here.
+        # attached), so that's what each tab date refers to here.
         ex_date = parse_nse_date(action.get("exDate", ""))
-        if ex_date not in (today, tomorrow):
+        if ex_date not in results_by_date:
             continue
 
         symbol = action.get("symbol")
@@ -241,18 +246,18 @@ def build_dataset(min_dividend: float):
             **enrichment,
         }
 
-        if ex_date == today:
-            today_results.append(record)
-        else:
-            tomorrow_results.append(record)
+        results_by_date[ex_date].append(record)
 
-    today_results.sort(key=lambda r: r["dividend"], reverse=True)
-    tomorrow_results.sort(key=lambda r: r["dividend"], reverse=True)
+    for d in target_dates:
+        results_by_date[d].sort(key=lambda r: r["dividend"], reverse=True)
 
+    day_keys = ["today", "tomorrow", "dayAfter"]
     return {
         "generatedAt": datetime.now(IST).strftime("%d-%b-%Y %I:%M %p IST"),
-        "today": {"date": today.isoformat(), "stocks": today_results},
-        "tomorrow": {"date": tomorrow.isoformat(), "stocks": tomorrow_results},
+        **{
+            key: {"date": d.isoformat(), "stocks": results_by_date[d]}
+            for key, d in zip(day_keys, target_dates)
+        },
     }
 
 
@@ -263,27 +268,22 @@ def tradingview_link(symbol: str) -> str:
 
 def render_html(dataset: dict) -> str:
     generated_at = dataset["generatedAt"]
-    today_date = dataset["today"]["date"]
-    tomorrow_date = dataset["tomorrow"]["date"]
+    day_keys = ["today", "tomorrow", "dayAfter"]
 
     # Pre-compute TradingView links and embed everything as JSON for the
     # browser to render/filter client-side (no page regeneration needed
     # just to change the dividend threshold or switch days).
     payload = {
         "generatedAt": generated_at,
-        "today": {
-            "date": today_date,
-            "stocks": [
-                {**s, "chartUrl": tradingview_link(s["symbol"])}
-                for s in dataset["today"]["stocks"]
-            ],
-        },
-        "tomorrow": {
-            "date": tomorrow_date,
-            "stocks": [
-                {**s, "chartUrl": tradingview_link(s["symbol"])}
-                for s in dataset["tomorrow"]["stocks"]
-            ],
+        **{
+            key: {
+                "date": dataset[key]["date"],
+                "stocks": [
+                    {**s, "chartUrl": tradingview_link(s["symbol"])}
+                    for s in dataset[key]["stocks"]
+                ],
+            }
+            for key in day_keys
         },
     }
     payload_json = json.dumps(payload)
@@ -358,7 +358,7 @@ def render_html(dataset: dict) -> str:
     <thead>
       <tr>
         <th>Stock</th><th>Dividend</th><th>Ex-date</th>
-        <th>Prev. day volume</th><th>Last price</th><th>Chg %</th><th>Chart</th>
+        <th>Prev. day volume</th><th>Last price</th><th>Chart</th>
       </tr>
     </thead>
     <tbody id="rows"></tbody>
@@ -375,7 +375,10 @@ def render_html(dataset: dict) -> str:
 <script>
 const DATA = {payload_json};
 
-let activeDay = DATA.today.stocks.length > 0 ? 'today' : 'tomorrow';
+const DAY_LABELS = {{today: 'Today', tomorrow: 'Tomorrow', dayAfter: 'Day After'}};
+
+let activeDay = DATA.today.stocks.length > 0 ? 'today'
+  : (DATA.tomorrow.stocks.length > 0 ? 'tomorrow' : 'dayAfter');
 let activeMin = 5;
 
 const dayLabel = (iso) => {{
@@ -385,9 +388,9 @@ const dayLabel = (iso) => {{
 
 function renderTabs(){{
   const tabs = document.getElementById('tabs');
-  tabs.innerHTML = ['today','tomorrow'].map(day => {{
+  tabs.innerHTML = Object.keys(DAY_LABELS).map(day => {{
     const d = DATA[day];
-    const label = day === 'today' ? 'Today' : 'Tomorrow';
+    const label = DAY_LABELS[day];
     return `<div class="tab ${{day===activeDay?'active':''}}" data-day="${{day}}">
       ${{label}} — ${{dayLabel(d.date)}}
       <span class="count">${{d.stocks.length}} dividend${{d.stocks.length===1?'':'s'}} announced</span>
@@ -422,7 +425,7 @@ function renderRows(){{
   const tbody = document.getElementById('rows');
 
   if (stocks.length === 0){{
-    tbody.innerHTML = `<tr><td colspan="7" class="empty">No stocks at this threshold for ${{activeDay==='today'?'today':'tomorrow'}}.</td></tr>`;
+    tbody.innerHTML = `<tr><td colspan="6" class="empty">No stocks at this threshold for ${{DAY_LABELS[activeDay].toLowerCase()}}.</td></tr>`;
     return;
   }}
 
@@ -430,9 +433,6 @@ function renderRows(){{
     const price = (s.lastPrice !== null && s.lastPrice !== undefined)
       ? '₹' + Number(s.lastPrice).toLocaleString('en-IN', {{minimumFractionDigits:2}})
       : '—';
-    const chg = s.pChange;
-    const chgClass = (chg === null || chg === undefined) ? '' : (chg >= 0 ? 'up' : 'down');
-    const chgDisplay = (chg === null || chg === undefined) ? '—' : (chg >= 0 ? '+' : '') + Number(chg).toFixed(2) + '%';
     return `
     <tr>
       <td class="name">${{s.company}}<span class="tk">${{s.symbol}}</span></td>
@@ -440,7 +440,6 @@ function renderRows(){{
       <td>${{s.exDate || '—'}}</td>
       <td>${{fmtVol(s.previousDayVolume)}}</td>
       <td>${{price}}</td>
-      <td class="${{chgClass}}">${{chgDisplay}}</td>
       <td><a class="chart-link" href="${{s.chartUrl}}" target="_blank" rel="noopener">Chart →</a></td>
     </tr>`;
   }}).join('');
@@ -474,10 +473,10 @@ def main():
         f.write(render_html(dataset))
     print(f"Wrote {html_path}")
 
-    today_count = len(dataset["today"]["stocks"])
-    tomorrow_count = len(dataset["tomorrow"]["stocks"])
-    print(f"\nToday ({dataset['today']['date']}): {today_count} dividend-paying stock(s)")
-    print(f"Tomorrow ({dataset['tomorrow']['date']}): {tomorrow_count} dividend-paying stock(s)")
+    print()
+    for key, label in [("today", "Today"), ("tomorrow", "Tomorrow"), ("dayAfter", "Day after tomorrow")]:
+        count = len(dataset[key]["stocks"])
+        print(f"{label} ({dataset[key]['date']}): {count} dividend-paying stock(s)")
 
 
 if __name__ == "__main__":
