@@ -156,7 +156,10 @@ def fetch_quote(nse: NseSession, symbol: str):
 def parse_dividend_amount(subject: str):
     """Extracts a rupee amount from the free-text 'subject' field NSE
     provides, e.g. 'Annual General Meeting/Dividend - Rs 7.50 Per Share'.
-    Returns None if no dividend amount could be parsed."""
+    NSE varies the wording for small amounts -- 'Re' instead of 'Rs' for
+    sub-rupee values, and 'Per Sh' as a shortened form of 'Per Share' --
+    so both are matched here. Returns None if no dividend amount could be
+    parsed."""
     import re
 
     if not subject:
@@ -164,7 +167,11 @@ def parse_dividend_amount(subject: str):
     if "dividend" not in subject.lower():
         return None
 
-    match = re.search(r"Rs\.?\s*([\d,]+\.?\d*)\s*Per\s*Share", subject, re.IGNORECASE)
+    match = re.search(
+        r"R[se]\.?\s*([\d,]+\.?\d*)\s*Per\s*Sh(?:are)?",
+        subject,
+        re.IGNORECASE,
+    )
     if match:
         try:
             return float(match.group(1).replace(",", ""))

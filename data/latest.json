@@ -1,38 +1,6 @@
 {
-  "generatedAt": "29-Jun-2026 11:47 PM IST",
+  "generatedAt": "30-Jun-2026 12:22 AM IST",
   "today": {
-    "date": "2026-06-29",
-    "stocks": [
-      {
-        "symbol": "KPIL",
-        "company": "Kalpataru Projects International Limited",
-        "dividend": 11.0,
-        "exDate": "2026-06-29",
-        "subject": "Dividend - Rs 11 Per Share",
-        "lastPrice": 1350,
-        "previousDayVolume": 430829
-      },
-      {
-        "symbol": "JYOTHYLAB",
-        "company": "Jyothy Labs Limited",
-        "dividend": 3.5,
-        "exDate": "2026-06-29",
-        "subject": "Dividend - Rs 3.50 Per Share",
-        "lastPrice": 195.88,
-        "previousDayVolume": 823518
-      },
-      {
-        "symbol": "KANSAINER",
-        "company": "Kansai Nerolac Paints Limited",
-        "dividend": 2.5,
-        "exDate": "2026-06-29",
-        "subject": "Dividend - Rs 2.50 Per Share",
-        "lastPrice": 204.99,
-        "previousDayVolume": 496347
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-06-30",
     "stocks": [
       {
@@ -82,8 +50,41 @@
       }
     ]
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-07-01",
-    "stocks": []
+    "stocks": [
+      {
+        "symbol": "DSFCL",
+        "company": "DCM Shriram Fine Chemicals Limited",
+        "dividend": 0.4,
+        "exDate": "2026-07-01",
+        "subject": "Dividend - Re 0.40 Per Sh",
+        "lastPrice": null,
+        "previousDayVolume": null
+      }
+    ]
+  },
+  "dayAfter": {
+    "date": "2026-07-02",
+    "stocks": [
+      {
+        "symbol": "CHEMBOND",
+        "company": "Chembond Material Technologies Limited",
+        "dividend": 2.0,
+        "exDate": "2026-07-02",
+        "subject": "Dividend - Rs 2 Per Share",
+        "lastPrice": null,
+        "previousDayVolume": null
+      },
+      {
+        "symbol": "LLOYDSENT",
+        "company": "Lloyds Enterprises Limited",
+        "dividend": 0.05,
+        "exDate": "2026-07-02",
+        "subject": "Dividend - Re 0.05 Per Share",
+        "lastPrice": 75.5,
+        "previousDayVolume": 3435174
+      }
+    ]
   }
 }
