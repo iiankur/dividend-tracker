@@ -1,5 +1,5 @@
 {
-  "generatedAt": "29-Jun-2026 07:10 AM IST",
+  "generatedAt": "29-Jun-2026 11:47 PM IST",
   "today": {
     "date": "2026-06-29",
     "stocks": [
@@ -9,10 +9,8 @@
         "dividend": 11.0,
         "exDate": "2026-06-29",
         "subject": "Dividend - Rs 11 Per Share",
-        "previousClose": null,
-        "lastPrice": null,
-        "pChange": null,
-        "previousDayVolume": null
+        "lastPrice": 1350,
+        "previousDayVolume": 430829
       },
       {
         "symbol": "JYOTHYLAB",
@@ -20,10 +18,8 @@
         "dividend": 3.5,
         "exDate": "2026-06-29",
         "subject": "Dividend - Rs 3.50 Per Share",
-        "previousClose": null,
-        "lastPrice": null,
-        "pChange": null,
-        "previousDayVolume": null
+        "lastPrice": 195.88,
+        "previousDayVolume": 823518
       },
       {
         "symbol": "KANSAINER",
@@ -31,10 +27,8 @@
         "dividend": 2.5,
         "exDate": "2026-06-29",
         "subject": "Dividend - Rs 2.50 Per Share",
-        "previousClose": null,
-        "lastPrice": null,
-        "pChange": null,
-        "previousDayVolume": null
+        "lastPrice": 204.99,
+        "previousDayVolume": 496347
       }
     ]
   },
@@ -47,10 +41,8 @@
         "dividend": 130.0,
         "exDate": "2026-06-30",
         "subject": "Dividend - Rs 130 Per Share",
-        "previousClose": null,
-        "lastPrice": null,
-        "pChange": null,
-        "previousDayVolume": null
+        "lastPrice": 10619,
+        "previousDayVolume": 52336
       },
       {
         "symbol": "MAHSCOOTER",
@@ -58,10 +50,8 @@
         "dividend": 60.0,
         "exDate": "2026-06-30",
         "subject": "Dividend - Rs 60 Per Share",
-        "previousClose": null,
-        "lastPrice": null,
-        "pChange": null,
-        "previousDayVolume": null
+        "lastPrice": 12399,
+        "previousDayVolume": 3652
       },
       {
         "symbol": "BAJFINANCE",
@@ -69,10 +59,8 @@
         "dividend": 6.0,
         "exDate": "2026-06-30",
         "subject": "Dividend - Rs 6 Per Share",
-        "previousClose": null,
-        "lastPrice": null,
-        "pChange": null,
-        "previousDayVolume": null
+        "lastPrice": 987.95,
+        "previousDayVolume": 19875760
       },
       {
         "symbol": "WELCORP",
@@ -80,10 +68,8 @@
         "dividend": 5.0,
         "exDate": "2026-06-30",
         "subject": "Dividend - Rs 5 Per Share",
-        "previousClose": null,
-        "lastPrice": null,
-        "pChange": null,
-        "previousDayVolume": null
+        "lastPrice": 1513.9,
+        "previousDayVolume": 2158510
       },
       {
         "symbol": "BAJAJFINSV",
@@ -91,11 +77,13 @@
         "dividend": 1.5,
         "exDate": "2026-06-30",
         "subject": "Dividend - Rs 1.50 Per Share",
-        "previousClose": null,
-        "lastPrice": null,
-        "pChange": null,
-        "previousDayVolume": null
+        "lastPrice": 1767,
+        "previousDayVolume": 1565424
       }
     ]
+  },
+  "dayAfter": {
+    "date": "2026-07-01",
+    "stocks": []
   }
 }

@@ -60,7 +60,7 @@
 </head>
 <body>
   <h1>Dividend Tracker — NSE</h1>
-  <div class="meta">Generated 29-Jun-2026 07:10 AM IST · ex-date based · dividend amount parsed from NSE filing text</div>
+  <div class="meta">Generated 29-Jun-2026 11:47 PM IST · ex-date based · dividend amount parsed from NSE filing text</div>
 
   <div class="tabs" id="tabs"></div>
   <div class="filter-row" id="filters"></div>
@@ -68,7 +68,7 @@
     <thead>
       <tr>
         <th>Stock</th><th>Dividend</th><th>Ex-date</th>
-        <th>Prev. day volume</th><th>Last price</th><th>Chg %</th><th>Chart</th>
+        <th>Prev. day volume</th><th>Last price</th><th>Chart</th>
       </tr>
     </thead>
     <tbody id="rows"></tbody>
@@ -83,9 +83,12 @@
   </footer>
 
 <script>
-const DATA = {"generatedAt": "29-Jun-2026 07:10 AM IST", "today": {"date": "2026-06-29", "stocks": [{"symbol": "KPIL", "company": "Kalpataru Projects International Limited", "dividend": 11.0, "exDate": "2026-06-29", "subject": "Dividend - Rs 11 Per Share", "previousClose": null, "lastPrice": null, "pChange": null, "previousDayVolume": null, "chartUrl": "https://www.tradingview.com/chart/?symbol=NSE:KPIL"}, {"symbol": "JYOTHYLAB", "company": "Jyothy Labs Limited", "dividend": 3.5, "exDate": "2026-06-29", "subject": "Dividend - Rs 3.50 Per Share", "previousClose": null, "lastPrice": null, "pChange": null, "previousDayVolume": null, "chartUrl": "https://www.tradingview.com/chart/?symbol=NSE:JYOTHYLAB"}, {"symbol": "KANSAINER", "company": "Kansai Nerolac Paints Limited", "dividend": 2.5, "exDate": "2026-06-29", "subject": "Dividend - Rs 2.50 Per Share", "previousClose": null, "lastPrice": null, "pChange": null, "previousDayVolume": null, "chartUrl": "https://www.tradingview.com/chart/?symbol=NSE:KANSAINER"}]}, "tomorrow": {"date": "2026-06-30", "stocks": [{"symbol": "BAJAJHLDNG", "company": "Bajaj Holdings & Investment Limited", "dividend": 130.0, "exDate": "2026-06-30", "subject": "Dividend - Rs 130 Per Share", "previousClose": null, "lastPrice": null, "pChange": null, "previousDayVolume": null, "chartUrl": "https://www.tradingview.com/chart/?symbol=NSE:BAJAJHLDNG"}, {"symbol": "MAHSCOOTER", "company": "Maharashtra Scooters Limited", "dividend": 60.0, "exDate": "2026-06-30", "subject": "Dividend - Rs 60 Per Share", "previousClose": null, "lastPrice": null, "pChange": null, "previousDayVolume": null, "chartUrl": "https://www.tradingview.com/chart/?symbol=NSE:MAHSCOOTER"}, {"symbol": "BAJFINANCE", "company": "Bajaj Finance Limited", "dividend": 6.0, "exDate": "2026-06-30", "subject": "Dividend - Rs 6 Per Share", "previousClose": null, "lastPrice": null, "pChange": null, "previousDayVolume": null, "chartUrl": "https://www.tradingview.com/chart/?symbol=NSE:BAJFINANCE"}, {"symbol": "WELCORP", "company": "Welspun Corp Limited", "dividend": 5.0, "exDate": "2026-06-30", "subject": "Dividend - Rs 5 Per Share", "previousClose": null, "lastPrice": null, "pChange": null, "previousDayVolume": null, "chartUrl": "https://www.tradingview.com/chart/?symbol=NSE:WELCORP"}, {"symbol": "BAJAJFINSV", "company": "Bajaj Finserv Limited", "dividend": 1.5, "exDate": "2026-06-30", "subject": "Dividend - Rs 1.50 Per Share", "previousClose": null, "lastPrice": null, "pChange": null, "previousDayVolume": null, "chartUrl": "https://www.tradingview.com/chart/?symbol=NSE:BAJAJFINSV"}]}};
+const DATA = {"generatedAt": "29-Jun-2026 11:47 PM IST", "today": {"date": "2026-06-29", "stocks": [{"symbol": "KPIL", "company": "Kalpataru Projects International Limited", "dividend": 11.0, "exDate": "2026-06-29", "subject": "Dividend - Rs 11 Per Share", "lastPrice": 1350, "previousDayVolume": 430829, "chartUrl": "https://www.tradingview.com/chart/?symbol=NSE:KPIL"}, {"symbol": "JYOTHYLAB", "company": "Jyothy Labs Limited", "dividend": 3.5, "exDate": "2026-06-29", "subject": "Dividend - Rs 3.50 Per Share", "lastPrice": 195.88, "previousDayVolume": 823518, "chartUrl": "https://www.tradingview.com/chart/?symbol=NSE:JYOTHYLAB"}, {"symbol": "KANSAINER", "company": "Kansai Nerolac Paints Limited", "dividend": 2.5, "exDate": "2026-06-29", "subject": "Dividend - Rs 2.50 Per Share", "lastPrice": 204.99, "previousDayVolume": 496347, "chartUrl": "https://www.tradingview.com/chart/?symbol=NSE:KANSAINER"}]}, "tomorrow": {"date": "2026-06-30", "stocks": [{"symbol": "BAJAJHLDNG", "company": "Bajaj Holdings & Investment Limited", "dividend": 130.0, "exDate": "2026-06-30", "subject": "Dividend - Rs 130 Per Share", "lastPrice": 10619, "previousDayVolume": 52336, "chartUrl": "https://www.tradingview.com/chart/?symbol=NSE:BAJAJHLDNG"}, {"symbol": "MAHSCOOTER", "company": "Maharashtra Scooters Limited", "dividend": 60.0, "exDate": "2026-06-30", "subject": "Dividend - Rs 60 Per Share", "lastPrice": 12399, "previousDayVolume": 3652, "chartUrl": "https://www.tradingview.com/chart/?symbol=NSE:MAHSCOOTER"}, {"symbol": "BAJFINANCE", "company": "Bajaj Finance Limited", "dividend": 6.0, "exDate": "2026-06-30", "subject": "Dividend - Rs 6 Per Share", "lastPrice": 987.95, "previousDayVolume": 19875760, "chartUrl": "https://www.tradingview.com/chart/?symbol=NSE:BAJFINANCE"}, {"symbol": "WELCORP", "company": "Welspun Corp Limited", "dividend": 5.0, "exDate": "2026-06-30", "subject": "Dividend - Rs 5 Per Share", "lastPrice": 1513.9, "previousDayVolume": 2158510, "chartUrl": "https://www.tradingview.com/chart/?symbol=NSE:WELCORP"}, {"symbol": "BAJAJFINSV", "company": "Bajaj Finserv Limited", "dividend": 1.5, "exDate": "2026-06-30", "subject": "Dividend - Rs 1.50 Per Share", "lastPrice": 1767, "previousDayVolume": 1565424, "chartUrl": "https://www.tradingview.com/chart/?symbol=NSE:BAJAJFINSV"}]}, "dayAfter": {"date": "2026-07-01", "stocks": []}};
 
-let activeDay = DATA.today.stocks.length > 0 ? 'today' : 'tomorrow';
+const DAY_LABELS = {today: 'Today', tomorrow: 'Tomorrow', dayAfter: 'Day After'};
+
+let activeDay = DATA.today.stocks.length > 0 ? 'today'
+  : (DATA.tomorrow.stocks.length > 0 ? 'tomorrow' : 'dayAfter');
 let activeMin = 5;
 
 const dayLabel = (iso) => {
@@ -95,9 +98,9 @@ const dayLabel = (iso) => {
 
 function renderTabs(){
   const tabs = document.getElementById('tabs');
-  tabs.innerHTML = ['today','tomorrow'].map(day => {
+  tabs.innerHTML = Object.keys(DAY_LABELS).map(day => {
     const d = DATA[day];
-    const label = day === 'today' ? 'Today' : 'Tomorrow';
+    const label = DAY_LABELS[day];
     return `<div class="tab ${day===activeDay?'active':''}" data-day="${day}">
       ${label} — ${dayLabel(d.date)}
       <span class="count">${d.stocks.length} dividend${d.stocks.length===1?'':'s'} announced</span>
@@ -132,7 +135,7 @@ function renderRows(){
   const tbody = document.getElementById('rows');
 
   if (stocks.length === 0){
-    tbody.innerHTML = `<tr><td colspan="7" class="empty">No stocks at this threshold for ${activeDay==='today'?'today':'tomorrow'}.</td></tr>`;
+    tbody.innerHTML = `<tr><td colspan="6" class="empty">No stocks at this threshold for ${DAY_LABELS[activeDay].toLowerCase()}.</td></tr>`;
     return;
   }
 
@@ -140,9 +143,6 @@ function renderRows(){
     const price = (s.lastPrice !== null && s.lastPrice !== undefined)
       ? '₹' + Number(s.lastPrice).toLocaleString('en-IN', {minimumFractionDigits:2})
       : '—';
-    const chg = s.pChange;
-    const chgClass = (chg === null || chg === undefined) ? '' : (chg >= 0 ? 'up' : 'down');
-    const chgDisplay = (chg === null || chg === undefined) ? '—' : (chg >= 0 ? '+' : '') + Number(chg).toFixed(2) + '%';
     return `
     <tr>
       <td class="name">${s.company}<span class="tk">${s.symbol}</span></td>
@@ -150,7 +150,6 @@ function renderRows(){
       <td>${s.exDate || '—'}</td>
       <td>${fmtVol(s.previousDayVolume)}</td>
       <td>${price}</td>
-      <td class="${chgClass}">${chgDisplay}</td>
       <td><a class="chart-link" href="${s.chartUrl}" target="_blank" rel="noopener">Chart →</a></td>
     </tr>`;
   }).join('');
