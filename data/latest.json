@@ -1,29 +1,6 @@
 {
-  "generatedAt": "02-Jul-2026 07:02 AM IST",
+  "generatedAt": "03-Jul-2026 06:40 AM IST",
   "today": {
-    "date": "2026-07-02",
-    "stocks": [
-      {
-        "symbol": "CHEMBOND",
-        "company": "Chembond Material Technologies Limited",
-        "dividend": 2.0,
-        "exDate": "2026-07-02",
-        "subject": "Dividend - Rs 2 Per Share",
-        "lastPrice": null,
-        "previousDayVolume": null
-      },
-      {
-        "symbol": "LLOYDSENT",
-        "company": "Lloyds Enterprises Limited",
-        "dividend": 0.05,
-        "exDate": "2026-07-02",
-        "subject": "Dividend - Re 0.05 Per Share",
-        "lastPrice": 73.79,
-        "previousDayVolume": 2110086
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-07-03",
     "stocks": [
       {
@@ -32,8 +9,8 @@
         "dividend": 110.0,
         "exDate": "2026-07-03",
         "subject": "Dividend - Rs 110 Per Share",
-        "lastPrice": 4040.4,
-        "previousDayVolume": 39477
+        "lastPrice": 4115,
+        "previousDayVolume": 56022
       },
       {
         "symbol": "SKFINDIA",
@@ -41,8 +18,8 @@
         "dividend": 40.0,
         "exDate": "2026-07-03",
         "subject": "Dividend - Rs 40 Per Share",
-        "lastPrice": 1664.6,
-        "previousDayVolume": 51180
+        "lastPrice": 1690,
+        "previousDayVolume": 62526
       },
       {
         "symbol": "TECHM",
@@ -50,8 +27,8 @@
         "dividend": 36.0,
         "exDate": "2026-07-03",
         "subject": "Dividend - Rs 36 Per Share",
-        "lastPrice": 1360,
-        "previousDayVolume": 3793024
+        "lastPrice": 1424.4,
+        "previousDayVolume": 3034626
       },
       {
         "symbol": "M&M",
@@ -59,8 +36,8 @@
         "dividend": 33.0,
         "exDate": "2026-07-03",
         "subject": "Dividend - Rs 33 Per Share",
-        "lastPrice": 3132,
-        "previousDayVolume": 2754707
+        "lastPrice": 3187,
+        "previousDayVolume": 2624368
       },
       {
         "symbol": "THERMAX",
@@ -68,8 +45,8 @@
         "dividend": 14.0,
         "exDate": "2026-07-03",
         "subject": "Dividend - Rs 14 Per Share/Special Dividend - Rs 6 Per Share",
-        "lastPrice": 5090,
-        "previousDayVolume": 148232
+        "lastPrice": 4913.5,
+        "previousDayVolume": 397715
       },
       {
         "symbol": "BALAMINES",
@@ -77,8 +54,8 @@
         "dividend": 11.0,
         "exDate": "2026-07-03",
         "subject": "Dividend - Rs 11 Per Share",
-        "lastPrice": 2080,
-        "previousDayVolume": 304582
+        "lastPrice": 2211,
+        "previousDayVolume": 669196
       },
       {
         "symbol": "BFINVEST",
@@ -86,8 +63,8 @@
         "dividend": 10.0,
         "exDate": "2026-07-03",
         "subject": "Dividend - Rs 10 Per Share",
-        "lastPrice": 446.15,
-        "previousDayVolume": 23330
+        "lastPrice": 460,
+        "previousDayVolume": 36869
       },
       {
         "symbol": "CANFINHOME",
@@ -95,8 +72,8 @@
         "dividend": 8.0,
         "exDate": "2026-07-03",
         "subject": "Dividend - Rs 8 Per Share",
-        "lastPrice": 881.1,
-        "previousDayVolume": 171784
+        "lastPrice": 883,
+        "previousDayVolume": 281595
       },
       {
         "symbol": "ONWARDTEC",
@@ -104,8 +81,8 @@
         "dividend": 8.0,
         "exDate": "2026-07-03",
         "subject": "Dividend - Rs 8 Per Share",
-        "lastPrice": 289.05,
-        "previousDayVolume": 119953
+        "lastPrice": 292.95,
+        "previousDayVolume": 144254
       },
       {
         "symbol": "BHARATFORG",
@@ -113,8 +90,8 @@
         "dividend": 6.5,
         "exDate": "2026-07-03",
         "subject": "Dividend - Rs 6.50 Per Share",
-        "lastPrice": 2111.7,
-        "previousDayVolume": 1124785
+        "lastPrice": 2145.9,
+        "previousDayVolume": 773217
       },
       {
         "symbol": "REDINGTON",
@@ -122,8 +99,8 @@
         "dividend": 6.0,
         "exDate": "2026-07-03",
         "subject": "Dividend - Rs 6 Per Share",
-        "lastPrice": 274.15,
-        "previousDayVolume": 3397021
+        "lastPrice": 279.6,
+        "previousDayVolume": 3556931
       },
       {
         "symbol": "UNIONBANK",
@@ -131,8 +108,8 @@
         "dividend": 5.0,
         "exDate": "2026-07-03",
         "subject": "Dividend - Rs 5 Per Share",
-        "lastPrice": 174.85,
-        "previousDayVolume": 13759343
+        "lastPrice": 174.4,
+        "previousDayVolume": 17815906
       },
       {
         "symbol": "MAHLIFE",
@@ -140,8 +117,17 @@
         "dividend": 3.5,
         "exDate": "2026-07-03",
         "subject": "Dividend - Rs 3.50 Per Share",
-        "lastPrice": 371.5,
-        "previousDayVolume": 294438
+        "lastPrice": 370.8,
+        "previousDayVolume": 121022
+      },
+      {
+        "symbol": "WELENT",
+        "company": "Welspun Enterprises Limited",
+        "dividend": 3.0,
+        "exDate": "2026-07-03",
+        "subject": "Dividend - Rs 3 Per Share",
+        "lastPrice": 610.1,
+        "previousDayVolume": 533601
       },
       {
         "symbol": "EXIDEIND",
@@ -149,8 +135,8 @@
         "dividend": 2.0,
         "exDate": "2026-07-03",
         "subject": "Dividend - Rs 2 Per Share",
-        "lastPrice": 390,
-        "previousDayVolume": 1543936
+        "lastPrice": 419.45,
+        "previousDayVolume": 21062813
       },
       {
         "symbol": "DALMIASUG",
@@ -158,8 +144,8 @@
         "dividend": 1.5,
         "exDate": "2026-07-03",
         "subject": "Dividend - Rs 1.50 Per Share",
-        "lastPrice": 337,
-        "previousDayVolume": 242049
+        "lastPrice": 335.35,
+        "previousDayVolume": 90803
       },
       {
         "symbol": "BIOCON",
@@ -167,13 +153,17 @@
         "dividend": 0.5,
         "exDate": "2026-07-03",
         "subject": "Dividend - Re 0.50 Per Share",
-        "lastPrice": 417.6,
-        "previousDayVolume": 6386499
+        "lastPrice": 418.8,
+        "previousDayVolume": 2609668
       }
     ]
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-07-04",
+    "stocks": []
+  },
+  "dayAfter": {
+    "date": "2026-07-05",
     "stocks": []
   }
 }
