@@ -1,169 +1,98 @@
 {
-  "generatedAt": "03-Jul-2026 06:40 AM IST",
+  "generatedAt": "05-Jul-2026 06:44 AM IST",
   "today": {
-    "date": "2026-07-03",
+    "date": "2026-07-05",
+    "stocks": []
+  },
+  "tomorrow": {
+    "date": "2026-07-06",
     "stocks": [
       {
-        "symbol": "SWARAJENG",
-        "company": "Swaraj Engines Limited",
-        "dividend": 110.0,
-        "exDate": "2026-07-03",
-        "subject": "Dividend - Rs 110 Per Share",
-        "lastPrice": 4115,
-        "previousDayVolume": 56022
+        "symbol": "SUNDARMFIN",
+        "company": "Sundaram Finance Limited",
+        "dividend": 24.0,
+        "exDate": "2026-07-06",
+        "subject": "Dividend - Rs 24 Per Share",
+        "lastPrice": 4599,
+        "previousDayVolume": 32759
       },
       {
-        "symbol": "SKFINDIA",
-        "company": "SKF India Limited",
-        "dividend": 40.0,
-        "exDate": "2026-07-03",
-        "subject": "Dividend - Rs 40 Per Share",
-        "lastPrice": 1690,
-        "previousDayVolume": 62526
+        "symbol": "PILANIINVS",
+        "company": "Pilani Investment and Industries Corporation Limited",
+        "dividend": 9.0,
+        "exDate": "2026-07-06",
+        "subject": "Dividend - Rs 9 Per Share",
+        "lastPrice": 4424,
+        "previousDayVolume": 2175
       },
       {
-        "symbol": "TECHM",
-        "company": "Tech Mahindra Limited",
-        "dividend": 36.0,
-        "exDate": "2026-07-03",
-        "subject": "Dividend - Rs 36 Per Share",
-        "lastPrice": 1424.4,
-        "previousDayVolume": 3034626
+        "symbol": "DCMSIL",
+        "company": "DCM Shriram International Limited",
+        "dividend": 0.4,
+        "exDate": "2026-07-06",
+        "subject": "Dividend - Re 0.40 Per Share",
+        "lastPrice": null,
+        "previousDayVolume": null
       },
       {
-        "symbol": "M&M",
-        "company": "Mahindra & Mahindra Limited",
-        "dividend": 33.0,
-        "exDate": "2026-07-03",
-        "subject": "Dividend - Rs 33 Per Share",
-        "lastPrice": 3187,
-        "previousDayVolume": 2624368
-      },
-      {
-        "symbol": "THERMAX",
-        "company": "Thermax Limited",
-        "dividend": 14.0,
-        "exDate": "2026-07-03",
-        "subject": "Dividend - Rs 14 Per Share/Special Dividend - Rs 6 Per Share",
-        "lastPrice": 4913.5,
-        "previousDayVolume": 397715
-      },
-      {
-        "symbol": "BALAMINES",
-        "company": "Balaji Amines Limited",
-        "dividend": 11.0,
-        "exDate": "2026-07-03",
-        "subject": "Dividend - Rs 11 Per Share",
-        "lastPrice": 2211,
-        "previousDayVolume": 669196
-      },
-      {
-        "symbol": "BFINVEST",
-        "company": "BF Investment Limited",
-        "dividend": 10.0,
-        "exDate": "2026-07-03",
-        "subject": "Dividend - Rs 10 Per Share",
-        "lastPrice": 460,
-        "previousDayVolume": 36869
-      },
-      {
-        "symbol": "CANFINHOME",
-        "company": "Can Fin Homes Limited",
-        "dividend": 8.0,
-        "exDate": "2026-07-03",
-        "subject": "Dividend - Rs 8 Per Share",
-        "lastPrice": 883,
-        "previousDayVolume": 281595
-      },
-      {
-        "symbol": "ONWARDTEC",
-        "company": "Onward Technologies Limited",
-        "dividend": 8.0,
-        "exDate": "2026-07-03",
-        "subject": "Dividend - Rs 8 Per Share",
-        "lastPrice": 292.95,
-        "previousDayVolume": 144254
-      },
-      {
-        "symbol": "BHARATFORG",
-        "company": "Bharat Forge Limited",
-        "dividend": 6.5,
-        "exDate": "2026-07-03",
-        "subject": "Dividend - Rs 6.50 Per Share",
-        "lastPrice": 2145.9,
-        "previousDayVolume": 773217
-      },
-      {
-        "symbol": "REDINGTON",
-        "company": "Redington Limited",
-        "dividend": 6.0,
-        "exDate": "2026-07-03",
-        "subject": "Dividend - Rs 6 Per Share",
-        "lastPrice": 279.6,
-        "previousDayVolume": 3556931
-      },
-      {
-        "symbol": "UNIONBANK",
-        "company": "Union Bank of India",
-        "dividend": 5.0,
-        "exDate": "2026-07-03",
-        "subject": "Dividend - Rs 5 Per Share",
-        "lastPrice": 174.4,
-        "previousDayVolume": 17815906
-      },
-      {
-        "symbol": "MAHLIFE",
-        "company": "Mahindra Lifespace Developers Limited",
-        "dividend": 3.5,
-        "exDate": "2026-07-03",
-        "subject": "Dividend - Rs 3.50 Per Share",
-        "lastPrice": 370.8,
-        "previousDayVolume": 121022
-      },
-      {
-        "symbol": "WELENT",
-        "company": "Welspun Enterprises Limited",
-        "dividend": 3.0,
-        "exDate": "2026-07-03",
-        "subject": "Dividend - Rs 3 Per Share",
-        "lastPrice": 610.1,
-        "previousDayVolume": 533601
-      },
-      {
-        "symbol": "EXIDEIND",
-        "company": "Exide Industries Limited",
-        "dividend": 2.0,
-        "exDate": "2026-07-03",
-        "subject": "Dividend - Rs 2 Per Share",
-        "lastPrice": 419.45,
-        "previousDayVolume": 21062813
-      },
-      {
-        "symbol": "DALMIASUG",
-        "company": "Dalmia Bharat Sugar and Industries Limited",
-        "dividend": 1.5,
-        "exDate": "2026-07-03",
-        "subject": "Dividend - Rs 1.50 Per Share",
-        "lastPrice": 335.35,
-        "previousDayVolume": 90803
-      },
-      {
-        "symbol": "BIOCON",
-        "company": "Biocon Limited",
-        "dividend": 0.5,
-        "exDate": "2026-07-03",
-        "subject": "Dividend - Re 0.50 Per Share",
-        "lastPrice": 418.8,
-        "previousDayVolume": 2609668
+        "symbol": "DJML",
+        "company": "DJ Mediaprint & Logistics Limited",
+        "dividend": 0.15,
+        "exDate": "2026-07-06",
+        "subject": "Dividend - Re 0.15 Per Share",
+        "lastPrice": 122.5,
+        "previousDayVolume": 713066
       }
     ]
   },
-  "tomorrow": {
-    "date": "2026-07-04",
-    "stocks": []
-  },
   "dayAfter": {
-    "date": "2026-07-05",
-    "stocks": []
+    "date": "2026-07-07",
+    "stocks": [
+      {
+        "symbol": "CERA",
+        "company": "Cera Sanitaryware Limited",
+        "dividend": 75.0,
+        "exDate": "2026-07-07",
+        "subject": "Dividend - Rs 75 Per Share",
+        "lastPrice": 6440,
+        "previousDayVolume": 7512
+      },
+      {
+        "symbol": "JSWSTEEL",
+        "company": "JSW Steel Limited",
+        "dividend": 7.1,
+        "exDate": "2026-07-07",
+        "subject": "Dividend - Rs 7.10 Per Share",
+        "lastPrice": 1231,
+        "previousDayVolume": 1153646
+      },
+      {
+        "symbol": "DODLA",
+        "company": "Dodla Dairy Limited",
+        "dividend": 5.0,
+        "exDate": "2026-07-07",
+        "subject": "Dividend - Rs 5 Per Share",
+        "lastPrice": 1116.8,
+        "previousDayVolume": 7505
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "company": "Sun Pharmaceutical Industries Limited",
+        "dividend": 5.0,
+        "exDate": "2026-07-07",
+        "subject": "Dividend - Rs 5 Per Share",
+        "lastPrice": 1907,
+        "previousDayVolume": 2168491
+      },
+      {
+        "symbol": "TSFINV",
+        "company": "TSF INVESTMENTS LIMITED",
+        "dividend": 4.45,
+        "exDate": "2026-07-07",
+        "subject": "Dividend - Rs 4.45 Per Share",
+        "lastPrice": 456.4,
+        "previousDayVolume": 109498
+      }
+    ]
   }
 }
