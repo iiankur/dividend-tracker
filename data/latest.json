@@ -1,10 +1,6 @@
 {
-  "generatedAt": "05-Jul-2026 06:44 AM IST",
+  "generatedAt": "06-Jul-2026 06:45 AM IST",
   "today": {
-    "date": "2026-07-05",
-    "stocks": []
-  },
-  "tomorrow": {
     "date": "2026-07-06",
     "stocks": [
       {
@@ -45,7 +41,7 @@
       }
     ]
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-07-07",
     "stocks": [
       {
@@ -92,6 +88,38 @@
         "subject": "Dividend - Rs 4.45 Per Share",
         "lastPrice": 456.4,
         "previousDayVolume": 109498
+      }
+    ]
+  },
+  "dayAfter": {
+    "date": "2026-07-08",
+    "stocks": [
+      {
+        "symbol": "MPHASIS",
+        "company": "MphasiS Limited",
+        "dividend": 62.0,
+        "exDate": "2026-07-08",
+        "subject": "Dividend - Rs 62 Per Share",
+        "lastPrice": 2294,
+        "previousDayVolume": 1356520
+      },
+      {
+        "symbol": "UNITDSPR",
+        "company": "United Spirits Limited",
+        "dividend": 11.0,
+        "exDate": "2026-07-08",
+        "subject": "Dividend - Rs 11 Per Share",
+        "lastPrice": 1390.2,
+        "previousDayVolume": 703591
+      },
+      {
+        "symbol": "BLISSGVS",
+        "company": "Bliss GVS Pharma Limited",
+        "dividend": 1.0,
+        "exDate": "2026-07-08",
+        "subject": "Dividend - Re 1 Per Share",
+        "lastPrice": null,
+        "previousDayVolume": null
       }
     ]
   }
