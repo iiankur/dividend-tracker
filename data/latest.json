@@ -1,187 +1,52 @@
 {
-  "generatedAt": "10-Jul-2026 06:38 AM IST",
+  "generatedAt": "11-Jul-2026 06:26 AM IST",
   "today": {
-    "date": "2026-07-10",
-    "stocks": [
-      {
-        "symbol": "NILKAMAL",
-        "company": "Nilkamal Limited",
-        "dividend": 20.0,
-        "exDate": "2026-07-10",
-        "subject": "Dividend - Rs 20 Per Share",
-        "lastPrice": 1310,
-        "previousDayVolume": 63734
-      },
-      {
-        "symbol": "JKCEMENT",
-        "company": "JK Cement Limited",
-        "dividend": 20.0,
-        "exDate": "2026-07-10",
-        "subject": "Dividend - Rs 20 Per Share",
-        "lastPrice": 5373.5,
-        "previousDayVolume": 48715
-      },
-      {
-        "symbol": "DLINKINDIA",
-        "company": "D-Link (India) Limited",
-        "dividend": 20.0,
-        "exDate": "2026-07-10",
-        "subject": "Dividend - Rs 20 Per Share/Special Dividend - Rs 7.50",
-        "lastPrice": 547.9,
-        "previousDayVolume": 756223
-      },
-      {
-        "symbol": "GRINDWELL",
-        "company": "Grindwell Norton Limited",
-        "dividend": 19.0,
-        "exDate": "2026-07-10",
-        "subject": "Dividend - Rs 19 Per Share",
-        "lastPrice": 2022.6,
-        "previousDayVolume": 56220
-      },
-      {
-        "symbol": "NUCLEUS",
-        "company": "Nucleus Software Exports Limited",
-        "dividend": 12.5,
-        "exDate": "2026-07-10",
-        "subject": "Dividend - Rs 12.50 Per Share",
-        "lastPrice": 759.9,
-        "previousDayVolume": 12512
-      },
-      {
-        "symbol": "VSTIND",
-        "company": "VST Industries Limited",
-        "dividend": 12.0,
-        "exDate": "2026-07-10",
-        "subject": "Dividend - Rs 12 Per Share",
-        "lastPrice": 265.3,
-        "previousDayVolume": 988260
-      },
-      {
-        "symbol": "BSE",
-        "company": "BSE Limited",
-        "dividend": 10.0,
-        "exDate": "2026-07-10",
-        "subject": "Dividend - Rs 10 Per Share",
-        "lastPrice": 3811.8,
-        "previousDayVolume": 2319842
-      },
-      {
-        "symbol": "DRREDDY",
-        "company": "Dr. Reddy's Laboratories Limited",
-        "dividend": 8.0,
-        "exDate": "2026-07-10",
-        "subject": "Dividend - Rs 8 Per Share",
-        "lastPrice": 1271.2,
-        "previousDayVolume": 8410883
-      },
-      {
-        "symbol": "CONTROLPR",
-        "company": "Control Print Limited",
-        "dividend": 6.0,
-        "exDate": "2026-07-10",
-        "subject": "Dividend - Rs 6 Per Share",
-        "lastPrice": 644,
-        "previousDayVolume": 25270
-      },
-      {
-        "symbol": "SOBHA",
-        "company": "Sobha Limited",
-        "dividend": 6.0,
-        "exDate": "2026-07-10",
-        "subject": "Dividend - Rs 6 Per Share",
-        "lastPrice": 1462,
-        "previousDayVolume": 132259
-      },
-      {
-        "symbol": "HINDALCO",
-        "company": "Hindalco Industries Limited",
-        "dividend": 5.0,
-        "exDate": "2026-07-10",
-        "subject": "Dividend - Rs 5 Per Share",
-        "lastPrice": 961.6,
-        "previousDayVolume": 6043658
-      },
-      {
-        "symbol": "NESTLEIND",
-        "company": "Nestle India Limited",
-        "dividend": 5.0,
-        "exDate": "2026-07-10",
-        "subject": "Dividend - Rs 5 Per Share",
-        "lastPrice": 1464.2,
-        "previousDayVolume": 1346613
-      },
-      {
-        "symbol": "MAHLOG",
-        "company": "Mahindra Logistics Limited",
-        "dividend": 2.5,
-        "exDate": "2026-07-10",
-        "subject": "Dividend - Rs 2.50 Per Share",
-        "lastPrice": 388.1,
-        "previousDayVolume": 149440
-      },
-      {
-        "symbol": "APOLLOTYRE",
-        "company": "Apollo Tyres Limited",
-        "dividend": 2.5,
-        "exDate": "2026-07-10",
-        "subject": "Dividend - Rs2.50 Per Share",
-        "lastPrice": 441.1,
-        "previousDayVolume": 634889
-      },
-      {
-        "symbol": "NESTLEIND",
-        "company": "Nestle India Limited",
-        "dividend": 2.0,
-        "exDate": "2026-07-10",
-        "subject": "Special Dividend - Rs 2 Per Share",
-        "lastPrice": 1464.2,
-        "previousDayVolume": 1346613
-      },
-      {
-        "symbol": "SMARTLINK",
-        "company": "Smartlink Holdings Limited",
-        "dividend": 2.0,
-        "exDate": "2026-07-10",
-        "subject": "Dividend - Rs 2 Per Share",
-        "lastPrice": null,
-        "previousDayVolume": null
-      },
-      {
-        "symbol": "GEOJITFSL",
-        "company": "Geojit Financial Services Limited",
-        "dividend": 1.5,
-        "exDate": "2026-07-10",
-        "subject": "Dividend - Rs 1.50 Per Share",
-        "lastPrice": 79.5,
-        "previousDayVolume": 309817
-      },
-      {
-        "symbol": "PTL",
-        "company": "PTL Enterprises Limited",
-        "dividend": 1.0,
-        "exDate": "2026-07-10",
-        "subject": "Dividend - Re 1 Per Sh",
-        "lastPrice": 40.64,
-        "previousDayVolume": 80980
-      },
-      {
-        "symbol": "ORIENTELEC",
-        "company": "Orient Electric Limited",
-        "dividend": 0.75,
-        "exDate": "2026-07-10",
-        "subject": "Dividend - Rs 0.75 Per Share",
-        "lastPrice": 177.4,
-        "previousDayVolume": 128871
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-07-11",
     "stocks": []
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-07-12",
     "stocks": []
+  },
+  "dayAfter": {
+    "date": "2026-07-13",
+    "stocks": [
+      {
+        "symbol": "INGERRAND",
+        "company": "Ingersoll Rand (India) Limited",
+        "dividend": 20.0,
+        "exDate": "2026-07-13",
+        "subject": "Dividend - Rs 20 Per Share",
+        "lastPrice": 4466.8,
+        "previousDayVolume": 15400
+      },
+      {
+        "symbol": "M&MFIN",
+        "company": "Mahindra & Mahindra Financial Services Limited",
+        "dividend": 7.5,
+        "exDate": "2026-07-13",
+        "subject": "Dividend - Rs 7.50 Per Share",
+        "lastPrice": 340.95,
+        "previousDayVolume": 4263568
+      },
+      {
+        "symbol": "XPROINDIA",
+        "company": "Xpro India Limited",
+        "dividend": 2.0,
+        "exDate": "2026-07-13",
+        "subject": "Dividend - Rs 2 Per Share",
+        "lastPrice": 1455,
+        "previousDayVolume": 33490
+      },
+      {
+        "symbol": "BEPL",
+        "company": "Bhansali Engineering Polymers Limited",
+        "dividend": 1.0,
+        "exDate": "2026-07-13",
+        "subject": "Dividend - Re 1 Per Share",
+        "lastPrice": 103.1,
+        "previousDayVolume": 1458889
+      }
+    ]
   }
 }
