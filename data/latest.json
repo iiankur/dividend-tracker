@@ -1,14 +1,10 @@
 {
-  "generatedAt": "11-Jul-2026 06:26 AM IST",
+  "generatedAt": "12-Jul-2026 06:33 AM IST",
   "today": {
-    "date": "2026-07-11",
-    "stocks": []
-  },
-  "tomorrow": {
     "date": "2026-07-12",
     "stocks": []
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-07-13",
     "stocks": [
       {
@@ -46,6 +42,128 @@
         "subject": "Dividend - Re 1 Per Share",
         "lastPrice": 103.1,
         "previousDayVolume": 1458889
+      }
+    ]
+  },
+  "dayAfter": {
+    "date": "2026-07-14",
+    "stocks": [
+      {
+        "symbol": "UTIAMC",
+        "company": "UTI Asset Management Company Limited",
+        "dividend": 40.0,
+        "exDate": "2026-07-14",
+        "subject": "Dividend - Rs 40 Per Share",
+        "lastPrice": 1008,
+        "previousDayVolume": 663822
+      },
+      {
+        "symbol": "IMPAL",
+        "company": "India Motor Parts and Accessories Limited",
+        "dividend": 23.0,
+        "exDate": "2026-07-14",
+        "subject": "Dividend - Rs 23 Per Share",
+        "lastPrice": 1157,
+        "previousDayVolume": 4130
+      },
+      {
+        "symbol": "BIMETAL",
+        "company": "Bimetal Bearings Limited",
+        "dividend": 13.5,
+        "exDate": "2026-07-14",
+        "subject": "Dividend - Rs 13.50 Per Share",
+        "lastPrice": 699.5,
+        "previousDayVolume": 3240
+      },
+      {
+        "symbol": "HESTERBIO",
+        "company": "Hester Biosciences Limited",
+        "dividend": 11.0,
+        "exDate": "2026-07-14",
+        "subject": "Dividend - Rs 11 Per Share",
+        "lastPrice": 2118,
+        "previousDayVolume": 3515
+      },
+      {
+        "symbol": "PIXTRANS",
+        "company": "Pix Transmissions Limited",
+        "dividend": 9.0,
+        "exDate": "2026-07-14",
+        "subject": "Dividend - Rs 9 Per Share",
+        "lastPrice": 1821,
+        "previousDayVolume": 27294
+      },
+      {
+        "symbol": "SPLPETRO",
+        "company": "Supreme Petrochem Limited",
+        "dividend": 8.0,
+        "exDate": "2026-07-14",
+        "subject": "Dividend - Rs 8 Per Share",
+        "lastPrice": 729.15,
+        "previousDayVolume": 21944
+      },
+      {
+        "symbol": "ULTRAMAR",
+        "company": "Ultramarine & Pigments Limited",
+        "dividend": 6.0,
+        "exDate": "2026-07-14",
+        "subject": "Dividend - Rs 6 Per Share",
+        "lastPrice": 394.9,
+        "previousDayVolume": 37749
+      },
+      {
+        "symbol": "MODISONLTD",
+        "company": "MODISON LIMITED",
+        "dividend": 3.0,
+        "exDate": "2026-07-14",
+        "subject": "Dividend - Rs 3 Per Share",
+        "lastPrice": null,
+        "previousDayVolume": null
+      },
+      {
+        "symbol": "ABREL",
+        "company": "Aditya Birla Real Estate Limited",
+        "dividend": 2.5,
+        "exDate": "2026-07-14",
+        "subject": "Dividend - Rs 2.50 Per Share",
+        "lastPrice": 1440,
+        "previousDayVolume": 179363
+      },
+      {
+        "symbol": "MSUMI",
+        "company": "Motherson Sumi Wiring India Limited",
+        "dividend": 0.58,
+        "exDate": "2026-07-14",
+        "subject": "Dividend - Re 0.58 Per Share",
+        "lastPrice": 40.16,
+        "previousDayVolume": 7064359
+      },
+      {
+        "symbol": "AEROFLEX",
+        "company": "Aeroflex Industries Limited",
+        "dividend": 0.4,
+        "exDate": "2026-07-14",
+        "subject": "Dividend - Rs 0.40 Per Share",
+        "lastPrice": 414,
+        "previousDayVolume": 1563044
+      },
+      {
+        "symbol": "MOTHERSON",
+        "company": "Samvardhana Motherson International Limited",
+        "dividend": 0.25,
+        "exDate": "2026-07-14",
+        "subject": "Dividend - Rs 0.25 Per Share",
+        "lastPrice": 143.3,
+        "previousDayVolume": 8178532
+      },
+      {
+        "symbol": "KHAICHEM",
+        "company": "Khaitan Chemicals & Fertilizers Limited",
+        "dividend": 0.05,
+        "exDate": "2026-07-14",
+        "subject": "Dividend - Rs 0.05 Per Share",
+        "lastPrice": null,
+        "previousDayVolume": null
       }
     ]
   }
