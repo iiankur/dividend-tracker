@@ -1,10 +1,6 @@
 {
-  "generatedAt": "12-Jul-2026 06:33 AM IST",
+  "generatedAt": "13-Jul-2026 06:34 AM IST",
   "today": {
-    "date": "2026-07-12",
-    "stocks": []
-  },
-  "tomorrow": {
     "date": "2026-07-13",
     "stocks": [
       {
@@ -45,7 +41,7 @@
       }
     ]
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-07-14",
     "stocks": [
       {
@@ -164,6 +160,29 @@
         "subject": "Dividend - Rs 0.05 Per Share",
         "lastPrice": null,
         "previousDayVolume": null
+      }
+    ]
+  },
+  "dayAfter": {
+    "date": "2026-07-15",
+    "stocks": [
+      {
+        "symbol": "TCS",
+        "company": "Tata Consultancy Services Limited",
+        "dividend": 12.0,
+        "exDate": "2026-07-15",
+        "subject": "Interim Dividend - Rs 12 Per Share",
+        "lastPrice": 2068,
+        "previousDayVolume": 6714551
+      },
+      {
+        "symbol": "HERITGFOOD",
+        "company": "Heritage Foods Limited",
+        "dividend": 2.5,
+        "exDate": "2026-07-15",
+        "subject": "Dividend - Rs 2.50 Per Share",
+        "lastPrice": 336.4,
+        "previousDayVolume": 200704
       }
     ]
   }
