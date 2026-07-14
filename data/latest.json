@@ -1,47 +1,6 @@
 {
-  "generatedAt": "13-Jul-2026 06:34 AM IST",
+  "generatedAt": "14-Jul-2026 06:22 AM IST",
   "today": {
-    "date": "2026-07-13",
-    "stocks": [
-      {
-        "symbol": "INGERRAND",
-        "company": "Ingersoll Rand (India) Limited",
-        "dividend": 20.0,
-        "exDate": "2026-07-13",
-        "subject": "Dividend - Rs 20 Per Share",
-        "lastPrice": 4466.8,
-        "previousDayVolume": 15400
-      },
-      {
-        "symbol": "M&MFIN",
-        "company": "Mahindra & Mahindra Financial Services Limited",
-        "dividend": 7.5,
-        "exDate": "2026-07-13",
-        "subject": "Dividend - Rs 7.50 Per Share",
-        "lastPrice": 340.95,
-        "previousDayVolume": 4263568
-      },
-      {
-        "symbol": "XPROINDIA",
-        "company": "Xpro India Limited",
-        "dividend": 2.0,
-        "exDate": "2026-07-13",
-        "subject": "Dividend - Rs 2 Per Share",
-        "lastPrice": 1455,
-        "previousDayVolume": 33490
-      },
-      {
-        "symbol": "BEPL",
-        "company": "Bhansali Engineering Polymers Limited",
-        "dividend": 1.0,
-        "exDate": "2026-07-13",
-        "subject": "Dividend - Re 1 Per Share",
-        "lastPrice": 103.1,
-        "previousDayVolume": 1458889
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-07-14",
     "stocks": [
       {
@@ -50,8 +9,8 @@
         "dividend": 40.0,
         "exDate": "2026-07-14",
         "subject": "Dividend - Rs 40 Per Share",
-        "lastPrice": 1008,
-        "previousDayVolume": 663822
+        "lastPrice": 1031.45,
+        "previousDayVolume": 1257830
       },
       {
         "symbol": "IMPAL",
@@ -59,8 +18,8 @@
         "dividend": 23.0,
         "exDate": "2026-07-14",
         "subject": "Dividend - Rs 23 Per Share",
-        "lastPrice": 1157,
-        "previousDayVolume": 4130
+        "lastPrice": 1156,
+        "previousDayVolume": 4937
       },
       {
         "symbol": "BIMETAL",
@@ -68,8 +27,8 @@
         "dividend": 13.5,
         "exDate": "2026-07-14",
         "subject": "Dividend - Rs 13.50 Per Share",
-        "lastPrice": 699.5,
-        "previousDayVolume": 3240
+        "lastPrice": 709.1,
+        "previousDayVolume": 10710
       },
       {
         "symbol": "HESTERBIO",
@@ -77,8 +36,8 @@
         "dividend": 11.0,
         "exDate": "2026-07-14",
         "subject": "Dividend - Rs 11 Per Share",
-        "lastPrice": 2118,
-        "previousDayVolume": 3515
+        "lastPrice": 2545,
+        "previousDayVolume": 482367
       },
       {
         "symbol": "PIXTRANS",
@@ -86,8 +45,8 @@
         "dividend": 9.0,
         "exDate": "2026-07-14",
         "subject": "Dividend - Rs 9 Per Share",
-        "lastPrice": 1821,
-        "previousDayVolume": 27294
+        "lastPrice": 1850.9,
+        "previousDayVolume": 36333
       },
       {
         "symbol": "SPLPETRO",
@@ -95,8 +54,8 @@
         "dividend": 8.0,
         "exDate": "2026-07-14",
         "subject": "Dividend - Rs 8 Per Share",
-        "lastPrice": 729.15,
-        "previousDayVolume": 21944
+        "lastPrice": 733.8,
+        "previousDayVolume": 26362
       },
       {
         "symbol": "ULTRAMAR",
@@ -104,8 +63,8 @@
         "dividend": 6.0,
         "exDate": "2026-07-14",
         "subject": "Dividend - Rs 6 Per Share",
-        "lastPrice": 394.9,
-        "previousDayVolume": 37749
+        "lastPrice": 395.5,
+        "previousDayVolume": 25892
       },
       {
         "symbol": "MODISONLTD",
@@ -122,8 +81,8 @@
         "dividend": 2.5,
         "exDate": "2026-07-14",
         "subject": "Dividend - Rs 2.50 Per Share",
-        "lastPrice": 1440,
-        "previousDayVolume": 179363
+        "lastPrice": 1441.3,
+        "previousDayVolume": 125427
       },
       {
         "symbol": "MSUMI",
@@ -131,8 +90,8 @@
         "dividend": 0.58,
         "exDate": "2026-07-14",
         "subject": "Dividend - Re 0.58 Per Share",
-        "lastPrice": 40.16,
-        "previousDayVolume": 7064359
+        "lastPrice": 40.59,
+        "previousDayVolume": 8580443
       },
       {
         "symbol": "AEROFLEX",
@@ -140,8 +99,8 @@
         "dividend": 0.4,
         "exDate": "2026-07-14",
         "subject": "Dividend - Rs 0.40 Per Share",
-        "lastPrice": 414,
-        "previousDayVolume": 1563044
+        "lastPrice": 417.5,
+        "previousDayVolume": 1382985
       },
       {
         "symbol": "MOTHERSON",
@@ -149,8 +108,8 @@
         "dividend": 0.25,
         "exDate": "2026-07-14",
         "subject": "Dividend - Rs 0.25 Per Share",
-        "lastPrice": 143.3,
-        "previousDayVolume": 8178532
+        "lastPrice": 144.25,
+        "previousDayVolume": 14294629
       },
       {
         "symbol": "KHAICHEM",
@@ -163,17 +122,35 @@
       }
     ]
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-07-15",
     "stocks": [
+      {
+        "symbol": "BBL",
+        "company": "Bharat Bijlee Limited",
+        "dividend": 35.0,
+        "exDate": "2026-07-15",
+        "subject": "Dividend - Rs 35 Per Share",
+        "lastPrice": 2779.1,
+        "previousDayVolume": 39251
+      },
       {
         "symbol": "TCS",
         "company": "Tata Consultancy Services Limited",
         "dividend": 12.0,
         "exDate": "2026-07-15",
         "subject": "Interim Dividend - Rs 12 Per Share",
-        "lastPrice": 2068,
-        "previousDayVolume": 6714551
+        "lastPrice": 2182.9,
+        "previousDayVolume": 12382622
+      },
+      {
+        "symbol": "KFINTECH",
+        "company": "Kfin Technologies Limited",
+        "dividend": 12.0,
+        "exDate": "2026-07-15",
+        "subject": "Dividend - Rs 12 Per Share",
+        "lastPrice": 928,
+        "previousDayVolume": 1888791
       },
       {
         "symbol": "HERITGFOOD",
@@ -181,8 +158,31 @@
         "dividend": 2.5,
         "exDate": "2026-07-15",
         "subject": "Dividend - Rs 2.50 Per Share",
-        "lastPrice": 336.4,
-        "previousDayVolume": 200704
+        "lastPrice": 338,
+        "previousDayVolume": 358143
+      }
+    ]
+  },
+  "dayAfter": {
+    "date": "2026-07-16",
+    "stocks": [
+      {
+        "symbol": "ASPINWALL",
+        "company": "Aspinwall and Company Limited",
+        "dividend": 6.5,
+        "exDate": "2026-07-16",
+        "subject": "Dividend - Rs 6.50 Per Share",
+        "lastPrice": 255,
+        "previousDayVolume": 6541
+      },
+      {
+        "symbol": "COROMANDEL",
+        "company": "Coromandel International Limited",
+        "dividend": 2.0,
+        "exDate": "2026-07-16",
+        "subject": "Dividend - Rs 2 Per Share",
+        "lastPrice": 2060,
+        "previousDayVolume": 173632
       }
     ]
   }
