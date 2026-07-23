@@ -1,93 +1,25 @@
 {
-  "generatedAt": "22-Jul-2026 06:25 AM IST",
+  "generatedAt": "23-Jul-2026 06:30 AM IST",
   "today": {
-    "date": "2026-07-22",
-    "stocks": [
-      {
-        "symbol": "HAWKINCOOK",
-        "company": "Hawkins Cookers Limited",
-        "dividend": 140.0,
-        "exDate": "2026-07-22",
-        "subject": "Dividend - Rs 140 Per Share",
-        "lastPrice": 9000,
-        "previousDayVolume": 7098
-      },
-      {
-        "symbol": "ABSLAMC",
-        "company": "Aditya Birla Sun Life AMC Limited",
-        "dividend": 25.5,
-        "exDate": "2026-07-22",
-        "subject": "Dividend - Rs 25.50 Per Share",
-        "lastPrice": 1045.6,
-        "previousDayVolume": 873489
-      },
-      {
-        "symbol": "THANGAMAYL",
-        "company": "Thangamayil Jewellery Limited",
-        "dividend": 18.0,
-        "exDate": "2026-07-22",
-        "subject": "Dividend - Rs 18 Per Share",
-        "lastPrice": 6455,
-        "previousDayVolume": 126973
-      },
-      {
-        "symbol": "COSMOFIRST",
-        "company": "COSMO FIRST LIMITED",
-        "dividend": 4.0,
-        "exDate": "2026-07-22",
-        "subject": "Dividend - Rs 4 Per Share",
-        "lastPrice": 825.5,
-        "previousDayVolume": 63699
-      },
-      {
-        "symbol": "HEG",
-        "company": "HEG Limited",
-        "dividend": 3.4,
-        "exDate": "2026-07-22",
-        "subject": "Dividend - Rs 3.40 Per Share",
-        "lastPrice": 604.1,
-        "previousDayVolume": 1167153
-      },
-      {
-        "symbol": "RAMRAT",
-        "company": "Ram Ratna Wires Limited",
-        "dividend": 2.5,
-        "exDate": "2026-07-22",
-        "subject": "Dividend - Rs 2.50 Per Share",
-        "lastPrice": 420.35,
-        "previousDayVolume": 66329
-      },
-      {
-        "symbol": "MENONBE",
-        "company": "Menon Bearings Limited",
-        "dividend": 2.0,
-        "exDate": "2026-07-22",
-        "subject": "Interim Dividend - Rs 2 Per Share",
-        "lastPrice": null,
-        "previousDayVolume": null
-      },
-      {
-        "symbol": "SARLAPOLY",
-        "company": "Sarla Performance Fibers Limited",
-        "dividend": 2.0,
-        "exDate": "2026-07-22",
-        "subject": "Dividend - Rs 2 Per Share",
-        "lastPrice": 103.05,
-        "previousDayVolume": 78206
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-07-23",
     "stocks": [
+      {
+        "symbol": "ICRA",
+        "company": "ICRA Limited",
+        "dividend": 70.0,
+        "exDate": "2026-07-23",
+        "subject": "Dividend - Rs 70 Per Share/Special Dividend - Rs 35 Per Share",
+        "lastPrice": 5125,
+        "previousDayVolume": 25329
+      },
       {
         "symbol": "ESABINDIA",
         "company": "Esab India Limited",
         "dividend": 25.0,
         "exDate": "2026-07-23",
         "subject": "Dividend - Rs 25 Per Share",
-        "lastPrice": 5830,
-        "previousDayVolume": 2717
+        "lastPrice": 5771,
+        "previousDayVolume": 3322
       },
       {
         "symbol": "PIDILITIND",
@@ -95,8 +27,8 @@
         "dividend": 11.5,
         "exDate": "2026-07-23",
         "subject": "Dividend - Rs 11.50 Per Share",
-        "lastPrice": 1597,
-        "previousDayVolume": 1640055
+        "lastPrice": 1609,
+        "previousDayVolume": 1518908
       },
       {
         "symbol": "DBCORP",
@@ -104,8 +36,26 @@
         "dividend": 5.0,
         "exDate": "2026-07-23",
         "subject": "Interim Dividend - Rs 5 Per Share",
-        "lastPrice": 216.99,
-        "previousDayVolume": 292289
+        "lastPrice": 214,
+        "previousDayVolume": 379452
+      },
+      {
+        "symbol": "PAUSHAKLTD",
+        "company": "Paushak Limited",
+        "dividend": 2.5,
+        "exDate": "2026-07-23",
+        "subject": "Dividend - Rs 2.50 Per Share",
+        "lastPrice": 553,
+        "previousDayVolume": 28346
+      },
+      {
+        "symbol": "AFCONS",
+        "company": "Afcons Infrastructure Limited",
+        "dividend": 2.0,
+        "exDate": "2026-07-23",
+        "subject": "Dividend - Rs 2 Per Share",
+        "lastPrice": 288.4,
+        "previousDayVolume": 2188729
       },
       {
         "symbol": "OBEROIRLTY",
@@ -113,8 +63,17 @@
         "dividend": 2.0,
         "exDate": "2026-07-23",
         "subject": "Interim Dividend - Rs 2 Per Share",
-        "lastPrice": 1884.9,
-        "previousDayVolume": 198135
+        "lastPrice": 1840,
+        "previousDayVolume": 308272
+      },
+      {
+        "symbol": "SUDEEPPHRM",
+        "company": "Sudeep Pharma Limited",
+        "dividend": 1.5,
+        "exDate": "2026-07-23",
+        "subject": "Dividend - Rs 1.50 Per Share",
+        "lastPrice": 845,
+        "previousDayVolume": 106797
       },
       {
         "symbol": "ABMKNO",
@@ -122,8 +81,8 @@
         "dividend": 1.25,
         "exDate": "2026-07-23",
         "subject": "Dividend - Rs1.25 Per Share",
-        "lastPrice": 198,
-        "previousDayVolume": 772
+        "lastPrice": 190,
+        "previousDayVolume": 2261
       },
       {
         "symbol": "PRECAM",
@@ -131,8 +90,8 @@
         "dividend": 1.0,
         "exDate": "2026-07-23",
         "subject": "Dividend - Re 1 Per Share",
-        "lastPrice": 142.25,
-        "previousDayVolume": 71004
+        "lastPrice": 140.1,
+        "previousDayVolume": 45654
       },
       {
         "symbol": "BANSWRAS",
@@ -140,8 +99,8 @@
         "dividend": 1.0,
         "exDate": "2026-07-23",
         "subject": "Dividend - Re 1 Per Share",
-        "lastPrice": 133.99,
-        "previousDayVolume": 52237
+        "lastPrice": 132.65,
+        "previousDayVolume": 51637
       },
       {
         "symbol": "BEPL",
@@ -149,8 +108,8 @@
         "dividend": 1.0,
         "exDate": "2026-07-23",
         "subject": "Interim Dividend - Re 1 Per Share",
-        "lastPrice": 122.4,
-        "previousDayVolume": 69963117
+        "lastPrice": 120.5,
+        "previousDayVolume": 18102387
       },
       {
         "symbol": "ORIENTHOT",
@@ -158,8 +117,8 @@
         "dividend": 0.65,
         "exDate": "2026-07-23",
         "subject": "Dividend - Rs 0.65 Per Share",
-        "lastPrice": 146,
-        "previousDayVolume": 4360152
+        "lastPrice": 135.1,
+        "previousDayVolume": 1451024
       },
       {
         "symbol": "BHAGCHEM",
@@ -167,8 +126,8 @@
         "dividend": 0.15,
         "exDate": "2026-07-23",
         "subject": "Dividend - Re 0.15  Per Share",
-        "lastPrice": 272.85,
-        "previousDayVolume": 19182
+        "lastPrice": 263.1,
+        "previousDayVolume": 56240
       },
       {
         "symbol": "MWL",
@@ -176,13 +135,63 @@
         "dividend": 0.03,
         "exDate": "2026-07-23",
         "subject": "Dividend - Re 0.03 Per Share",
-        "lastPrice": 36.5,
-        "previousDayVolume": 212136
+        "lastPrice": 35.8,
+        "previousDayVolume": 274630
+      }
+    ]
+  },
+  "tomorrow": {
+    "date": "2026-07-24",
+    "stocks": [
+      {
+        "symbol": "SASKEN",
+        "company": "Sasken Technologies Limited",
+        "dividend": 13.0,
+        "exDate": "2026-07-24",
+        "subject": "Dividend - Rs 13 Per Share",
+        "lastPrice": 1900,
+        "previousDayVolume": 35084
+      },
+      {
+        "symbol": "SIYSIL",
+        "company": "Siyaram Silk Mills Limited",
+        "dividend": 5.0,
+        "exDate": "2026-07-24",
+        "subject": "Dividend - Rs 5 Per Share",
+        "lastPrice": 629,
+        "previousDayVolume": 35183
+      },
+      {
+        "symbol": "NAUKRI",
+        "company": "Info Edge (India) Limited",
+        "dividend": 3.6,
+        "exDate": "2026-07-24",
+        "subject": "Dividend - Rs 3.60 Per Share",
+        "lastPrice": 1189.5,
+        "previousDayVolume": 1736169
+      },
+      {
+        "symbol": "FORTIS",
+        "company": "Fortis Healthcare Limited",
+        "dividend": 1.0,
+        "exDate": "2026-07-24",
+        "subject": "Dividend - Re 1 Per Share",
+        "lastPrice": 952,
+        "previousDayVolume": 637310
+      },
+      {
+        "symbol": "REFEX",
+        "company": "Refex Industries Limited",
+        "dividend": 1.0,
+        "exDate": "2026-07-24",
+        "subject": "Dividend - Re 1 Per Share",
+        "lastPrice": 311.5,
+        "previousDayVolume": 526846
       }
     ]
   },
   "dayAfter": {
-    "date": "2026-07-24",
+    "date": "2026-07-25",
     "stocks": []
   }
 }
