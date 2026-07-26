@@ -1,14 +1,10 @@
 {
-  "generatedAt": "25-Jul-2026 06:32 AM IST",
+  "generatedAt": "26-Jul-2026 06:36 AM IST",
   "today": {
-    "date": "2026-07-25",
-    "stocks": []
-  },
-  "tomorrow": {
     "date": "2026-07-26",
     "stocks": []
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-07-27",
     "stocks": [
       {
@@ -118,6 +114,65 @@
         "subject": "Dividend - Re 0.50 Per Share",
         "lastPrice": 163,
         "previousDayVolume": 47375
+      }
+    ]
+  },
+  "dayAfter": {
+    "date": "2026-07-28",
+    "stocks": [
+      {
+        "symbol": "SOLARINDS",
+        "company": "Solar Industries India Limited",
+        "dividend": 11.0,
+        "exDate": "2026-07-28",
+        "subject": "Dividend - Rs 11 Per Share",
+        "lastPrice": 18519,
+        "previousDayVolume": 75835
+      },
+      {
+        "symbol": "GODREJPROP",
+        "company": "Godrej Properties Limited",
+        "dividend": 10.0,
+        "exDate": "2026-07-28",
+        "subject": "Dividend - Rs 10 Per Share",
+        "lastPrice": 2050.3,
+        "previousDayVolume": 569927
+      },
+      {
+        "symbol": "SRF",
+        "company": "SRF Limited",
+        "dividend": 5.0,
+        "exDate": "2026-07-28",
+        "subject": "Interim Dividend - Rs 5 Per Share",
+        "lastPrice": 2669.5,
+        "previousDayVolume": 1246513
+      },
+      {
+        "symbol": "DOLLAR",
+        "company": "Dollar Industries Limited",
+        "dividend": 3.0,
+        "exDate": "2026-07-28",
+        "subject": "Dividend - Rs 3 Per Share",
+        "lastPrice": 256.9,
+        "previousDayVolume": 290796
+      },
+      {
+        "symbol": "GREAVESCOT",
+        "company": "Greaves Cotton Limited",
+        "dividend": 2.0,
+        "exDate": "2026-07-28",
+        "subject": "Dividend - Rs 2 Per Share",
+        "lastPrice": 245.9,
+        "previousDayVolume": 1981826
+      },
+      {
+        "symbol": "GMMPFAUDLR",
+        "company": "GMM Pfaudler Limited",
+        "dividend": 1.0,
+        "exDate": "2026-07-28",
+        "subject": "Dividend - Re 1 Per Share",
+        "lastPrice": 814,
+        "previousDayVolume": 92348
       }
     ]
   }
