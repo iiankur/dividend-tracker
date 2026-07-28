@@ -1,119 +1,6 @@
 {
-  "generatedAt": "27-Jul-2026 06:38 AM IST",
+  "generatedAt": "28-Jul-2026 06:24 AM IST",
   "today": {
-    "date": "2026-07-27",
-    "stocks": [
-      {
-        "symbol": "PERSISTENT",
-        "company": "Persistent Systems Limited",
-        "dividend": 18.0,
-        "exDate": "2026-07-27",
-        "subject": "Dividend - Rs 18 Per Share",
-        "lastPrice": 5195,
-        "previousDayVolume": 732328
-      },
-      {
-        "symbol": "CRISIL",
-        "company": "Crisil Limited",
-        "dividend": 10.0,
-        "exDate": "2026-07-27",
-        "subject": "Interim Dividend - Rs 10  Per Share",
-        "lastPrice": 4350,
-        "previousDayVolume": 84133
-      },
-      {
-        "symbol": "DLF",
-        "company": "DLF Limited",
-        "dividend": 8.0,
-        "exDate": "2026-07-27",
-        "subject": "Dividend - Rs 8 Per Share",
-        "lastPrice": 646,
-        "previousDayVolume": 2002254
-      },
-      {
-        "symbol": "DEEPAKNTR",
-        "company": "Deepak Nitrite Limited",
-        "dividend": 7.5,
-        "exDate": "2026-07-27",
-        "subject": "Dividend - Rs 7.50 Per Share",
-        "lastPrice": 1651,
-        "previousDayVolume": 91731
-      },
-      {
-        "symbol": "VINDHYATEL",
-        "company": "Vindhya Telelinks Limited",
-        "dividend": 6.0,
-        "exDate": "2026-07-27",
-        "subject": "Dividend - Rs 6 Per Share",
-        "lastPrice": 1890,
-        "previousDayVolume": 16872
-      },
-      {
-        "symbol": "ARE&M",
-        "company": "Amara Raja Energy & Mobility Limited",
-        "dividend": 5.2,
-        "exDate": "2026-07-27",
-        "subject": "Dividend - Rs 5.20 Per Share",
-        "lastPrice": 877,
-        "previousDayVolume": 631693
-      },
-      {
-        "symbol": "UNIVCABLES",
-        "company": "Universal Cables Limited",
-        "dividend": 4.5,
-        "exDate": "2026-07-27",
-        "subject": "Dividend - Rs 4.50 Per Share",
-        "lastPrice": 1237.1,
-        "previousDayVolume": 122846
-      },
-      {
-        "symbol": "WIPRO",
-        "company": "Wipro Limited",
-        "dividend": 2.0,
-        "exDate": "2026-07-27",
-        "subject": "Interim Dividend - Rs 2 Per Share",
-        "lastPrice": 176.55,
-        "previousDayVolume": 13282944
-      },
-      {
-        "symbol": "BIRLACABLE",
-        "company": "Birla Cable Limited",
-        "dividend": 1.25,
-        "exDate": "2026-07-27",
-        "subject": "Dividend - Rs 1.25 Per Share",
-        "lastPrice": null,
-        "previousDayVolume": null
-      },
-      {
-        "symbol": "EVERESTIND",
-        "company": "Everest Industries Limited",
-        "dividend": 1.0,
-        "exDate": "2026-07-27",
-        "subject": "Dividend - Re 1 Per Share",
-        "lastPrice": null,
-        "previousDayVolume": null
-      },
-      {
-        "symbol": "TATACAP",
-        "company": "Tata Capital Limited",
-        "dividend": 0.57,
-        "exDate": "2026-07-27",
-        "subject": "Dividend - Re 0.57 Per Share",
-        "lastPrice": 342,
-        "previousDayVolume": 900008
-      },
-      {
-        "symbol": "KCP",
-        "company": "KCP Limited",
-        "dividend": 0.5,
-        "exDate": "2026-07-27",
-        "subject": "Dividend - Re 0.50 Per Share",
-        "lastPrice": 163,
-        "previousDayVolume": 47375
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-07-28",
     "stocks": [
       {
@@ -122,8 +9,8 @@
         "dividend": 11.0,
         "exDate": "2026-07-28",
         "subject": "Dividend - Rs 11 Per Share",
-        "lastPrice": 18519,
-        "previousDayVolume": 75835
+        "lastPrice": 18549,
+        "previousDayVolume": 55560
       },
       {
         "symbol": "GODREJPROP",
@@ -131,8 +18,8 @@
         "dividend": 10.0,
         "exDate": "2026-07-28",
         "subject": "Dividend - Rs 10 Per Share",
-        "lastPrice": 2050.3,
-        "previousDayVolume": 569927
+        "lastPrice": 2075,
+        "previousDayVolume": 732918
       },
       {
         "symbol": "SRF",
@@ -140,8 +27,17 @@
         "dividend": 5.0,
         "exDate": "2026-07-28",
         "subject": "Interim Dividend - Rs 5 Per Share",
-        "lastPrice": 2669.5,
-        "previousDayVolume": 1246513
+        "lastPrice": 2639,
+        "previousDayVolume": 1098350
+      },
+      {
+        "symbol": "EIHAHOTELS",
+        "company": "EIH Associated Hotels Limited",
+        "dividend": 3.5,
+        "exDate": "2026-07-28",
+        "subject": "Dividend - Rs 3.50 Per Share",
+        "lastPrice": 318,
+        "previousDayVolume": 6800
       },
       {
         "symbol": "DOLLAR",
@@ -149,8 +45,8 @@
         "dividend": 3.0,
         "exDate": "2026-07-28",
         "subject": "Dividend - Rs 3 Per Share",
-        "lastPrice": 256.9,
-        "previousDayVolume": 290796
+        "lastPrice": 257,
+        "previousDayVolume": 103287
       },
       {
         "symbol": "GREAVESCOT",
@@ -158,8 +54,17 @@
         "dividend": 2.0,
         "exDate": "2026-07-28",
         "subject": "Dividend - Rs 2 Per Share",
-        "lastPrice": 245.9,
-        "previousDayVolume": 1981826
+        "lastPrice": 246.2,
+        "previousDayVolume": 1108107
+      },
+      {
+        "symbol": "MENNPIS",
+        "company": "Menon Pistons Limited",
+        "dividend": 1.0,
+        "exDate": "2026-07-28",
+        "subject": "Dividend - Re 1 Per Share",
+        "lastPrice": 74.39,
+        "previousDayVolume": 49137
       },
       {
         "symbol": "GMMPFAUDLR",
@@ -167,13 +72,109 @@
         "dividend": 1.0,
         "exDate": "2026-07-28",
         "subject": "Dividend - Re 1 Per Share",
-        "lastPrice": 814,
-        "previousDayVolume": 92348
+        "lastPrice": 826.1,
+        "previousDayVolume": 106321
+      }
+    ]
+  },
+  "tomorrow": {
+    "date": "2026-07-29",
+    "stocks": [
+      {
+        "symbol": "SIEMENS",
+        "company": "Siemens Limited",
+        "dividend": 18.0,
+        "exDate": "2026-07-29",
+        "subject": "Dividend - Rs 18 Per Share",
+        "lastPrice": 3712.4,
+        "previousDayVolume": 273869
+      },
+      {
+        "symbol": "RML",
+        "company": "Rane (Madras) Limited",
+        "dividend": 16.0,
+        "exDate": "2026-07-29",
+        "subject": "Dividend - Rs 16 Per Share",
+        "lastPrice": 1145,
+        "previousDayVolume": 23632
+      },
+      {
+        "symbol": "APLLTD",
+        "company": "Alembic Pharmaceuticals Limited",
+        "dividend": 12.0,
+        "exDate": "2026-07-29",
+        "subject": "Dividend - Rs 12 Per Share",
+        "lastPrice": 815.7,
+        "previousDayVolume": 50274
+      },
+      {
+        "symbol": "GODREJAGRO",
+        "company": "Godrej Agrovet Limited",
+        "dividend": 11.0,
+        "exDate": "2026-07-29",
+        "subject": "Dividend - Rs 11 Per Share",
+        "lastPrice": 574.6,
+        "previousDayVolume": 85033
+      },
+      {
+        "symbol": "TTKPRESTIG",
+        "company": "TTK Prestige Limited",
+        "dividend": 7.5,
+        "exDate": "2026-07-29",
+        "subject": "Dividend - Rs 7.50 Per Share",
+        "lastPrice": 658.9,
+        "previousDayVolume": 67198
+      },
+      {
+        "symbol": "ROUTE",
+        "company": "ROUTE MOBILE LIMITED",
+        "dividend": 4.0,
+        "exDate": "2026-07-29",
+        "subject": "Interim Dividend - Rs 4 Per Share",
+        "lastPrice": 537.95,
+        "previousDayVolume": 1114587
+      },
+      {
+        "symbol": "IFGLEXPOR",
+        "company": "IFGL Refractories Limited",
+        "dividend": 2.15,
+        "exDate": "2026-07-29",
+        "subject": "Dividend - Rs 2.15 Per Share",
+        "lastPrice": 200.07,
+        "previousDayVolume": 62167
+      },
+      {
+        "symbol": "SHAKTIPUMP",
+        "company": "Shakti Pumps (India) Limited",
+        "dividend": 1.0,
+        "exDate": "2026-07-29",
+        "subject": "Dividend - Re 1 Per Share",
+        "lastPrice": 528.5,
+        "previousDayVolume": 1075712
+      },
+      {
+        "symbol": "UGARSUGAR",
+        "company": "The Ugar Sugar Works Limited",
+        "dividend": 0.1,
+        "exDate": "2026-07-29",
+        "subject": "Dividend - Re 0.10 Per Share",
+        "lastPrice": 43.27,
+        "previousDayVolume": 870227
       }
     ]
   },
   "dayAfter": {
-    "date": "2026-07-29",
-    "stocks": []
+    "date": "2026-07-30",
+    "stocks": [
+      {
+        "symbol": "JKTYRE",
+        "company": "JK Tyre & Industries Limited",
+        "dividend": 4.0,
+        "exDate": "2026-07-30",
+        "subject": "Dividend - Rs 4 Per Share",
+        "lastPrice": 399.4,
+        "previousDayVolume": 438325
+      }
+    ]
   }
 }
