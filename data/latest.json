@@ -1,83 +1,6 @@
 {
-  "generatedAt": "03-Aug-2026 06:35 AM IST",
+  "generatedAt": "04-Aug-2026 06:28 AM IST",
   "today": {
-    "date": "2026-08-03",
-    "stocks": [
-      {
-        "symbol": "ICICIBANK",
-        "company": "ICICI Bank Limited",
-        "dividend": 12.0,
-        "exDate": "2026-08-03",
-        "subject": "Dividend - Rs 12 Per Share",
-        "lastPrice": 1433.9,
-        "previousDayVolume": 8752440
-      },
-      {
-        "symbol": "COFORGE",
-        "company": "Coforge Limited",
-        "dividend": 4.0,
-        "exDate": "2026-08-03",
-        "subject": "Interim Dividend - Rs 4 Per Share",
-        "lastPrice": 1722,
-        "previousDayVolume": 3381070
-      },
-      {
-        "symbol": "TRANSRAILL",
-        "company": "Transrail Lighting Limited",
-        "dividend": 3.0,
-        "exDate": "2026-08-03",
-        "subject": "Interim Dividend - Rs  3 Per Share",
-        "lastPrice": 503.9,
-        "previousDayVolume": 379109
-      },
-      {
-        "symbol": "KAKATCEM",
-        "company": "Kakatiya Cement Sugar & Industries Limited",
-        "dividend": 3.0,
-        "exDate": "2026-08-03",
-        "subject": "Dividend - Rs 3 Per Share",
-        "lastPrice": null,
-        "previousDayVolume": null
-      },
-      {
-        "symbol": "KALAMANDIR",
-        "company": "Sai Silks (Kalamandir) Limited",
-        "dividend": 1.5,
-        "exDate": "2026-08-03",
-        "subject": "Dividend - Rs 1.50 Per Share",
-        "lastPrice": 89.29,
-        "previousDayVolume": 460390
-      },
-      {
-        "symbol": "EMKAY",
-        "company": "Emkay Global Financial Services Limited",
-        "dividend": 1.5,
-        "exDate": "2026-08-03",
-        "subject": "Dividend - Rs 1.50 Per Share",
-        "lastPrice": 241.8,
-        "previousDayVolume": 10348
-      },
-      {
-        "symbol": "KANPRPLA",
-        "company": "Kanpur Plastipack Limited",
-        "dividend": 1.2,
-        "exDate": "2026-08-03",
-        "subject": "Dividend - Rs 1.20 Per Share",
-        "lastPrice": 207.37,
-        "previousDayVolume": 14442
-      },
-      {
-        "symbol": "BASML",
-        "company": "Bannari Amman Spinning Mills Limited",
-        "dividend": 0.25,
-        "exDate": "2026-08-03",
-        "subject": "Dividend - Re 0.25 Per Sh",
-        "lastPrice": null,
-        "previousDayVolume": null
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-08-04",
     "stocks": [
       {
@@ -86,8 +9,8 @@
         "dividend": 270.0,
         "exDate": "2026-08-04",
         "subject": "Dividend - Rs 270 Per Share",
-        "lastPrice": 41060,
-        "previousDayVolume": 19054
+        "lastPrice": 41300,
+        "previousDayVolume": 14910
       },
       {
         "symbol": "TCPLPACK",
@@ -95,8 +18,8 @@
         "dividend": 25.0,
         "exDate": "2026-08-04",
         "subject": "Dividend - Rs 25 Per Share",
-        "lastPrice": 3150,
-        "previousDayVolume": 2303
+        "lastPrice": 3280,
+        "previousDayVolume": 4103
       },
       {
         "symbol": "PCBL",
@@ -104,8 +27,8 @@
         "dividend": 4.5,
         "exDate": "2026-08-04",
         "subject": "Interim Dividend - Rs 4.50 Per Share",
-        "lastPrice": 317.4,
-        "previousDayVolume": 9190575
+        "lastPrice": 326,
+        "previousDayVolume": 3202738
       },
       {
         "symbol": "BALKRISIND",
@@ -113,8 +36,8 @@
         "dividend": 4.0,
         "exDate": "2026-08-04",
         "subject": "Interim Dividend - Rs 4 Per Share",
-        "lastPrice": 2459.9,
-        "previousDayVolume": 3395027
+        "lastPrice": 2493.4,
+        "previousDayVolume": 541456
       },
       {
         "symbol": "MAPMYINDIA",
@@ -122,8 +45,17 @@
         "dividend": 3.5,
         "exDate": "2026-08-04",
         "subject": "Dividend - Rs 3.50 Per Share",
-        "lastPrice": 1189,
-        "previousDayVolume": 190731
+        "lastPrice": 1194,
+        "previousDayVolume": 192256
+      },
+      {
+        "symbol": "EVEREADY",
+        "company": "Eveready Industries India Limited",
+        "dividend": 2.5,
+        "exDate": "2026-08-04",
+        "subject": "Dividend - Rs 2.50 Per Share",
+        "lastPrice": 356,
+        "previousDayVolume": 187826
       },
       {
         "symbol": "ALEMBICLTD",
@@ -131,8 +63,8 @@
         "dividend": 2.4,
         "exDate": "2026-08-04",
         "subject": "Dividend - Rs 2.40 Per Share",
-        "lastPrice": 91.01,
-        "previousDayVolume": 223183
+        "lastPrice": 91.6,
+        "previousDayVolume": 594583
       },
       {
         "symbol": "GROBTEA",
@@ -140,8 +72,8 @@
         "dividend": 2.0,
         "exDate": "2026-08-04",
         "subject": "Dividend - Rs 2 Per Share",
-        "lastPrice": 920.05,
-        "previousDayVolume": 126
+        "lastPrice": 918,
+        "previousDayVolume": 223
       },
       {
         "symbol": "CONCOR",
@@ -149,8 +81,8 @@
         "dividend": 1.6,
         "exDate": "2026-08-04",
         "subject": "Interim Dividend - Rs 1.60 Per Share",
-        "lastPrice": 524.5,
-        "previousDayVolume": 1280939
+        "lastPrice": 525,
+        "previousDayVolume": 1928428
       },
       {
         "symbol": "HIRECT",
@@ -158,8 +90,8 @@
         "dividend": 1.4,
         "exDate": "2026-08-04",
         "subject": "Dividend - Rs 1.40 Per Share",
-        "lastPrice": 1330.6,
-        "previousDayVolume": 164753
+        "lastPrice": 1330,
+        "previousDayVolume": 80334
       },
       {
         "symbol": "ANDHRAPAP",
@@ -167,8 +99,8 @@
         "dividend": 0.5,
         "exDate": "2026-08-04",
         "subject": "Dividend - Re 0.50 Per Share",
-        "lastPrice": 61,
-        "previousDayVolume": 228014
+        "lastPrice": 62,
+        "previousDayVolume": 313581
       },
       {
         "symbol": "GREENPLY",
@@ -176,13 +108,81 @@
         "dividend": 0.5,
         "exDate": "2026-08-04",
         "subject": "Dividend - Re 0.50  Per Share",
-        "lastPrice": 283.2,
-        "previousDayVolume": 106916
+        "lastPrice": 285.25,
+        "previousDayVolume": 195013
+      },
+      {
+        "symbol": "SONAMLTD",
+        "company": "SONAM LIMITED",
+        "dividend": 0.3,
+        "exDate": "2026-08-04",
+        "subject": "Interim Dividend - Re 0.30 Per Share",
+        "lastPrice": 54.78,
+        "previousDayVolume": 10228
+      }
+    ]
+  },
+  "tomorrow": {
+    "date": "2026-08-05",
+    "stocks": [
+      {
+        "symbol": "AJANTPHARM",
+        "company": "Ajanta Pharma Limited",
+        "dividend": 32.0,
+        "exDate": "2026-08-05",
+        "subject": "Interim Dividend - Rs 32 Per Share",
+        "lastPrice": 3514,
+        "previousDayVolume": 119278
+      },
+      {
+        "symbol": "MUNJALSHOW",
+        "company": "Munjal Showa Limited",
+        "dividend": 4.5,
+        "exDate": "2026-08-05",
+        "subject": "Dividend - Rs 4.50 Per Share",
+        "lastPrice": 143.95,
+        "previousDayVolume": 653918
+      },
+      {
+        "symbol": "BRIGADE",
+        "company": "Brigade Enterprises Limited",
+        "dividend": 2.0,
+        "exDate": "2026-08-05",
+        "subject": "Dividend - Rs 2 Per Share",
+        "lastPrice": 584.8,
+        "previousDayVolume": 430693
+      },
+      {
+        "symbol": "SOMANYCERA",
+        "company": "Somany Ceramics Limited",
+        "dividend": 2.0,
+        "exDate": "2026-08-05",
+        "subject": "Dividend - Rs 2 Per Share",
+        "lastPrice": 510,
+        "previousDayVolume": 123707
+      },
+      {
+        "symbol": "SHREYANIND",
+        "company": "Shreyans Industries Limited",
+        "dividend": 1.5,
+        "exDate": "2026-08-05",
+        "subject": "Dividend - Rs 1.50 Per Share",
+        "lastPrice": 141.01,
+        "previousDayVolume": 5323
+      },
+      {
+        "symbol": "IRB",
+        "company": "IRB Infrastructure Developers Limited",
+        "dividend": 0.05,
+        "exDate": "2026-08-05",
+        "subject": "Interim Dividend - Re 0.05 Per Share",
+        "lastPrice": 20.16,
+        "previousDayVolume": 6221967
       }
     ]
   },
   "dayAfter": {
-    "date": "2026-08-05",
+    "date": "2026-08-06",
     "stocks": []
   }
 }
