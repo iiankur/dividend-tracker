@@ -1,187 +1,170 @@
 {
-  "generatedAt": "05-Aug-2026 06:24 AM IST",
+  "generatedAt": "06-Aug-2026 06:21 AM IST",
   "today": {
-    "date": "2026-08-05",
+    "date": "2026-08-06",
     "stocks": [
       {
-        "symbol": "DISAQ",
-        "company": "Disa India Limited",
-        "dividend": 200.0,
-        "exDate": "2026-08-05",
-        "subject": "Dividend - Rs 200 Per Share",
-        "lastPrice": 12795,
-        "previousDayVolume": 647
+        "symbol": "LUMAXIND",
+        "company": "Lumax Industries Limited",
+        "dividend": 55.0,
+        "exDate": "2026-08-06",
+        "subject": "Dividend - Rs 55 Per Share",
+        "lastPrice": 5800,
+        "previousDayVolume": 28322
       },
       {
-        "symbol": "BAYERCROP",
-        "company": "Bayer Cropscience Limited",
-        "dividend": 60.0,
-        "exDate": "2026-08-05",
-        "subject": "Dividend - Rs 60 Per Share",
-        "lastPrice": 4350,
-        "previousDayVolume": 26809
+        "symbol": "RANEHOLDIN",
+        "company": "Rane Holdings Limited",
+        "dividend": 47.0,
+        "exDate": "2026-08-06",
+        "subject": "Dividend - Rs 47 Per Share",
+        "lastPrice": 1850,
+        "previousDayVolume": 54114
       },
       {
-        "symbol": "AJANTPHARM",
-        "company": "Ajanta Pharma Limited",
-        "dividend": 32.0,
-        "exDate": "2026-08-05",
-        "subject": "Interim Dividend - Rs 32 Per Share",
-        "lastPrice": 3511.5,
-        "previousDayVolume": 83877
+        "symbol": "TASTYBITE",
+        "company": "Tasty Bite Eatables Limited",
+        "dividend": 10.0,
+        "exDate": "2026-08-06",
+        "subject": "Dividend - Rs 10 Per Share",
+        "lastPrice": 9252,
+        "previousDayVolume": 1016
       },
       {
-        "symbol": "GOODYEAR",
-        "company": "Goodyear India Limited",
-        "dividend": 26.5,
-        "exDate": "2026-08-05",
-        "subject": "Dividend - Rs 26.50 Per Share",
-        "lastPrice": 876,
-        "previousDayVolume": 78651
+        "symbol": "LUMAXTECH",
+        "company": "Lumax Auto Technologies Limited",
+        "dividend": 5.5,
+        "exDate": "2026-08-06",
+        "subject": "Dividend - Rs 5.50 Per Share",
+        "lastPrice": 1690,
+        "previousDayVolume": 301915
       },
       {
-        "symbol": "HYUNDAI",
-        "company": "Hyundai Motor India Limited",
-        "dividend": 21.0,
-        "exDate": "2026-08-05",
-        "subject": "Dividend - Rs 21 Per Share",
-        "lastPrice": 2220,
-        "previousDayVolume": 760246
-      },
-      {
-        "symbol": "GANDHITUBE",
-        "company": "Gandhi Special Tubes Limited",
-        "dividend": 15.0,
-        "exDate": "2026-08-05",
-        "subject": "Dividend - Rs 15 Per Share",
-        "lastPrice": 913.4,
-        "previousDayVolume": 24369
-      },
-      {
-        "symbol": "MATRIMONY",
-        "company": "Matrimony.Com Limited",
-        "dividend": 5.0,
-        "exDate": "2026-08-05",
-        "subject": "Dividend - Rs 5 Per Share",
-        "lastPrice": 426.5,
-        "previousDayVolume": 13563
-      },
-      {
-        "symbol": "MUNJALSHOW",
-        "company": "Munjal Showa Limited",
-        "dividend": 4.5,
-        "exDate": "2026-08-05",
-        "subject": "Dividend - Rs 4.50 Per Share",
-        "lastPrice": 144.7,
-        "previousDayVolume": 212933
-      },
-      {
-        "symbol": "BERGEPAINT",
-        "company": "Berger Paints (I) Limited",
+        "symbol": "LINDEINDIA",
+        "company": "Linde India Limited",
         "dividend": 4.0,
-        "exDate": "2026-08-05",
-        "subject": "Dividend - Rs 4 Per Share",
-        "lastPrice": 535,
-        "previousDayVolume": 488585
+        "exDate": "2026-08-06",
+        "subject": "Dividend - Rs 4 Per Share/Special Dividend - 8 Per Share",
+        "lastPrice": 7090,
+        "previousDayVolume": 15357
       },
       {
-        "symbol": "FERMENTA",
-        "company": "Fermenta Biotech Limited",
-        "dividend": 3.75,
-        "exDate": "2026-08-05",
-        "subject": "Dividend - Rs 3.75 Per Share",
-        "lastPrice": 550,
-        "previousDayVolume": 442994
+        "symbol": "PRAJIND",
+        "company": "Praj Industries Limited",
+        "dividend": 3.6,
+        "exDate": "2026-08-06",
+        "subject": "Dividend - Rs 3.60 Per Share",
+        "lastPrice": 317.1,
+        "previousDayVolume": 499092
       },
       {
-        "symbol": "SIKA",
-        "company": "Sika Interplant Systems Limited",
-        "dividend": 3.5,
-        "exDate": "2026-08-05",
-        "subject": "Dividend - Rs 3.50 Per Share",
-        "lastPrice": 1116.6,
-        "previousDayVolume": 23025
-      },
-      {
-        "symbol": "BRIGADE",
-        "company": "Brigade Enterprises Limited",
+        "symbol": "BLACKROSE",
+        "company": "Black Rose Inds. Limited",
         "dividend": 2.0,
-        "exDate": "2026-08-05",
-        "subject": "Dividend - Rs 2 Per Share",
-        "lastPrice": 576.15,
-        "previousDayVolume": 290721
+        "exDate": "2026-08-06",
+        "subject": "Interim Dividend - Rs 2 Per Share",
+        "lastPrice": null,
+        "previousDayVolume": null
       },
       {
-        "symbol": "SOMANYCERA",
-        "company": "Somany Ceramics Limited",
-        "dividend": 2.0,
-        "exDate": "2026-08-05",
-        "subject": "Dividend - Rs 2 Per Share",
-        "lastPrice": 506.15,
-        "previousDayVolume": 75092
+        "symbol": "INVPRECQ",
+        "company": "Investment & Precision Castings Limited",
+        "dividend": 1.0,
+        "exDate": "2026-08-06",
+        "subject": "Dividend - Re 1 Per Sh",
+        "lastPrice": null,
+        "previousDayVolume": null
       },
       {
-        "symbol": "ANUHPHR",
-        "company": "Anuh Pharma Limited",
-        "dividend": 1.5,
-        "exDate": "2026-08-05",
-        "subject": "Dividend - Rs 1.50 Per Share",
-        "lastPrice": 80.5,
-        "previousDayVolume": 36717
+        "symbol": "MINDTECK",
+        "company": "Mindteck (India) Limited",
+        "dividend": 1.0,
+        "exDate": "2026-08-06",
+        "subject": "Dividend - Re 1 Per Share",
+        "lastPrice": 191.06,
+        "previousDayVolume": 56257
       },
       {
-        "symbol": "SHREYANIND",
-        "company": "Shreyans Industries Limited",
-        "dividend": 1.5,
-        "exDate": "2026-08-05",
-        "subject": "Dividend - Rs 1.50 Per Share",
-        "lastPrice": 142,
-        "previousDayVolume": 1192
+        "symbol": "BHARATGEAR",
+        "company": "Bharat Gears Limited",
+        "dividend": 1.0,
+        "exDate": "2026-08-06",
+        "subject": "Dividend - Re 1 Per Share",
+        "lastPrice": null,
+        "previousDayVolume": null
       },
       {
-        "symbol": "TDPOWERSYS",
-        "company": "TD Power Systems Limited",
-        "dividend": 1.1,
-        "exDate": "2026-08-05",
-        "subject": "Dividend - Rs 1.10 Per Share",
-        "lastPrice": 1128.8,
-        "previousDayVolume": 647536
-      },
-      {
-        "symbol": "ADFFOODS",
-        "company": "ADF Foods Limited",
-        "dividend": 0.6,
-        "exDate": "2026-08-05",
-        "subject": "Dividend - Re 0.60 Per Share",
-        "lastPrice": 271.1,
-        "previousDayVolume": 107407
-      },
-      {
-        "symbol": "OAL",
-        "company": "Oriental Aromatics Limited",
+        "symbol": "INFOBEAN",
+        "company": "InfoBeans Technologies Limited",
         "dividend": 0.5,
-        "exDate": "2026-08-05",
-        "subject": "Dividend - Re 0.50 Per Share",
-        "lastPrice": 380.05,
-        "previousDayVolume": 16843
-      },
-      {
-        "symbol": "IRB",
-        "company": "IRB Infrastructure Developers Limited",
-        "dividend": 0.05,
-        "exDate": "2026-08-05",
-        "subject": "Interim Dividend - Re 0.05 Per Share",
-        "lastPrice": 20.14,
-        "previousDayVolume": 4606262
+        "exDate": "2026-08-06",
+        "subject": "Dividend - Re 0.50 Per Share & Special Dividend - Re 0.50 Per Share",
+        "lastPrice": 168.8,
+        "previousDayVolume": 206054
       }
     ]
   },
   "tomorrow": {
-    "date": "2026-08-06",
-    "stocks": []
+    "date": "2026-08-07",
+    "stocks": [
+      {
+        "symbol": "MARUTI",
+        "company": "Maruti Suzuki India Limited",
+        "dividend": 140.0,
+        "exDate": "2026-08-07",
+        "subject": "Dividend - Rs 140 Per Share",
+        "lastPrice": 14190,
+        "previousDayVolume": 312540
+      },
+      {
+        "symbol": "UBL",
+        "company": "United Breweries Limited",
+        "dividend": 10.0,
+        "exDate": "2026-08-07",
+        "subject": "Dividend - Rs 10 Per Share",
+        "lastPrice": 1390.6,
+        "previousDayVolume": 131535
+      },
+      {
+        "symbol": "GRASIM",
+        "company": "Grasim Industries Limited",
+        "dividend": 10.0,
+        "exDate": "2026-08-07",
+        "subject": "Dividend - Rs 10 Per Share",
+        "lastPrice": 3224,
+        "previousDayVolume": 692531
+      },
+      {
+        "symbol": "IPCALAB",
+        "company": "IPCA Laboratories Limited",
+        "dividend": 6.0,
+        "exDate": "2026-08-07",
+        "subject": "Dividend - Rs 6 Per Share",
+        "lastPrice": 1778,
+        "previousDayVolume": 290079
+      },
+      {
+        "symbol": "JAYAGROGN",
+        "company": "Jayant Agro Organics Limited",
+        "dividend": 3.5,
+        "exDate": "2026-08-07",
+        "subject": "Dividend - Rs 3.50 Per Share",
+        "lastPrice": 222.7,
+        "previousDayVolume": 8355
+      },
+      {
+        "symbol": "MUKANDLTD",
+        "company": "Mukand Limited",
+        "dividend": 2.0,
+        "exDate": "2026-08-07",
+        "subject": "Dividend - Rs 2 Per Share & Special Dividend Re 1 Per Share",
+        "lastPrice": 141.61,
+        "previousDayVolume": 90657
+      }
+    ]
   },
   "dayAfter": {
-    "date": "2026-08-07",
+    "date": "2026-08-08",
     "stocks": []
   }
 }
