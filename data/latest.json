@@ -1,14 +1,10 @@
 {
-  "generatedAt": "08-Aug-2026 05:28 AM IST",
+  "generatedAt": "09-Aug-2026 05:24 AM IST",
   "today": {
-    "date": "2026-08-08",
-    "stocks": []
-  },
-  "tomorrow": {
     "date": "2026-08-09",
     "stocks": []
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-08-10",
     "stocks": [
       {
@@ -91,6 +87,101 @@
         "subject": "Dividend - Re 0.45 Per Share",
         "lastPrice": 72.5,
         "previousDayVolume": 41803
+      }
+    ]
+  },
+  "dayAfter": {
+    "date": "2026-08-11",
+    "stocks": [
+      {
+        "symbol": "GODFRYPHLP",
+        "company": "Godfrey Phillips India Limited",
+        "dividend": 33.0,
+        "exDate": "2026-08-11",
+        "subject": "Dividend - Rs 33 Per Sh",
+        "lastPrice": 2286,
+        "previousDayVolume": 232091
+      },
+      {
+        "symbol": "KIRLOSIND",
+        "company": "Kirloskar Industries Limited",
+        "dividend": 13.0,
+        "exDate": "2026-08-11",
+        "subject": "Dividend - Rs 13 Per Share",
+        "lastPrice": 3758,
+        "previousDayVolume": 4090
+      },
+      {
+        "symbol": "RATNAMANI",
+        "company": "Ratnamani Metals & Tubes Limited",
+        "dividend": 10.0,
+        "exDate": "2026-08-11",
+        "subject": "Dividend - Rs 10 Per Share",
+        "lastPrice": 2190,
+        "previousDayVolume": 333715
+      },
+      {
+        "symbol": "CASTROLIND",
+        "company": "Castrol India Limited",
+        "dividend": 6.25,
+        "exDate": "2026-08-11",
+        "subject": "Interim Dividend - Rs 6.25 Per Share",
+        "lastPrice": 192.11,
+        "previousDayVolume": 3122432
+      },
+      {
+        "symbol": "CHAMBLFERT",
+        "company": "Chambal Fertilizers & Chemicals Limited",
+        "dividend": 6.0,
+        "exDate": "2026-08-11",
+        "subject": "Dividend - Rs 6 Per Share",
+        "lastPrice": 451.5,
+        "previousDayVolume": 300321
+      },
+      {
+        "symbol": "TAINWALCHM",
+        "company": "Tainwala Chemical and Plastic (I) Limited",
+        "dividend": 3.0,
+        "exDate": "2026-08-11",
+        "subject": "Interim Dividend - Rs 3 Per Share",
+        "lastPrice": 206,
+        "previousDayVolume": 4292
+      },
+      {
+        "symbol": "KOPRAN",
+        "company": "Kopran Limited",
+        "dividend": 3.0,
+        "exDate": "2026-08-11",
+        "subject": "Dividend - Rs 3 Per Share",
+        "lastPrice": null,
+        "previousDayVolume": null
+      },
+      {
+        "symbol": "DVL",
+        "company": "Dhunseri Ventures Limited",
+        "dividend": 1.5,
+        "exDate": "2026-08-11",
+        "subject": "Dividend - Rs 1.50 Per Share",
+        "lastPrice": 266.87,
+        "previousDayVolume": 25884
+      },
+      {
+        "symbol": "SYMPHONY",
+        "company": "Symphony Limited",
+        "dividend": 1.0,
+        "exDate": "2026-08-11",
+        "subject": "Interim Dividend - Re 1  Per Share",
+        "lastPrice": 652,
+        "previousDayVolume": 45198
+      },
+      {
+        "symbol": "SIL",
+        "company": "Standard Industries Limited",
+        "dividend": 0.25,
+        "exDate": "2026-08-11",
+        "subject": "Dividend - Re 0.25 Per Share",
+        "lastPrice": 17.16,
+        "previousDayVolume": 34030
       }
     ]
   }
