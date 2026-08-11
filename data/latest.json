@@ -1,92 +1,6 @@
 {
-  "generatedAt": "10-Aug-2026 05:27 AM IST",
+  "generatedAt": "11-Aug-2026 05:30 AM IST",
   "today": {
-    "date": "2026-08-10",
-    "stocks": [
-      {
-        "symbol": "MAJESAUT",
-        "company": "Majestic Auto Limited",
-        "dividend": 25.0,
-        "exDate": "2026-08-10",
-        "subject": "Dividend - Rs 25 Per Share",
-        "lastPrice": null,
-        "previousDayVolume": null
-      },
-      {
-        "symbol": "PTC",
-        "company": "PTC India Limited",
-        "dividend": 23.0,
-        "exDate": "2026-08-10",
-        "subject": "Interim Dividend - Rs 23 Per Share",
-        "lastPrice": 202.8,
-        "previousDayVolume": 12883295
-      },
-      {
-        "symbol": "STYRENIX",
-        "company": "Styrenix Performance Materials Limited",
-        "dividend": 23.0,
-        "exDate": "2026-08-10",
-        "subject": "Interim Dividend - Rs 23 Per Share",
-        "lastPrice": 2255,
-        "previousDayVolume": 70445
-      },
-      {
-        "symbol": "INDUSTOWER",
-        "company": "Indus Towers Limited",
-        "dividend": 14.0,
-        "exDate": "2026-08-10",
-        "subject": "Dividend - Rs 14 Per Share",
-        "lastPrice": 386,
-        "previousDayVolume": 3442481
-      },
-      {
-        "symbol": "WSTCSTPAPR",
-        "company": "West Coast Paper Mills Limited",
-        "dividend": 3.0,
-        "exDate": "2026-08-10",
-        "subject": "Dividend - Rs 3 Per Share",
-        "lastPrice": 599,
-        "previousDayVolume": 129197
-      },
-      {
-        "symbol": "RITES",
-        "company": "RITES Limited",
-        "dividend": 1.4,
-        "exDate": "2026-08-10",
-        "subject": "Interim Dividend - Rs 1.40 Per Share",
-        "lastPrice": 234.15,
-        "previousDayVolume": 1536756
-      },
-      {
-        "symbol": "CMPDI",
-        "company": "Central Mine Planning & Design Institute Limited",
-        "dividend": 1.06,
-        "exDate": "2026-08-10",
-        "subject": "Dividend - Rs 1.06 Per Share",
-        "lastPrice": 249,
-        "previousDayVolume": 2643553
-      },
-      {
-        "symbol": "JIOFIN",
-        "company": "Jio Financial Services Limited",
-        "dividend": 0.6,
-        "exDate": "2026-08-10",
-        "subject": "Dividend - Rs 0.60 Per Share",
-        "lastPrice": 256.8,
-        "previousDayVolume": 10858220
-      },
-      {
-        "symbol": "AVTNPL",
-        "company": "AVT Natural Products Limited",
-        "dividend": 0.45,
-        "exDate": "2026-08-10",
-        "subject": "Dividend - Re 0.45 Per Share",
-        "lastPrice": 72.5,
-        "previousDayVolume": 41803
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-08-11",
     "stocks": [
       {
@@ -95,8 +9,17 @@
         "dividend": 33.0,
         "exDate": "2026-08-11",
         "subject": "Dividend - Rs 33 Per Sh",
-        "lastPrice": 2286,
-        "previousDayVolume": 232091
+        "lastPrice": 2289,
+        "previousDayVolume": 176163
+      },
+      {
+        "symbol": "GLAND",
+        "company": "Gland Pharma Limited",
+        "dividend": 20.0,
+        "exDate": "2026-08-11",
+        "subject": "Dividend - Rs 20 Per Sh",
+        "lastPrice": 2670,
+        "previousDayVolume": 720772
       },
       {
         "symbol": "KIRLOSIND",
@@ -104,8 +27,8 @@
         "dividend": 13.0,
         "exDate": "2026-08-11",
         "subject": "Dividend - Rs 13 Per Share",
-        "lastPrice": 3758,
-        "previousDayVolume": 4090
+        "lastPrice": 3790,
+        "previousDayVolume": 3168
       },
       {
         "symbol": "RATNAMANI",
@@ -113,8 +36,8 @@
         "dividend": 10.0,
         "exDate": "2026-08-11",
         "subject": "Dividend - Rs 10 Per Share",
-        "lastPrice": 2190,
-        "previousDayVolume": 333715
+        "lastPrice": 2272,
+        "previousDayVolume": 250388
       },
       {
         "symbol": "CASTROLIND",
@@ -122,8 +45,8 @@
         "dividend": 6.25,
         "exDate": "2026-08-11",
         "subject": "Interim Dividend - Rs 6.25 Per Share",
-        "lastPrice": 192.11,
-        "previousDayVolume": 3122432
+        "lastPrice": 193.29,
+        "previousDayVolume": 6485229
       },
       {
         "symbol": "CHAMBLFERT",
@@ -131,8 +54,17 @@
         "dividend": 6.0,
         "exDate": "2026-08-11",
         "subject": "Dividend - Rs 6 Per Share",
-        "lastPrice": 451.5,
-        "previousDayVolume": 300321
+        "lastPrice": 451.65,
+        "previousDayVolume": 308104
+      },
+      {
+        "symbol": "SUDARSCHEM",
+        "company": "Sudarshan Chemical Industries Limited",
+        "dividend": 5.0,
+        "exDate": "2026-08-11",
+        "subject": "Dividend - Rs 5 Per Share",
+        "lastPrice": 1124,
+        "previousDayVolume": 219137
       },
       {
         "symbol": "TAINWALCHM",
@@ -140,8 +72,8 @@
         "dividend": 3.0,
         "exDate": "2026-08-11",
         "subject": "Interim Dividend - Rs 3 Per Share",
-        "lastPrice": 206,
-        "previousDayVolume": 4292
+        "lastPrice": 203.1,
+        "previousDayVolume": 3919
       },
       {
         "symbol": "KOPRAN",
@@ -158,8 +90,17 @@
         "dividend": 1.5,
         "exDate": "2026-08-11",
         "subject": "Dividend - Rs 1.50 Per Share",
-        "lastPrice": 266.87,
-        "previousDayVolume": 25884
+        "lastPrice": 283.65,
+        "previousDayVolume": 433393
+      },
+      {
+        "symbol": "GATEWAY",
+        "company": "Gateway Distriparks Limited",
+        "dividend": 1.25,
+        "exDate": "2026-08-11",
+        "subject": "Interim Dividend - Rs 1.25 Per Share",
+        "lastPrice": 58,
+        "previousDayVolume": 2214465
       },
       {
         "symbol": "SYMPHONY",
@@ -167,8 +108,8 @@
         "dividend": 1.0,
         "exDate": "2026-08-11",
         "subject": "Interim Dividend - Re 1  Per Share",
-        "lastPrice": 652,
-        "previousDayVolume": 45198
+        "lastPrice": 645.9,
+        "previousDayVolume": 58188
       },
       {
         "symbol": "SIL",
@@ -176,13 +117,81 @@
         "dividend": 0.25,
         "exDate": "2026-08-11",
         "subject": "Dividend - Re 0.25 Per Share",
-        "lastPrice": 17.16,
-        "previousDayVolume": 34030
+        "lastPrice": 19,
+        "previousDayVolume": 695301
+      }
+    ]
+  },
+  "tomorrow": {
+    "date": "2026-08-12",
+    "stocks": [
+      {
+        "symbol": "KPITTECH",
+        "company": "KPIT Technologies Limited",
+        "dividend": 5.25,
+        "exDate": "2026-08-12",
+        "subject": "Dividend - Rs 5.25 Per Share",
+        "lastPrice": 627.9,
+        "previousDayVolume": 1469093
+      },
+      {
+        "symbol": "GABRIEL",
+        "company": "Gabriel India Limited",
+        "dividend": 3.1,
+        "exDate": "2026-08-12",
+        "subject": "Dividend - Rs 3.10 Per Share",
+        "lastPrice": 1463,
+        "previousDayVolume": 257360
+      },
+      {
+        "symbol": "CAMS",
+        "company": "Computer Age Management Services Limited",
+        "dividend": 2.5,
+        "exDate": "2026-08-12",
+        "subject": "Interim Dividend - Rs 2.50 Per Share",
+        "lastPrice": 789.45,
+        "previousDayVolume": 1528991
+      },
+      {
+        "symbol": "HGINFRA",
+        "company": "H.G. Infra Engineering Limited",
+        "dividend": 2.0,
+        "exDate": "2026-08-12",
+        "subject": "Dividend - Rs 2 Per Share",
+        "lastPrice": 554.2,
+        "previousDayVolume": 39765
+      },
+      {
+        "symbol": "VAIBHAVGBL",
+        "company": "Vaibhav Global Limited",
+        "dividend": 1.5,
+        "exDate": "2026-08-12",
+        "subject": "Interim Dividend - Rs 1.50 Per Share",
+        "lastPrice": 239.85,
+        "previousDayVolume": 488424
+      },
+      {
+        "symbol": "KCP",
+        "company": "KCP Limited",
+        "dividend": 0.5,
+        "exDate": "2026-08-12",
+        "subject": "Interim Dividend - Re 0.50 Per Share",
+        "lastPrice": 152.05,
+        "previousDayVolume": 244842
+      },
+      {
+        "symbol": "NHPC",
+        "company": "NHPC Limited",
+        "dividend": 0.21,
+        "exDate": "2026-08-12",
+        "subject": "Dividend - Re 0.21 Per Sh",
+        "lastPrice": 77.2,
+        "previousDayVolume": 6092987
       }
     ]
   },
   "dayAfter": {
-    "date": "2026-08-12",
+    "date": "2026-08-13",
     "stocks": []
   }
 }
