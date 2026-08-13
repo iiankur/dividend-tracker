@@ -1,129 +1,25 @@
 {
-  "generatedAt": "12-Aug-2026 05:36 AM IST",
+  "generatedAt": "13-Aug-2026 05:37 AM IST",
   "today": {
-    "date": "2026-08-12",
-    "stocks": [
-      {
-        "symbol": "INDPRUD",
-        "company": "Industrial & Prudential Investment Company Limited",
-        "dividend": 120.0,
-        "exDate": "2026-08-12",
-        "subject": "Dividend - Rs 120 Per Share",
-        "lastPrice": 6479,
-        "previousDayVolume": 726
-      },
-      {
-        "symbol": "NEAGI",
-        "company": "Neelamalai Agro Industries Limited",
-        "dividend": 20.0,
-        "exDate": "2026-08-12",
-        "subject": "Dividend - Rs 20 Per Share",
-        "lastPrice": 3072,
-        "previousDayVolume": 220
-      },
-      {
-        "symbol": "UNIPARTS",
-        "company": "Uniparts India Limited",
-        "dividend": 9.0,
-        "exDate": "2026-08-12",
-        "subject": "Interim Dividend - Rs 9 Per Share",
-        "lastPrice": 807.3,
-        "previousDayVolume": 183796
-      },
-      {
-        "symbol": "KPITTECH",
-        "company": "KPIT Technologies Limited",
-        "dividend": 5.25,
-        "exDate": "2026-08-12",
-        "subject": "Dividend - Rs 5.25 Per Share",
-        "lastPrice": 627,
-        "previousDayVolume": 1460797
-      },
-      {
-        "symbol": "GABRIEL",
-        "company": "Gabriel India Limited",
-        "dividend": 3.1,
-        "exDate": "2026-08-12",
-        "subject": "Dividend - Rs 3.10 Per Share",
-        "lastPrice": 1505.5,
-        "previousDayVolume": 280027
-      },
-      {
-        "symbol": "CAMS",
-        "company": "Computer Age Management Services Limited",
-        "dividend": 2.5,
-        "exDate": "2026-08-12",
-        "subject": "Interim Dividend - Rs 2.50 Per Share",
-        "lastPrice": 788,
-        "previousDayVolume": 681139
-      },
-      {
-        "symbol": "HGINFRA",
-        "company": "H.G. Infra Engineering Limited",
-        "dividend": 2.0,
-        "exDate": "2026-08-12",
-        "subject": "Dividend - Rs 2 Per Share",
-        "lastPrice": 548.6,
-        "previousDayVolume": 38059
-      },
-      {
-        "symbol": "DTIL",
-        "company": "Dhunseri Tea & Industries Limited",
-        "dividend": 2.0,
-        "exDate": "2026-08-12",
-        "subject": "Dividend - Rs 2 Per Share",
-        "lastPrice": 139.65,
-        "previousDayVolume": 9535
-      },
-      {
-        "symbol": "VAIBHAVGBL",
-        "company": "Vaibhav Global Limited",
-        "dividend": 1.5,
-        "exDate": "2026-08-12",
-        "subject": "Interim Dividend - Rs 1.50 Per Share",
-        "lastPrice": 237.5,
-        "previousDayVolume": 207796
-      },
-      {
-        "symbol": "KCP",
-        "company": "KCP Limited",
-        "dividend": 0.5,
-        "exDate": "2026-08-12",
-        "subject": "Interim Dividend - Re 0.50 Per Share",
-        "lastPrice": 153.5,
-        "previousDayVolume": 176252
-      },
-      {
-        "symbol": "SANDUMA",
-        "company": "Sandur Manganese & Iron Ores Limited",
-        "dividend": 0.5,
-        "exDate": "2026-08-12",
-        "subject": "Dividend - Rs 0.50 Per Share",
-        "lastPrice": 204.89,
-        "previousDayVolume": 332474
-      },
-      {
-        "symbol": "NHPC",
-        "company": "NHPC Limited",
-        "dividend": 0.21,
-        "exDate": "2026-08-12",
-        "subject": "Dividend - Re 0.21 Per Sh",
-        "lastPrice": 76.95,
-        "previousDayVolume": 6122300
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-08-13",
     "stocks": [
+      {
+        "symbol": "CENTENKA",
+        "company": "Century Enka Limited",
+        "dividend": 11.0,
+        "exDate": "2026-08-13",
+        "subject": "Dividend - Rs 11 Per Share",
+        "lastPrice": 602.1,
+        "previousDayVolume": 87960
+      },
       {
         "symbol": "GODREJCP",
         "company": "Godrej Consumer Products Limited",
         "dividend": 5.0,
         "exDate": "2026-08-13",
         "subject": "Interim Dividend - Rs 5 Per Share",
-        "lastPrice": 1025,
-        "previousDayVolume": 920192
+        "lastPrice": 910,
+        "previousDayVolume": 22527411
       },
       {
         "symbol": "PRECOT",
@@ -131,8 +27,8 @@
         "dividend": 4.0,
         "exDate": "2026-08-13",
         "subject": "Dividend - Rs 4 Per Share",
-        "lastPrice": 790,
-        "previousDayVolume": 1900
+        "lastPrice": 799.75,
+        "previousDayVolume": 2217
       },
       {
         "symbol": "USHAMART",
@@ -140,8 +36,53 @@
         "dividend": 3.75,
         "exDate": "2026-08-13",
         "subject": "Dividend - Rs 3.75 Per Share",
-        "lastPrice": 511.85,
-        "previousDayVolume": 233948
+        "lastPrice": 501.4,
+        "previousDayVolume": 415137
+      },
+      {
+        "symbol": "DHUNINV",
+        "company": "Dhunseri Investments Limited",
+        "dividend": 3.0,
+        "exDate": "2026-08-13",
+        "subject": "Dividend - Rs 3 Per Share",
+        "lastPrice": 980,
+        "previousDayVolume": 1935
+      },
+      {
+        "symbol": "NDGL",
+        "company": "Naga Dhunseri Group Limited",
+        "dividend": 2.5,
+        "exDate": "2026-08-13",
+        "subject": "Dividend - Rs 2.50 Per Share",
+        "lastPrice": 2850,
+        "previousDayVolume": 872
+      },
+      {
+        "symbol": "RAMCOCEM",
+        "company": "The Ramco Cements Limited",
+        "dividend": 2.5,
+        "exDate": "2026-08-13",
+        "subject": "Dividend - Rs 2.50 Per Share",
+        "lastPrice": 919,
+        "previousDayVolume": 210443
+      },
+      {
+        "symbol": "PRESTIGE",
+        "company": "Prestige Estates Projects Limited",
+        "dividend": 2.0,
+        "exDate": "2026-08-13",
+        "subject": "Dividend - Rs 2 Per Share",
+        "lastPrice": 1590.7,
+        "previousDayVolume": 221177
+      },
+      {
+        "symbol": "RAILTEL",
+        "company": "Railtel Corporation Of India Limited",
+        "dividend": 1.25,
+        "exDate": "2026-08-13",
+        "subject": "Dividend - Rs 1.25 Per Share",
+        "lastPrice": 286,
+        "previousDayVolume": 309175
       },
       {
         "symbol": "POWERGRID",
@@ -149,8 +90,8 @@
         "dividend": 1.25,
         "exDate": "2026-08-13",
         "subject": "Dividend - Rs 1.25 Per Share",
-        "lastPrice": 267.95,
-        "previousDayVolume": 7553241
+        "lastPrice": 269.45,
+        "previousDayVolume": 6699919
       },
       {
         "symbol": "RAMCOIND",
@@ -158,8 +99,26 @@
         "dividend": 1.25,
         "exDate": "2026-08-13",
         "subject": "Dividend - Rs 1.25 Per Share",
-        "lastPrice": 370,
-        "previousDayVolume": 2586362
+        "lastPrice": 358,
+        "previousDayVolume": 700935
+      },
+      {
+        "symbol": "NEOGEN",
+        "company": "Neogen Chemicals Limited",
+        "dividend": 1.0,
+        "exDate": "2026-08-13",
+        "subject": "Dividend - Re 1 Per Share",
+        "lastPrice": 2080,
+        "previousDayVolume": 139950
+      },
+      {
+        "symbol": "VISAKAIND",
+        "company": "Visaka Industries Limited",
+        "dividend": 1.0,
+        "exDate": "2026-08-13",
+        "subject": "Interim Dividend - Re 1 Per Share",
+        "lastPrice": 99.1,
+        "previousDayVolume": 498772
       },
       {
         "symbol": "BEL",
@@ -167,8 +126,17 @@
         "dividend": 0.55,
         "exDate": "2026-08-13",
         "subject": "Dividend - Re 0.55 Per Share",
-        "lastPrice": 405.85,
-        "previousDayVolume": 6803132
+        "lastPrice": 405.7,
+        "previousDayVolume": 13125672
+      },
+      {
+        "symbol": "AWHCL",
+        "company": "Antony Waste Handling Cell Limited",
+        "dividend": 0.5,
+        "exDate": "2026-08-13",
+        "subject": "Dividend - Re 0.50 Per Share",
+        "lastPrice": 391,
+        "previousDayVolume": 142056
       },
       {
         "symbol": "SOUTHBANK",
@@ -176,13 +144,36 @@
         "dividend": 0.45,
         "exDate": "2026-08-13",
         "subject": "Dividend - Re 0.45 Per Share",
-        "lastPrice": 45.78,
-        "previousDayVolume": 6729091
+        "lastPrice": 46.26,
+        "previousDayVolume": 6627720
+      }
+    ]
+  },
+  "tomorrow": {
+    "date": "2026-08-14",
+    "stocks": [
+      {
+        "symbol": "HINDPETRO",
+        "company": "Hindustan Petroleum Corporation Limited",
+        "dividend": 19.25,
+        "exDate": "2026-08-14",
+        "subject": "Dividend - Rs 19.25 Per Share",
+        "lastPrice": 390,
+        "previousDayVolume": 10513694
+      },
+      {
+        "symbol": "FEDERALBNK",
+        "company": "The Federal Bank  Limited",
+        "dividend": 1.2,
+        "exDate": "2026-08-14",
+        "subject": "Dividend - Rs 1.20 Per Share",
+        "lastPrice": 356.85,
+        "previousDayVolume": 3369817
       }
     ]
   },
   "dayAfter": {
-    "date": "2026-08-14",
+    "date": "2026-08-15",
     "stocks": []
   }
 }
