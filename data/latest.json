@@ -1,196 +1,124 @@
 {
-  "generatedAt": "14-Aug-2026 05:37 AM IST",
+  "generatedAt": "15-Aug-2026 05:17 AM IST",
   "today": {
-    "date": "2026-08-14",
-    "stocks": [
-      {
-        "symbol": "HINDPETRO",
-        "company": "Hindustan Petroleum Corporation Limited",
-        "dividend": 19.25,
-        "exDate": "2026-08-14",
-        "subject": "Dividend - Rs 19.25 Per Share",
-        "lastPrice": 392.9,
-        "previousDayVolume": 9450914
-      },
-      {
-        "symbol": "KICL",
-        "company": "Kalyani Investment Company Limited",
-        "dividend": 10.0,
-        "exDate": "2026-08-14",
-        "subject": "Dividend - Rs 10 Per Share",
-        "lastPrice": 5541.5,
-        "previousDayVolume": 3914
-      },
-      {
-        "symbol": "APOLLOHOSP",
-        "company": "Apollo Hospitals Enterprise Limited",
-        "dividend": 10.0,
-        "exDate": "2026-08-14",
-        "subject": "Dividend - Rs 10 Per Sh",
-        "lastPrice": 8600,
-        "previousDayVolume": 796882
-      },
-      {
-        "symbol": "SANDESH",
-        "company": "The Sandesh Limited",
-        "dividend": 5.0,
-        "exDate": "2026-08-14",
-        "subject": "Dividend - Rs 5 Per Share",
-        "lastPrice": 1072,
-        "previousDayVolume": 1869
-      },
-      {
-        "symbol": "DYNAMATECH",
-        "company": "Dynamatic Technologies Limited",
-        "dividend": 3.0,
-        "exDate": "2026-08-14",
-        "subject": "Interim Dividend - Rs 3 Per Share",
-        "lastPrice": 10814,
-        "previousDayVolume": 19687
-      },
-      {
-        "symbol": "ASTRAL",
-        "company": "Astral Limited",
-        "dividend": 2.5,
-        "exDate": "2026-08-14",
-        "subject": "Dividend - Rs 2.50 Per Share",
-        "lastPrice": 1592,
-        "previousDayVolume": 12371579
-      },
-      {
-        "symbol": "NCC",
-        "company": "NCC Limited",
-        "dividend": 2.2,
-        "exDate": "2026-08-14",
-        "subject": "Dividend - Rs 2.20 Per Share",
-        "lastPrice": 144.95,
-        "previousDayVolume": 723874
-      },
-      {
-        "symbol": "XCHANGING",
-        "company": "Xchanging Solutions Limited",
-        "dividend": 2.0,
-        "exDate": "2026-08-14",
-        "subject": "Dividend - Rs 2 Per Share",
-        "lastPrice": 66.11,
-        "previousDayVolume": 414051
-      },
-      {
-        "symbol": "SARDAEN",
-        "company": "Sarda Energy & Minerals Limited",
-        "dividend": 2.0,
-        "exDate": "2026-08-14",
-        "subject": "Dividend - Rs 2  Per Share",
-        "lastPrice": 518.75,
-        "previousDayVolume": 23546092
-      },
-      {
-        "symbol": "SANGHVIMOV",
-        "company": "Sanghvi Movers Limited",
-        "dividend": 2.0,
-        "exDate": "2026-08-14",
-        "subject": "Dividend - Rs 2 Per Share",
-        "lastPrice": 498,
-        "previousDayVolume": 189209
-      },
-      {
-        "symbol": "RECLTD",
-        "company": "REC Limited",
-        "dividend": 1.55,
-        "exDate": "2026-08-14",
-        "subject": "Dividend - Rs 1.55 Per Share",
-        "lastPrice": 346.5,
-        "previousDayVolume": 8279525
-      },
-      {
-        "symbol": "MANGLMCEM",
-        "company": "Mangalam Cement Limited",
-        "dividend": 1.5,
-        "exDate": "2026-08-14",
-        "subject": "Dividend - Rs 1.50 Per Share",
-        "lastPrice": 902.2,
-        "previousDayVolume": 10250
-      },
-      {
-        "symbol": "SONATSOFTW",
-        "company": "Sonata Software Limited",
-        "dividend": 1.25,
-        "exDate": "2026-08-14",
-        "subject": "Interim Dividend - Rs 1.25 Per Share",
-        "lastPrice": 326.15,
-        "previousDayVolume": 623653
-      },
-      {
-        "symbol": "FEDERALBNK",
-        "company": "The Federal Bank  Limited",
-        "dividend": 1.2,
-        "exDate": "2026-08-14",
-        "subject": "Dividend - Rs 1.20 Per Share",
-        "lastPrice": 352.45,
-        "previousDayVolume": 2690529
-      },
-      {
-        "symbol": "GPIL",
-        "company": "Godawari Power And Ispat limited",
-        "dividend": 1.0,
-        "exDate": "2026-08-14",
-        "subject": "Dividend - Re 1 Per Share",
-        "lastPrice": 243.4,
-        "previousDayVolume": 7876082
-      },
-      {
-        "symbol": "ALKALI",
-        "company": "Alkali Metals Limited",
-        "dividend": 1.0,
-        "exDate": "2026-08-14",
-        "subject": "Dividend - Re 1 Per Share",
-        "lastPrice": null,
-        "previousDayVolume": null
-      },
-      {
-        "symbol": "ELECTCAST",
-        "company": "Electrosteel Castings Limited",
-        "dividend": 0.9,
-        "exDate": "2026-08-14",
-        "subject": "Dividend - Re 0.90 Per Share",
-        "lastPrice": 73.1,
-        "previousDayVolume": 517516
-      },
-      {
-        "symbol": "MINDACORP",
-        "company": "Minda Corporation Limited",
-        "dividend": 0.8,
-        "exDate": "2026-08-14",
-        "subject": "Dividend - Re 0.80 Per Share",
-        "lastPrice": 711,
-        "previousDayVolume": 2856496
-      },
-      {
-        "symbol": "TFCILTD",
-        "company": "Tourism Finance Corporation of India Limited",
-        "dividend": 0.6,
-        "exDate": "2026-08-14",
-        "subject": "Dividend - Re 0.60 Per Share",
-        "lastPrice": 115.4,
-        "previousDayVolume": 12274010
-      },
-      {
-        "symbol": "RESPONIND",
-        "company": "Responsive Industries Limited",
-        "dividend": 0.1,
-        "exDate": "2026-08-14",
-        "subject": "Dividend - Re 0.10 Per Share",
-        "lastPrice": 170.16,
-        "previousDayVolume": 74357
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-08-15",
     "stocks": []
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-08-16",
     "stocks": []
+  },
+  "dayAfter": {
+    "date": "2026-08-17",
+    "stocks": [
+      {
+        "symbol": "SKFINDUS",
+        "company": "SKF India (Industrial) Limited",
+        "dividend": 20.0,
+        "exDate": "2026-08-17",
+        "subject": "Interim Dividend - Rs 20 Per Share",
+        "lastPrice": 2684.5,
+        "previousDayVolume": 18899
+      },
+      {
+        "symbol": "PLASTIBLEN",
+        "company": "Plastiblends India Limited",
+        "dividend": 3.0,
+        "exDate": "2026-08-17",
+        "subject": "Dividend - Rs 3 Per Share",
+        "lastPrice": 199.99,
+        "previousDayVolume": 44465
+      },
+      {
+        "symbol": "PANAMAPET",
+        "company": "Panama Petrochem Limited",
+        "dividend": 3.0,
+        "exDate": "2026-08-17",
+        "subject": "Dividend - Rs 3 Per Share",
+        "lastPrice": 483,
+        "previousDayVolume": 787943
+      },
+      {
+        "symbol": "BANDHANBNK",
+        "company": "Bandhan Bank Limited",
+        "dividend": 1.5,
+        "exDate": "2026-08-17",
+        "subject": "Dividend - Rs 1.50 Per Share",
+        "lastPrice": 174.55,
+        "previousDayVolume": 2509360
+      },
+      {
+        "symbol": "HUDCO",
+        "company": "Housing & Urban Development Corporation Limited",
+        "dividend": 1.5,
+        "exDate": "2026-08-17",
+        "subject": "Dividend - Rs 1.50 Per Share",
+        "lastPrice": 189.95,
+        "previousDayVolume": 3880141
+      },
+      {
+        "symbol": "ICIL",
+        "company": "Indo Count Industries Limited",
+        "dividend": 1.5,
+        "exDate": "2026-08-17",
+        "subject": "Dividend - Rs 1.50 Per Share",
+        "lastPrice": 379,
+        "previousDayVolume": 530561
+      },
+      {
+        "symbol": "HISARMETAL",
+        "company": "Hisar Metal Industries Limited",
+        "dividend": 1.0,
+        "exDate": "2026-08-17",
+        "subject": "Dividend - Re 1 Per Share",
+        "lastPrice": 149.35,
+        "previousDayVolume": 1967
+      },
+      {
+        "symbol": "MANAPPURAM",
+        "company": "Manappuram Finance Limited",
+        "dividend": 1.0,
+        "exDate": "2026-08-17",
+        "subject": "Interim Dividend - Re 1 Per Share",
+        "lastPrice": 349,
+        "previousDayVolume": 3722962
+      },
+      {
+        "symbol": "FABTECH",
+        "company": "Fabtech Technologies Limited",
+        "dividend": 0.6,
+        "exDate": "2026-08-17",
+        "subject": "Dividend - Re 0.60 Per Share",
+        "lastPrice": 147,
+        "previousDayVolume": 90677
+      },
+      {
+        "symbol": "DELTACORP",
+        "company": "Delta Corp Limited",
+        "dividend": 0.5,
+        "exDate": "2026-08-17",
+        "subject": "Dividend - Re 0.50 Per Share",
+        "lastPrice": 60.5,
+        "previousDayVolume": 452173
+      },
+      {
+        "symbol": "NBCC",
+        "company": "NBCC (India) Limited",
+        "dividend": 0.15,
+        "exDate": "2026-08-17",
+        "subject": "Interim Dividend - Re 0.15 Per Share",
+        "lastPrice": 89.15,
+        "previousDayVolume": 10143348
+      },
+      {
+        "symbol": "SILVERTUC",
+        "company": "Silver Touch Technologies Limited",
+        "dividend": 0.1,
+        "exDate": "2026-08-17",
+        "subject": "Dividend - Re 0.10 Per Share",
+        "lastPrice": 208.75,
+        "previousDayVolume": 593952
+      }
+    ]
   }
 }
