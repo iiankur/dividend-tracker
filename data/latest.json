@@ -1,14 +1,10 @@
 {
-  "generatedAt": "15-Aug-2026 05:17 AM IST",
+  "generatedAt": "16-Aug-2026 05:14 AM IST",
   "today": {
-    "date": "2026-08-15",
-    "stocks": []
-  },
-  "tomorrow": {
     "date": "2026-08-16",
     "stocks": []
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-08-17",
     "stocks": [
       {
@@ -118,6 +114,65 @@
         "subject": "Dividend - Re 0.10 Per Share",
         "lastPrice": 208.75,
         "previousDayVolume": 593952
+      }
+    ]
+  },
+  "dayAfter": {
+    "date": "2026-08-18",
+    "stocks": [
+      {
+        "symbol": "MGL",
+        "company": "Mahanagar Gas Limited",
+        "dividend": 18.0,
+        "exDate": "2026-08-18",
+        "subject": "Dividend - Rs 18 Per Share",
+        "lastPrice": 1140,
+        "previousDayVolume": 234621
+      },
+      {
+        "symbol": "SUNTV",
+        "company": "Sun TV Network Limited",
+        "dividend": 5.0,
+        "exDate": "2026-08-18",
+        "subject": "Interim Dividend - Rs 5 Per Share",
+        "lastPrice": 484.85,
+        "previousDayVolume": 326103
+      },
+      {
+        "symbol": "THEJO",
+        "company": "Thejo Engineering Limited",
+        "dividend": 5.0,
+        "exDate": "2026-08-18",
+        "subject": "Dividend - Rs 5 Per Share",
+        "lastPrice": 2099,
+        "previousDayVolume": 4614
+      },
+      {
+        "symbol": "JMA",
+        "company": "Jullundur Motor Agency (Delhi) Limited",
+        "dividend": 2.0,
+        "exDate": "2026-08-18",
+        "subject": "Dividend - Rs 2 Per Share & Special Dividend Re 1 Per Share",
+        "lastPrice": 87.7,
+        "previousDayVolume": 11199
+      },
+      {
+        "symbol": "RVNL",
+        "company": "Rail Vikas Nigam Limited",
+        "dividend": 0.71,
+        "exDate": "2026-08-18",
+        "subject": "Dividend - Re 0.71 Per Share",
+        "lastPrice": 227.35,
+        "previousDayVolume": 2580170
+      },
+      {
+        "symbol": "ROSSELLIND",
+        "company": "Rossell India Limited",
+        "dividend": 0.4,
+        "exDate": "2026-08-18",
+        "subject": "Dividend - Re 0.40 Per Share",
+        "lastPrice": 55.2,
+        "previousDayVolume": 18979
       }
     ]
   }
