@@ -1,129 +1,70 @@
 {
-  "generatedAt": "19-Aug-2026 05:16 AM IST",
+  "generatedAt": "20-Aug-2026 05:16 AM IST",
   "today": {
-    "date": "2026-08-19",
-    "stocks": [
-      {
-        "symbol": "PAGEIND",
-        "company": "Page Industries Limited",
-        "dividend": 200.0,
-        "exDate": "2026-08-19",
-        "subject": "Interim Dividend - Rs 200 Per Share",
-        "lastPrice": 36425,
-        "previousDayVolume": 46266
-      },
-      {
-        "symbol": "BATAINDIA",
-        "company": "Bata India Limited",
-        "dividend": 25.0,
-        "exDate": "2026-08-19",
-        "subject": "Interim Dividend - Rs 25 Per Share",
-        "lastPrice": 751,
-        "previousDayVolume": 592566
-      },
-      {
-        "symbol": "HONDAPOWER",
-        "company": "Honda India Power Products Limited",
-        "dividend": 23.0,
-        "exDate": "2026-08-19",
-        "subject": "Dividend - Rs 23 Per Share",
-        "lastPrice": 2116,
-        "previousDayVolume": 5719
-      },
-      {
-        "symbol": "LGBBROSLTD",
-        "company": "LG Balakrishnan & Bros Limited",
-        "dividend": 22.0,
-        "exDate": "2026-08-19",
-        "subject": "Dividend - Rs 22 Per Share",
-        "lastPrice": 1600.2,
-        "previousDayVolume": 14844
-      },
-      {
-        "symbol": "KOVAI",
-        "company": "Kovai Medical Center & Hospital Limited",
-        "dividend": 15.0,
-        "exDate": "2026-08-19",
-        "subject": "Dividend - Rs 15 Per Share",
-        "lastPrice": 6045,
-        "previousDayVolume": 3161
-      },
-      {
-        "symbol": "CESC",
-        "company": "CESC Limited",
-        "dividend": 6.0,
-        "exDate": "2026-08-19",
-        "subject": "Interim Dividend - Rs 6 Per Share",
-        "lastPrice": 168,
-        "previousDayVolume": 2555495
-      },
-      {
-        "symbol": "JKPAPER",
-        "company": "JK Paper Limited",
-        "dividend": 4.0,
-        "exDate": "2026-08-19",
-        "subject": "Dividend - Rs 4 Per Share",
-        "lastPrice": 385.15,
-        "previousDayVolume": 560909
-      },
-      {
-        "symbol": "TAMBOLIIN",
-        "company": "Tamboli Industries Limited",
-        "dividend": 1.2,
-        "exDate": "2026-08-19",
-        "subject": "Dividend - Rs 1.20 Per Share",
-        "lastPrice": null,
-        "previousDayVolume": null
-      },
-      {
-        "symbol": "JAYBARMARU",
-        "company": "Jay Bharat Maruti Limited",
-        "dividend": 0.7,
-        "exDate": "2026-08-19",
-        "subject": "Dividend - Re 0.70  Per Share",
-        "lastPrice": 130.5,
-        "previousDayVolume": 265179
-      },
-      {
-        "symbol": "FLAIR",
-        "company": "Flair Writing Industries Limited",
-        "dividend": 0.5,
-        "exDate": "2026-08-19",
-        "subject": "Dividend - Re 0.50 Per Share",
-        "lastPrice": 252,
-        "previousDayVolume": 181752
-      },
-      {
-        "symbol": "GULFPETRO",
-        "company": "GP Petroleums Limited",
-        "dividend": 0.5,
-        "exDate": "2026-08-19",
-        "subject": "Dividend - Re 0.50 Per Share",
-        "lastPrice": null,
-        "previousDayVolume": null
-      },
-      {
-        "symbol": "DSSL",
-        "company": "Dynacons Systems & Solutions Limited",
-        "dividend": 0.5,
-        "exDate": "2026-08-19",
-        "subject": "Interim Dividend - Re 0.50 Per Share",
-        "lastPrice": 1150,
-        "previousDayVolume": 32102
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-08-20",
     "stocks": [
+      {
+        "symbol": "KAMAHOLD",
+        "company": "Kama Holdings Limited",
+        "dividend": 22.25,
+        "exDate": "2026-08-20",
+        "subject": "Interim Dividend - Rs 22.25 Per Share",
+        "lastPrice": 2445,
+        "previousDayVolume": 3395
+      },
       {
         "symbol": "LAOPALA",
         "company": "La Opala RG Limited",
         "dividend": 5.0,
         "exDate": "2026-08-20",
         "subject": "Dividend - Rs 5 Per Share",
-        "lastPrice": 190,
-        "previousDayVolume": 213293
+        "lastPrice": 187.11,
+        "previousDayVolume": 204160
+      },
+      {
+        "symbol": "MAZDOCK",
+        "company": "Mazagon Dock Shipbuilders Limited",
+        "dividend": 4.62,
+        "exDate": "2026-08-20",
+        "subject": "Dividend - Rs 4.62 Per Share",
+        "lastPrice": 2563.8,
+        "previousDayVolume": 513343
+      },
+      {
+        "symbol": "NIITMTS",
+        "company": "NIIT Learning Systems Limited",
+        "dividend": 3.25,
+        "exDate": "2026-08-20",
+        "subject": "Dividend - Rs 3.25 Per Share",
+        "lastPrice": 235,
+        "previousDayVolume": 156811
+      },
+      {
+        "symbol": "KUANTUM",
+        "company": "Kuantum Papers Limited",
+        "dividend": 2.5,
+        "exDate": "2026-08-20",
+        "subject": "Dividend - Rs 2.50 Per Share",
+        "lastPrice": 78.15,
+        "previousDayVolume": 220108
+      },
+      {
+        "symbol": "OCCLLTD",
+        "company": "OCCL Limited",
+        "dividend": 1.8,
+        "exDate": "2026-08-20",
+        "subject": "Dividend - Rs 1.80 Per Share",
+        "lastPrice": null,
+        "previousDayVolume": null
+      },
+      {
+        "symbol": "DAICHI",
+        "company": "Dai-Ichi Karkaria Limited",
+        "dividend": 1.5,
+        "exDate": "2026-08-20",
+        "subject": "Dividend - Rs 1.50 Per Share",
+        "lastPrice": 315.35,
+        "previousDayVolume": 1802
       },
       {
         "symbol": "NATCOPHARM",
@@ -131,8 +72,8 @@
         "dividend": 1.5,
         "exDate": "2026-08-20",
         "subject": "Interim Dividend - Rs 1.50 Per Share",
-        "lastPrice": 900,
-        "previousDayVolume": 281134
+        "lastPrice": 885,
+        "previousDayVolume": 318070
       },
       {
         "symbol": "MUNJALAU",
@@ -140,13 +81,108 @@
         "dividend": 1.0,
         "exDate": "2026-08-20",
         "subject": "Dividend - Re 1 Per Share",
-        "lastPrice": 118.5,
-        "previousDayVolume": 2916371
+        "lastPrice": 114.46,
+        "previousDayVolume": 1483458
+      },
+      {
+        "symbol": "SUKHJITS",
+        "company": "Sukhjit Starch & Chemicals Limited",
+        "dividend": 1.0,
+        "exDate": "2026-08-20",
+        "subject": "Dividend - Re 1 Per Share",
+        "lastPrice": 156,
+        "previousDayVolume": 28414
+      },
+      {
+        "symbol": "NIITLTD",
+        "company": "NIIT Limited",
+        "dividend": 1.0,
+        "exDate": "2026-08-20",
+        "subject": "Dividend - Re 1 Per Share",
+        "lastPrice": 92.5,
+        "previousDayVolume": 307481
+      },
+      {
+        "symbol": "MARKSANS",
+        "company": "Marksans Pharma Limited",
+        "dividend": 0.9,
+        "exDate": "2026-08-20",
+        "subject": "Dividend - Re 0.90 Per Share",
+        "lastPrice": 327.85,
+        "previousDayVolume": 2579745
+      },
+      {
+        "symbol": "SHIVATEX",
+        "company": "Shiva Texyarn Limited",
+        "dividend": 0.6,
+        "exDate": "2026-08-20",
+        "subject": "Dividend - Re 0.60 Per Share",
+        "lastPrice": 167,
+        "previousDayVolume": 2129
+      },
+      {
+        "symbol": "COASTCORP",
+        "company": "Coastal Corporation Limited",
+        "dividend": 0.28,
+        "exDate": "2026-08-20",
+        "subject": "Dividend - Rs 0.28 Per Share",
+        "lastPrice": 42.25,
+        "previousDayVolume": 71172
+      }
+    ]
+  },
+  "tomorrow": {
+    "date": "2026-08-21",
+    "stocks": [
+      {
+        "symbol": "LICHSGFIN",
+        "company": "LIC Housing Finance Limited",
+        "dividend": 10.0,
+        "exDate": "2026-08-21",
+        "subject": "Dividend - Rs 10 Per Share",
+        "lastPrice": 497,
+        "previousDayVolume": 971490
+      },
+      {
+        "symbol": "SOTL",
+        "company": "Savita Oil Technologies Limited",
+        "dividend": 5.0,
+        "exDate": "2026-08-21",
+        "subject": "Dividend - Rs 5 Per Share",
+        "lastPrice": 699.5,
+        "previousDayVolume": 181996
+      },
+      {
+        "symbol": "JSL",
+        "company": "Jindal Stainless Limited",
+        "dividend": 3.0,
+        "exDate": "2026-08-21",
+        "subject": "Dividend - Rs 3 Per Share",
+        "lastPrice": 723.2,
+        "previousDayVolume": 182939
+      },
+      {
+        "symbol": "SURYAROSNI",
+        "company": "Surya Roshni Limited",
+        "dividend": 2.5,
+        "exDate": "2026-08-21",
+        "subject": "Dividend - Rs 2.50 Per Share",
+        "lastPrice": 219.4,
+        "previousDayVolume": 606213
+      },
+      {
+        "symbol": "ECLERX",
+        "company": "eClerx Services Limited",
+        "dividend": 1.0,
+        "exDate": "2026-08-21",
+        "subject": "Dividend - Re 1 Per Share",
+        "lastPrice": 1824,
+        "previousDayVolume": 122581
       }
     ]
   },
   "dayAfter": {
-    "date": "2026-08-21",
+    "date": "2026-08-22",
     "stocks": []
   }
 }
