@@ -1,14 +1,10 @@
 {
-  "generatedAt": "22-Aug-2026 05:18 AM IST",
+  "generatedAt": "23-Aug-2026 05:15 AM IST",
   "today": {
-    "date": "2026-08-22",
-    "stocks": []
-  },
-  "tomorrow": {
     "date": "2026-08-23",
     "stocks": []
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-08-24",
     "stocks": [
       {
@@ -91,6 +87,74 @@
         "subject": "Dividend - Re 0.20 Per Share",
         "lastPrice": 39,
         "previousDayVolume": 16091
+      }
+    ]
+  },
+  "dayAfter": {
+    "date": "2026-08-25",
+    "stocks": [
+      {
+        "symbol": "DEEPAKFERT",
+        "company": "Deepak Fertilizers and Petrochemicals Corporation Limited",
+        "dividend": 10.0,
+        "exDate": "2026-08-25",
+        "subject": "Dividend - Rs 10 Per Share",
+        "lastPrice": 1449.2,
+        "previousDayVolume": 252028
+      },
+      {
+        "symbol": "PREMCO",
+        "company": "Premco Global Limited",
+        "dividend": 2.0,
+        "exDate": "2026-08-25",
+        "subject": "Dividend - Rs 2 Per Share",
+        "lastPrice": 390,
+        "previousDayVolume": 270
+      },
+      {
+        "symbol": "SBCL",
+        "company": "Shivalik Bimetal Controls Limited",
+        "dividend": 2.0,
+        "exDate": "2026-08-25",
+        "subject": "Dividend - Rs 2 Per Share",
+        "lastPrice": 990.75,
+        "previousDayVolume": 315084
+      },
+      {
+        "symbol": "NRAIL",
+        "company": "N R Agarwal Industries Limited",
+        "dividend": 2.0,
+        "exDate": "2026-08-25",
+        "subject": "Dividend - Rs 2 Per Share",
+        "lastPrice": 504,
+        "previousDayVolume": 3736
+      },
+      {
+        "symbol": "DIFFNKG",
+        "company": "Diffusion Engineers Limited",
+        "dividend": 1.5,
+        "exDate": "2026-08-25",
+        "subject": "Dividend - Rs 1.50 Per Share",
+        "lastPrice": 403.4,
+        "previousDayVolume": 29620
+      },
+      {
+        "symbol": "AVL",
+        "company": "Aditya Vision Limited",
+        "dividend": 1.25,
+        "exDate": "2026-08-25",
+        "subject": "Dividend - Rs 1.25 Per Share",
+        "lastPrice": 596.75,
+        "previousDayVolume": 165607
+      },
+      {
+        "symbol": "MASFIN",
+        "company": "MAS Financial Services Limited",
+        "dividend": 0.75,
+        "exDate": "2026-08-25",
+        "subject": "Dividend - Re 0.75 Per Share",
+        "lastPrice": 301.3,
+        "previousDayVolume": 104118
       }
     ]
   }
