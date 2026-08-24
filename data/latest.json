@@ -1,92 +1,6 @@
 {
-  "generatedAt": "24-Aug-2026 05:15 AM IST",
+  "generatedAt": "25-Aug-2026 05:16 AM IST",
   "today": {
-    "date": "2026-08-24",
-    "stocks": [
-      {
-        "symbol": "GILLETTE",
-        "company": "Gillette India Limited",
-        "dividend": 60.0,
-        "exDate": "2026-08-24",
-        "subject": "Dividend - Rs 60 Per Share",
-        "lastPrice": 7500,
-        "previousDayVolume": 13800
-      },
-      {
-        "symbol": "IGIL",
-        "company": "International Gemological Institute Limited",
-        "dividend": 2.55,
-        "exDate": "2026-08-24",
-        "subject": "Interim Dividend - Rs 2.55 Per Share",
-        "lastPrice": 339.9,
-        "previousDayVolume": 394439
-      },
-      {
-        "symbol": "NATIONALUM",
-        "company": "National Aluminium Company Limited",
-        "dividend": 1.0,
-        "exDate": "2026-08-24",
-        "subject": "Dividend - Re 1 Per Share",
-        "lastPrice": 394.45,
-        "previousDayVolume": 6393431
-      },
-      {
-        "symbol": "SENCO",
-        "company": "Senco Gold Limited",
-        "dividend": 1.0,
-        "exDate": "2026-08-24",
-        "subject": "Dividend - Re 1 Per Share",
-        "lastPrice": 345.8,
-        "previousDayVolume": 1151008
-      },
-      {
-        "symbol": "IPL",
-        "company": "India Pesticides Limited",
-        "dividend": 0.75,
-        "exDate": "2026-08-24",
-        "subject": "Dividend - Re 0.75 Per Share",
-        "lastPrice": 140.5,
-        "previousDayVolume": 152967
-      },
-      {
-        "symbol": "PDMJEPAPER",
-        "company": "Pudumjee Paper Products Limited",
-        "dividend": 0.6,
-        "exDate": "2026-08-24",
-        "subject": "Dividend - Re 0.60 Per Share",
-        "lastPrice": 91.25,
-        "previousDayVolume": 265422
-      },
-      {
-        "symbol": "GKENERGY",
-        "company": "GK Energy Limited",
-        "dividend": 0.5,
-        "exDate": "2026-08-24",
-        "subject": "Dividend - Re 0.50 Per Share",
-        "lastPrice": 123.31,
-        "previousDayVolume": 314390
-      },
-      {
-        "symbol": "SJVN",
-        "company": "SJVN Limited",
-        "dividend": 0.35,
-        "exDate": "2026-08-24",
-        "subject": "Dividend - Re 0.35 Per Share",
-        "lastPrice": 66.1,
-        "previousDayVolume": 1156420
-      },
-      {
-        "symbol": "AMJLAND",
-        "company": "Amj Land Holdings Limited",
-        "dividend": 0.2,
-        "exDate": "2026-08-24",
-        "subject": "Dividend - Re 0.20 Per Share",
-        "lastPrice": 39,
-        "previousDayVolume": 16091
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-08-25",
     "stocks": [
       {
@@ -95,8 +9,8 @@
         "dividend": 10.0,
         "exDate": "2026-08-25",
         "subject": "Dividend - Rs 10 Per Share",
-        "lastPrice": 1449.2,
-        "previousDayVolume": 252028
+        "lastPrice": 1474.9,
+        "previousDayVolume": 241197
       },
       {
         "symbol": "PREMCO",
@@ -104,8 +18,8 @@
         "dividend": 2.0,
         "exDate": "2026-08-25",
         "subject": "Dividend - Rs 2 Per Share",
-        "lastPrice": 390,
-        "previousDayVolume": 270
+        "lastPrice": 393,
+        "previousDayVolume": 601
       },
       {
         "symbol": "SBCL",
@@ -113,8 +27,8 @@
         "dividend": 2.0,
         "exDate": "2026-08-25",
         "subject": "Dividend - Rs 2 Per Share",
-        "lastPrice": 990.75,
-        "previousDayVolume": 315084
+        "lastPrice": 1002.5,
+        "previousDayVolume": 225112
       },
       {
         "symbol": "NRAIL",
@@ -122,8 +36,8 @@
         "dividend": 2.0,
         "exDate": "2026-08-25",
         "subject": "Dividend - Rs 2 Per Share",
-        "lastPrice": 504,
-        "previousDayVolume": 3736
+        "lastPrice": 525,
+        "previousDayVolume": 7447
       },
       {
         "symbol": "DIFFNKG",
@@ -131,8 +45,8 @@
         "dividend": 1.5,
         "exDate": "2026-08-25",
         "subject": "Dividend - Rs 1.50 Per Share",
-        "lastPrice": 403.4,
-        "previousDayVolume": 29620
+        "lastPrice": 402,
+        "previousDayVolume": 48770
       },
       {
         "symbol": "AVL",
@@ -140,8 +54,8 @@
         "dividend": 1.25,
         "exDate": "2026-08-25",
         "subject": "Dividend - Rs 1.25 Per Share",
-        "lastPrice": 596.75,
-        "previousDayVolume": 165607
+        "lastPrice": 583,
+        "previousDayVolume": 156285
       },
       {
         "symbol": "MASFIN",
@@ -149,13 +63,54 @@
         "dividend": 0.75,
         "exDate": "2026-08-25",
         "subject": "Dividend - Re 0.75 Per Share",
-        "lastPrice": 301.3,
-        "previousDayVolume": 104118
+        "lastPrice": 296,
+        "previousDayVolume": 248725
       }
     ]
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-08-26",
     "stocks": []
+  },
+  "dayAfter": {
+    "date": "2026-08-27",
+    "stocks": [
+      {
+        "symbol": "PGHL",
+        "company": "Procter & Gamble Health Limited",
+        "dividend": 45.0,
+        "exDate": "2026-08-27",
+        "subject": "Dividend - Rs 45 Per Share",
+        "lastPrice": 5890,
+        "previousDayVolume": 10658
+      },
+      {
+        "symbol": "PFC",
+        "company": "Power Finance Corporation Limited",
+        "dividend": 3.9,
+        "exDate": "2026-08-27",
+        "subject": "Interim Dividend - Rs 3.90 Per Share",
+        "lastPrice": 364,
+        "previousDayVolume": 6817108
+      },
+      {
+        "symbol": "DOMS",
+        "company": "DOMS Industries Limited",
+        "dividend": 3.65,
+        "exDate": "2026-08-27",
+        "subject": "Dividend - Rs 3.65 Per Share",
+        "lastPrice": 2202,
+        "previousDayVolume": 10334
+      },
+      {
+        "symbol": "THOMASCOOK",
+        "company": "Thomas Cook  (India)  Limited",
+        "dividend": 0.5,
+        "exDate": "2026-08-27",
+        "subject": "Dividend - Rs 0.50 Per Share",
+        "lastPrice": 112.5,
+        "previousDayVolume": 7861613
+      }
+    ]
   }
 }
