@@ -1,78 +1,10 @@
 {
-  "generatedAt": "25-Aug-2026 05:16 AM IST",
+  "generatedAt": "26-Aug-2026 05:19 AM IST",
   "today": {
-    "date": "2026-08-25",
-    "stocks": [
-      {
-        "symbol": "DEEPAKFERT",
-        "company": "Deepak Fertilizers and Petrochemicals Corporation Limited",
-        "dividend": 10.0,
-        "exDate": "2026-08-25",
-        "subject": "Dividend - Rs 10 Per Share",
-        "lastPrice": 1474.9,
-        "previousDayVolume": 241197
-      },
-      {
-        "symbol": "PREMCO",
-        "company": "Premco Global Limited",
-        "dividend": 2.0,
-        "exDate": "2026-08-25",
-        "subject": "Dividend - Rs 2 Per Share",
-        "lastPrice": 393,
-        "previousDayVolume": 601
-      },
-      {
-        "symbol": "SBCL",
-        "company": "Shivalik Bimetal Controls Limited",
-        "dividend": 2.0,
-        "exDate": "2026-08-25",
-        "subject": "Dividend - Rs 2 Per Share",
-        "lastPrice": 1002.5,
-        "previousDayVolume": 225112
-      },
-      {
-        "symbol": "NRAIL",
-        "company": "N R Agarwal Industries Limited",
-        "dividend": 2.0,
-        "exDate": "2026-08-25",
-        "subject": "Dividend - Rs 2 Per Share",
-        "lastPrice": 525,
-        "previousDayVolume": 7447
-      },
-      {
-        "symbol": "DIFFNKG",
-        "company": "Diffusion Engineers Limited",
-        "dividend": 1.5,
-        "exDate": "2026-08-25",
-        "subject": "Dividend - Rs 1.50 Per Share",
-        "lastPrice": 402,
-        "previousDayVolume": 48770
-      },
-      {
-        "symbol": "AVL",
-        "company": "Aditya Vision Limited",
-        "dividend": 1.25,
-        "exDate": "2026-08-25",
-        "subject": "Dividend - Rs 1.25 Per Share",
-        "lastPrice": 583,
-        "previousDayVolume": 156285
-      },
-      {
-        "symbol": "MASFIN",
-        "company": "MAS Financial Services Limited",
-        "dividend": 0.75,
-        "exDate": "2026-08-25",
-        "subject": "Dividend - Re 0.75 Per Share",
-        "lastPrice": 296,
-        "previousDayVolume": 248725
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-08-26",
     "stocks": []
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-08-27",
     "stocks": [
       {
@@ -81,8 +13,8 @@
         "dividend": 45.0,
         "exDate": "2026-08-27",
         "subject": "Dividend - Rs 45 Per Share",
-        "lastPrice": 5890,
-        "previousDayVolume": 10658
+        "lastPrice": 5824,
+        "previousDayVolume": 8754
       },
       {
         "symbol": "PFC",
@@ -90,8 +22,8 @@
         "dividend": 3.9,
         "exDate": "2026-08-27",
         "subject": "Interim Dividend - Rs 3.90 Per Share",
-        "lastPrice": 364,
-        "previousDayVolume": 6817108
+        "lastPrice": 367,
+        "previousDayVolume": 6349108
       },
       {
         "symbol": "DOMS",
@@ -99,8 +31,8 @@
         "dividend": 3.65,
         "exDate": "2026-08-27",
         "subject": "Dividend - Rs 3.65 Per Share",
-        "lastPrice": 2202,
-        "previousDayVolume": 10334
+        "lastPrice": 2210,
+        "previousDayVolume": 17687
       },
       {
         "symbol": "THOMASCOOK",
@@ -108,8 +40,157 @@
         "dividend": 0.5,
         "exDate": "2026-08-27",
         "subject": "Dividend - Rs 0.50 Per Share",
-        "lastPrice": 112.5,
-        "previousDayVolume": 7861613
+        "lastPrice": 110,
+        "previousDayVolume": 1437644
+      },
+      {
+        "symbol": "MANAKCOAT",
+        "company": "Manaksia Coated Metals & Industries Limited",
+        "dividend": 0.05,
+        "exDate": "2026-08-27",
+        "subject": "Dividend - Re 0.05 Per Share",
+        "lastPrice": 124.9,
+        "previousDayVolume": 100398
+      }
+    ]
+  },
+  "dayAfter": {
+    "date": "2026-08-28",
+    "stocks": [
+      {
+        "symbol": "MCX",
+        "company": "Multi Commodity Exchange of India Limited",
+        "dividend": 8.0,
+        "exDate": "2026-08-28",
+        "subject": "Dividend - Rs 8 Per Share",
+        "lastPrice": 3280,
+        "previousDayVolume": 2029898
+      },
+      {
+        "symbol": "WHIRLPOOL",
+        "company": "Whirlpool of India Limited",
+        "dividend": 5.0,
+        "exDate": "2026-08-28",
+        "subject": "Dividend - Rs 5 Per Share",
+        "lastPrice": 767.55,
+        "previousDayVolume": 90829
+      },
+      {
+        "symbol": "VTL",
+        "company": "Vardhman Textiles Limited",
+        "dividend": 5.0,
+        "exDate": "2026-08-28",
+        "subject": "Dividend - Rs 5 Per Share",
+        "lastPrice": 602.25,
+        "previousDayVolume": 176383
+      },
+      {
+        "symbol": "VHL",
+        "company": "Vardhman Holdings Limited",
+        "dividend": 5.0,
+        "exDate": "2026-08-28",
+        "subject": "Dividend - Rs 5 Per Share",
+        "lastPrice": 3460,
+        "previousDayVolume": 240
+      },
+      {
+        "symbol": "DYNAMATECH",
+        "company": "Dynamatic Technologies Limited",
+        "dividend": 5.0,
+        "exDate": "2026-08-28",
+        "subject": "Dividend - Rs 5 Per Share",
+        "lastPrice": 11500,
+        "previousDayVolume": 8848
+      },
+      {
+        "symbol": "POLYMED",
+        "company": "Poly Medicure Limited",
+        "dividend": 3.5,
+        "exDate": "2026-08-28",
+        "subject": "Dividend - Rs 3.50 Per Share",
+        "lastPrice": 1733.5,
+        "previousDayVolume": 78354
+      },
+      {
+        "symbol": "VSSL",
+        "company": "Vardhman Special Steels Limited",
+        "dividend": 3.5,
+        "exDate": "2026-08-28",
+        "subject": "Dividend - Rs 3.50 Per Share",
+        "lastPrice": 343.8,
+        "previousDayVolume": 96812
+      },
+      {
+        "symbol": "ROHLTD",
+        "company": "Royal Orchid Hotels Limited",
+        "dividend": 2.5,
+        "exDate": "2026-08-28",
+        "subject": "Dividend - Rs 2.50 Per Share",
+        "lastPrice": 303.5,
+        "previousDayVolume": 27632
+      },
+      {
+        "symbol": "GULPOLY",
+        "company": "Gulshan Polyols Limited",
+        "dividend": 1.5,
+        "exDate": "2026-08-28",
+        "subject": "Dividend - Rs 1.50 Per Share",
+        "lastPrice": 196.46,
+        "previousDayVolume": 553235
+      },
+      {
+        "symbol": "VARDHACRLC",
+        "company": "Vardhman Acrylics Limited",
+        "dividend": 1.5,
+        "exDate": "2026-08-28",
+        "subject": "Dividend - Rs 1.50 Per Share",
+        "lastPrice": null,
+        "previousDayVolume": null
+      },
+      {
+        "symbol": "CANTABIL",
+        "company": "Cantabil Retail India Limited",
+        "dividend": 0.75,
+        "exDate": "2026-08-28",
+        "subject": "Dividend - Re 0.75 Per Share",
+        "lastPrice": 246.1,
+        "previousDayVolume": 52496
+      },
+      {
+        "symbol": "NBCC",
+        "company": "NBCC (India) Limited",
+        "dividend": 0.46,
+        "exDate": "2026-08-28",
+        "subject": "Dividend - Re 0.46 Per Share",
+        "lastPrice": 89.5,
+        "previousDayVolume": 4906608
+      },
+      {
+        "symbol": "GAEL",
+        "company": "Gujarat Ambuja Exports Limited",
+        "dividend": 0.3,
+        "exDate": "2026-08-28",
+        "subject": "Dividend - Re 0.30 Per Share",
+        "lastPrice": 177.2,
+        "previousDayVolume": 1065445
+      },
+      {
+        "symbol": "CORALFINAC",
+        "company": "Coral India Finance & Housing Limited",
+        "dividend": 0.2,
+        "exDate": "2026-08-28",
+        "subject": "Dividend - Re 0.20 Per Share",
+        "lastPrice": 33.57,
+        "previousDayVolume": 118953
+      },
+      {
+        "symbol": "GUFICBIO",
+        "company": "Gufic Biosciences Limited",
+        "dividend": 0.1,
+        "exDate": "2026-08-28",
+        "subject": "Dividend - Re 0.10 Per Share",
+        "lastPrice": 417,
+        "previousDayVolume": 53726
       }
     ]
   }
