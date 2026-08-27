@@ -1,10 +1,6 @@
 {
-  "generatedAt": "26-Aug-2026 05:19 AM IST",
+  "generatedAt": "27-Aug-2026 10:07 AM IST",
   "today": {
-    "date": "2026-08-26",
-    "stocks": []
-  },
-  "tomorrow": {
     "date": "2026-08-27",
     "stocks": [
       {
@@ -13,8 +9,8 @@
         "dividend": 45.0,
         "exDate": "2026-08-27",
         "subject": "Dividend - Rs 45 Per Share",
-        "lastPrice": 5824,
-        "previousDayVolume": 8754
+        "lastPrice": 5781.5,
+        "previousDayVolume": 2276
       },
       {
         "symbol": "PFC",
@@ -22,8 +18,8 @@
         "dividend": 3.9,
         "exDate": "2026-08-27",
         "subject": "Interim Dividend - Rs 3.90 Per Share",
-        "lastPrice": 367,
-        "previousDayVolume": 6349108
+        "lastPrice": 354.75,
+        "previousDayVolume": 2529939
       },
       {
         "symbol": "DOMS",
@@ -31,8 +27,8 @@
         "dividend": 3.65,
         "exDate": "2026-08-27",
         "subject": "Dividend - Rs 3.65 Per Share",
-        "lastPrice": 2210,
-        "previousDayVolume": 17687
+        "lastPrice": 2223.6,
+        "previousDayVolume": 6324
       },
       {
         "symbol": "THOMASCOOK",
@@ -40,8 +36,8 @@
         "dividend": 0.5,
         "exDate": "2026-08-27",
         "subject": "Dividend - Rs 0.50 Per Share",
-        "lastPrice": 110,
-        "previousDayVolume": 1437644
+        "lastPrice": 110.77,
+        "previousDayVolume": 320096
       },
       {
         "symbol": "MANAKCOAT",
@@ -49,12 +45,12 @@
         "dividend": 0.05,
         "exDate": "2026-08-27",
         "subject": "Dividend - Re 0.05 Per Share",
-        "lastPrice": 124.9,
-        "previousDayVolume": 100398
+        "lastPrice": 123.02,
+        "previousDayVolume": 21785
       }
     ]
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-08-28",
     "stocks": [
       {
@@ -63,8 +59,8 @@
         "dividend": 8.0,
         "exDate": "2026-08-28",
         "subject": "Dividend - Rs 8 Per Share",
-        "lastPrice": 3280,
-        "previousDayVolume": 2029898
+        "lastPrice": 3315.7,
+        "previousDayVolume": 809684
       },
       {
         "symbol": "WHIRLPOOL",
@@ -72,8 +68,8 @@
         "dividend": 5.0,
         "exDate": "2026-08-28",
         "subject": "Dividend - Rs 5 Per Share",
-        "lastPrice": 767.55,
-        "previousDayVolume": 90829
+        "lastPrice": 772.6,
+        "previousDayVolume": 33167
       },
       {
         "symbol": "VTL",
@@ -81,8 +77,8 @@
         "dividend": 5.0,
         "exDate": "2026-08-28",
         "subject": "Dividend - Rs 5 Per Share",
-        "lastPrice": 602.25,
-        "previousDayVolume": 176383
+        "lastPrice": 605.1,
+        "previousDayVolume": 21459
       },
       {
         "symbol": "VHL",
@@ -90,8 +86,8 @@
         "dividend": 5.0,
         "exDate": "2026-08-28",
         "subject": "Dividend - Rs 5 Per Share",
-        "lastPrice": 3460,
-        "previousDayVolume": 240
+        "lastPrice": 3450,
+        "previousDayVolume": 34
       },
       {
         "symbol": "DYNAMATECH",
@@ -99,8 +95,8 @@
         "dividend": 5.0,
         "exDate": "2026-08-28",
         "subject": "Dividend - Rs 5 Per Share",
-        "lastPrice": 11500,
-        "previousDayVolume": 8848
+        "lastPrice": 11468,
+        "previousDayVolume": 2122
       },
       {
         "symbol": "POLYMED",
@@ -108,8 +104,8 @@
         "dividend": 3.5,
         "exDate": "2026-08-28",
         "subject": "Dividend - Rs 3.50 Per Share",
-        "lastPrice": 1733.5,
-        "previousDayVolume": 78354
+        "lastPrice": 1704.3,
+        "previousDayVolume": 25073
       },
       {
         "symbol": "VSSL",
@@ -117,8 +113,8 @@
         "dividend": 3.5,
         "exDate": "2026-08-28",
         "subject": "Dividend - Rs 3.50 Per Share",
-        "lastPrice": 343.8,
-        "previousDayVolume": 96812
+        "lastPrice": 359,
+        "previousDayVolume": 57750
       },
       {
         "symbol": "ROHLTD",
@@ -126,17 +122,17 @@
         "dividend": 2.5,
         "exDate": "2026-08-28",
         "subject": "Dividend - Rs 2.50 Per Share",
-        "lastPrice": 303.5,
-        "previousDayVolume": 27632
+        "lastPrice": 307.1,
+        "previousDayVolume": 1466
       },
       {
-        "symbol": "GULPOLY",
-        "company": "Gulshan Polyols Limited",
+        "symbol": "ADSL",
+        "company": "Allied Digital Services Limited",
         "dividend": 1.5,
         "exDate": "2026-08-28",
         "subject": "Dividend - Rs 1.50 Per Share",
-        "lastPrice": 196.46,
-        "previousDayVolume": 553235
+        "lastPrice": 109.38,
+        "previousDayVolume": 12150
       },
       {
         "symbol": "VARDHACRLC",
@@ -153,8 +149,8 @@
         "dividend": 0.75,
         "exDate": "2026-08-28",
         "subject": "Dividend - Re 0.75 Per Share",
-        "lastPrice": 246.1,
-        "previousDayVolume": 52496
+        "lastPrice": 247.14,
+        "previousDayVolume": 25040
       },
       {
         "symbol": "NBCC",
@@ -162,8 +158,8 @@
         "dividend": 0.46,
         "exDate": "2026-08-28",
         "subject": "Dividend - Re 0.46 Per Share",
-        "lastPrice": 89.5,
-        "previousDayVolume": 4906608
+        "lastPrice": 89.13,
+        "previousDayVolume": 1011955
       },
       {
         "symbol": "GAEL",
@@ -171,8 +167,8 @@
         "dividend": 0.3,
         "exDate": "2026-08-28",
         "subject": "Dividend - Re 0.30 Per Share",
-        "lastPrice": 177.2,
-        "previousDayVolume": 1065445
+        "lastPrice": 171.75,
+        "previousDayVolume": 183764
       },
       {
         "symbol": "CORALFINAC",
@@ -180,8 +176,8 @@
         "dividend": 0.2,
         "exDate": "2026-08-28",
         "subject": "Dividend - Re 0.20 Per Share",
-        "lastPrice": 33.57,
-        "previousDayVolume": 118953
+        "lastPrice": 34.61,
+        "previousDayVolume": 36803
       },
       {
         "symbol": "GUFICBIO",
@@ -189,9 +185,13 @@
         "dividend": 0.1,
         "exDate": "2026-08-28",
         "subject": "Dividend - Re 0.10 Per Share",
-        "lastPrice": 417,
-        "previousDayVolume": 53726
+        "lastPrice": 407.2,
+        "previousDayVolume": 7145
       }
     ]
+  },
+  "dayAfter": {
+    "date": "2026-08-29",
+    "stocks": []
   }
 }
