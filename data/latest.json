@@ -1,187 +1,79 @@
 {
-  "generatedAt": "28-Aug-2026 12:30 PM IST",
+  "generatedAt": "29-Aug-2026 09:46 AM IST",
   "today": {
-    "date": "2026-08-28",
-    "stocks": [
-      {
-        "symbol": "MCX",
-        "company": "Multi Commodity Exchange of India Limited",
-        "dividend": 8.0,
-        "exDate": "2026-08-28",
-        "subject": "Dividend - Rs 8 Per Share",
-        "lastPrice": 3318.4,
-        "previousDayVolume": 766737
-      },
-      {
-        "symbol": "WHIRLPOOL",
-        "company": "Whirlpool of India Limited",
-        "dividend": 5.0,
-        "exDate": "2026-08-28",
-        "subject": "Dividend - Rs 5 Per Share",
-        "lastPrice": 812.65,
-        "previousDayVolume": 668505
-      },
-      {
-        "symbol": "VTL",
-        "company": "Vardhman Textiles Limited",
-        "dividend": 5.0,
-        "exDate": "2026-08-28",
-        "subject": "Dividend - Rs 5 Per Share",
-        "lastPrice": 591.9,
-        "previousDayVolume": 56038
-      },
-      {
-        "symbol": "VHL",
-        "company": "Vardhman Holdings Limited",
-        "dividend": 5.0,
-        "exDate": "2026-08-28",
-        "subject": "Dividend - Rs 5 Per Share",
-        "lastPrice": 3471.8,
-        "previousDayVolume": 153
-      },
-      {
-        "symbol": "DYNAMATECH",
-        "company": "Dynamatic Technologies Limited",
-        "dividend": 5.0,
-        "exDate": "2026-08-28",
-        "subject": "Dividend - Rs 5 Per Share",
-        "lastPrice": 11454,
-        "previousDayVolume": 1982
-      },
-      {
-        "symbol": "POLYMED",
-        "company": "Poly Medicure Limited",
-        "dividend": 3.5,
-        "exDate": "2026-08-28",
-        "subject": "Dividend - Rs 3.50 Per Share",
-        "lastPrice": 1697.9,
-        "previousDayVolume": 76237
-      },
-      {
-        "symbol": "VSSL",
-        "company": "Vardhman Special Steels Limited",
-        "dividend": 3.5,
-        "exDate": "2026-08-28",
-        "subject": "Dividend - Rs 3.50 Per Share",
-        "lastPrice": 349.65,
-        "previousDayVolume": 43459
-      },
-      {
-        "symbol": "SALZERELEC",
-        "company": "Salzer Electronics Limited",
-        "dividend": 2.5,
-        "exDate": "2026-08-28",
-        "subject": "Dividend - Rs 2.50 Per Share",
-        "lastPrice": 546.9,
-        "previousDayVolume": 12226
-      },
-      {
-        "symbol": "ROHLTD",
-        "company": "Royal Orchid Hotels Limited",
-        "dividend": 2.5,
-        "exDate": "2026-08-28",
-        "subject": "Dividend - Rs 2.50 Per Share",
-        "lastPrice": 301,
-        "previousDayVolume": 6780
-      },
-      {
-        "symbol": "ARVSMART",
-        "company": "Arvind SmartSpaces Limited",
-        "dividend": 2.25,
-        "exDate": "2026-08-28",
-        "subject": "Dividend - Rs 2.25 Per Share",
-        "lastPrice": 649,
-        "previousDayVolume": 27406
-      },
-      {
-        "symbol": "GULPOLY",
-        "company": "Gulshan Polyols Limited",
-        "dividend": 1.5,
-        "exDate": "2026-08-28",
-        "subject": "Dividend - Rs 1.50 Per Share",
-        "lastPrice": 192.24,
-        "previousDayVolume": 66810
-      },
-      {
-        "symbol": "ADSL",
-        "company": "Allied Digital Services Limited",
-        "dividend": 1.5,
-        "exDate": "2026-08-28",
-        "subject": "Dividend - Rs 1.50 Per Share",
-        "lastPrice": 106.83,
-        "previousDayVolume": 52501
-      },
-      {
-        "symbol": "VARDHACRLC",
-        "company": "Vardhman Acrylics Limited",
-        "dividend": 1.5,
-        "exDate": "2026-08-28",
-        "subject": "Dividend - Rs 1.50 Per Share",
-        "lastPrice": null,
-        "previousDayVolume": null
-      },
-      {
-        "symbol": "CANTABIL",
-        "company": "Cantabil Retail India Limited",
-        "dividend": 0.75,
-        "exDate": "2026-08-28",
-        "subject": "Dividend - Re 0.75 Per Share",
-        "lastPrice": 244.29,
-        "previousDayVolume": 20556
-      },
-      {
-        "symbol": "NBCC",
-        "company": "NBCC (India) Limited",
-        "dividend": 0.46,
-        "exDate": "2026-08-28",
-        "subject": "Dividend - Re 0.46 Per Share",
-        "lastPrice": 87.88,
-        "previousDayVolume": 4020179
-      },
-      {
-        "symbol": "GAEL",
-        "company": "Gujarat Ambuja Exports Limited",
-        "dividend": 0.3,
-        "exDate": "2026-08-28",
-        "subject": "Dividend - Re 0.30 Per Share",
-        "lastPrice": 167.06,
-        "previousDayVolume": 283234
-      },
-      {
-        "symbol": "SUMIT",
-        "company": "Sumit Woods Limited",
-        "dividend": 0.2,
-        "exDate": "2026-08-28",
-        "subject": "Dividend - Re 0.20 Per Share",
-        "lastPrice": 51.46,
-        "previousDayVolume": 13185
-      },
-      {
-        "symbol": "CORALFINAC",
-        "company": "Coral India Finance & Housing Limited",
-        "dividend": 0.2,
-        "exDate": "2026-08-28",
-        "subject": "Dividend - Re 0.20 Per Share",
-        "lastPrice": 33.36,
-        "previousDayVolume": 9373
-      },
-      {
-        "symbol": "GUFICBIO",
-        "company": "Gufic Biosciences Limited",
-        "dividend": 0.1,
-        "exDate": "2026-08-28",
-        "subject": "Dividend - Re 0.10 Per Share",
-        "lastPrice": 411.6,
-        "previousDayVolume": 18583
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-08-29",
     "stocks": []
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-08-30",
     "stocks": []
+  },
+  "dayAfter": {
+    "date": "2026-08-31",
+    "stocks": [
+      {
+        "symbol": "MASTEK",
+        "company": "Mastek Limited",
+        "dividend": 16.0,
+        "exDate": "2026-08-31",
+        "subject": "Dividend - Rs 16 Per Share",
+        "lastPrice": 1933.9,
+        "previousDayVolume": 5449060
+      },
+      {
+        "symbol": "GLENMARK",
+        "company": "Glenmark Pharmaceuticals Limited",
+        "dividend": 2.5,
+        "exDate": "2026-08-31",
+        "subject": "Dividend - Rs 2.50 Per Share",
+        "lastPrice": 2515,
+        "previousDayVolume": 807816
+      },
+      {
+        "symbol": "GANESHHOU",
+        "company": "GANESH HOUSING LIMITED",
+        "dividend": 1.5,
+        "exDate": "2026-08-31",
+        "subject": "Dividend - Rs 1.50 Per Share",
+        "lastPrice": 804,
+        "previousDayVolume": 19735
+      },
+      {
+        "symbol": "IONEXCHANG",
+        "company": "ION Exchange (India) Limited",
+        "dividend": 1.25,
+        "exDate": "2026-08-31",
+        "subject": "Dividend - Rs 1.25 Per Share",
+        "lastPrice": 371.15,
+        "previousDayVolume": 116406
+      },
+      {
+        "symbol": "TOTAL",
+        "company": "Total Transport Systems Limited",
+        "dividend": 1.25,
+        "exDate": "2026-08-31",
+        "subject": "Dividend - Rs 1.25 Per Share",
+        "lastPrice": 71.9,
+        "previousDayVolume": 20945
+      },
+      {
+        "symbol": "TRIVENI",
+        "company": "Triveni Engineering & Industries Limited",
+        "dividend": 1.25,
+        "exDate": "2026-08-31",
+        "subject": "Dividend - Rs 1.25 Per Share",
+        "lastPrice": 284,
+        "previousDayVolume": 792373
+      },
+      {
+        "symbol": "ORBTEXP",
+        "company": "Orbit Exports Limited",
+        "dividend": 0.5,
+        "exDate": "2026-08-31",
+        "subject": "Interim Dividend - Re 0.50 Per Share",
+        "lastPrice": null,
+        "previousDayVolume": null
+      }
+    ]
   }
 }
