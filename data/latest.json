@@ -1,14 +1,10 @@
 {
-  "generatedAt": "29-Aug-2026 09:46 AM IST",
+  "generatedAt": "30-Aug-2026 06:56 AM IST",
   "today": {
-    "date": "2026-08-29",
-    "stocks": []
-  },
-  "tomorrow": {
     "date": "2026-08-30",
     "stocks": []
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-08-31",
     "stocks": [
       {
@@ -73,6 +69,128 @@
         "subject": "Interim Dividend - Re 0.50 Per Share",
         "lastPrice": null,
         "previousDayVolume": null
+      }
+    ]
+  },
+  "dayAfter": {
+    "date": "2026-09-01",
+    "stocks": [
+      {
+        "symbol": "BENGALASM",
+        "company": "Bengal & Assam Company Limited",
+        "dividend": 50.0,
+        "exDate": "2026-09-01",
+        "subject": "Dividend - Rs 50 Per Share",
+        "lastPrice": 6339.5,
+        "previousDayVolume": 462
+      },
+      {
+        "symbol": "AKCAPIT",
+        "company": "AK Capital Services Limited",
+        "dividend": 12.0,
+        "exDate": "2026-09-01",
+        "subject": "Interim Dividend - Rs 12 Per Share",
+        "lastPrice": 1719.9,
+        "previousDayVolume": 3268
+      },
+      {
+        "symbol": "MAHSEAMLES",
+        "company": "Maharashtra Seamless Limited",
+        "dividend": 10.0,
+        "exDate": "2026-09-01",
+        "subject": "Dividend - Rs 10 Per Share",
+        "lastPrice": 663.5,
+        "previousDayVolume": 550119
+      },
+      {
+        "symbol": "ALIVUS",
+        "company": "Alivus Life Sciences Limited",
+        "dividend": 5.0,
+        "exDate": "2026-09-01",
+        "subject": "Dividend - Rs 5 Per Share",
+        "lastPrice": 1359,
+        "previousDayVolume": 51812
+      },
+      {
+        "symbol": "CCL",
+        "company": "CCL Products (India) Limited",
+        "dividend": 3.0,
+        "exDate": "2026-09-01",
+        "subject": "Dividend - Rs 3 Per Share",
+        "lastPrice": 1125,
+        "previousDayVolume": 131036
+      },
+      {
+        "symbol": "SUPRAJIT",
+        "company": "Suprajit Engineering Limited",
+        "dividend": 2.0,
+        "exDate": "2026-09-01",
+        "subject": "Dividend - Rs 2 Per Share",
+        "lastPrice": 507.95,
+        "previousDayVolume": 84894
+      },
+      {
+        "symbol": "TAJGVK",
+        "company": "Taj GVK Hotels & Resorts Limited",
+        "dividend": 2.0,
+        "exDate": "2026-09-01",
+        "subject": "Dividend - Rs 2 Per Share",
+        "lastPrice": 341.1,
+        "previousDayVolume": 38431
+      },
+      {
+        "symbol": "VADILENT",
+        "company": "Vadilal Enterprises Limited",
+        "dividend": 1.5,
+        "exDate": "2026-09-01",
+        "subject": "Dividend - Rs 1.50 Per Share",
+        "lastPrice": 10750,
+        "previousDayVolume": 298
+      },
+      {
+        "symbol": "GARFIBRES",
+        "company": "Garware Technical Fibres Limited",
+        "dividend": 1.0,
+        "exDate": "2026-09-01",
+        "subject": "Dividend - Re 1 Per Share",
+        "lastPrice": 799.9,
+        "previousDayVolume": 29877
+      },
+      {
+        "symbol": "JINDRILL",
+        "company": "Jindal Drilling And Industries Limited",
+        "dividend": 1.0,
+        "exDate": "2026-09-01",
+        "subject": "Dividend - Re 1 Per Share",
+        "lastPrice": 630,
+        "previousDayVolume": 106924
+      },
+      {
+        "symbol": "RICOAUTO",
+        "company": "Rico Auto Industries Limited",
+        "dividend": 0.55,
+        "exDate": "2026-09-01",
+        "subject": "Dividend - Re 0.55 Per Share",
+        "lastPrice": 129.8,
+        "previousDayVolume": 656237
+      },
+      {
+        "symbol": "AEROENTER",
+        "company": "Aeroflex Enterprises Limited",
+        "dividend": 0.4,
+        "exDate": "2026-09-01",
+        "subject": "Dividend - Re 0.40 Per Share",
+        "lastPrice": 146.1,
+        "previousDayVolume": 930558
+      },
+      {
+        "symbol": "ORIRAIL",
+        "company": "Oriental Rail Infrastructure Limited",
+        "dividend": 0.1,
+        "exDate": "2026-09-01",
+        "subject": "Dividend - Re 0.10 Per Share",
+        "lastPrice": 132,
+        "previousDayVolume": 113427
       }
     ]
   }
