@@ -1,84 +1,25 @@
 {
-  "generatedAt": "31-Aug-2026 06:57 AM IST",
+  "generatedAt": "01-Sep-2026 07:27 AM IST",
   "today": {
-    "date": "2026-08-31",
-    "stocks": [
-      {
-        "symbol": "MASTEK",
-        "company": "Mastek Limited",
-        "dividend": 16.0,
-        "exDate": "2026-08-31",
-        "subject": "Dividend - Rs 16 Per Share",
-        "lastPrice": 1933.9,
-        "previousDayVolume": 5449060
-      },
-      {
-        "symbol": "GLENMARK",
-        "company": "Glenmark Pharmaceuticals Limited",
-        "dividend": 2.5,
-        "exDate": "2026-08-31",
-        "subject": "Dividend - Rs 2.50 Per Share",
-        "lastPrice": 2515,
-        "previousDayVolume": 807816
-      },
-      {
-        "symbol": "GANESHHOU",
-        "company": "GANESH HOUSING LIMITED",
-        "dividend": 1.5,
-        "exDate": "2026-08-31",
-        "subject": "Dividend - Rs 1.50 Per Share",
-        "lastPrice": 804,
-        "previousDayVolume": 19735
-      },
-      {
-        "symbol": "IONEXCHANG",
-        "company": "ION Exchange (India) Limited",
-        "dividend": 1.25,
-        "exDate": "2026-08-31",
-        "subject": "Dividend - Rs 1.25 Per Share",
-        "lastPrice": 371.15,
-        "previousDayVolume": 116406
-      },
-      {
-        "symbol": "TOTAL",
-        "company": "Total Transport Systems Limited",
-        "dividend": 1.25,
-        "exDate": "2026-08-31",
-        "subject": "Dividend - Rs 1.25 Per Share",
-        "lastPrice": 71.9,
-        "previousDayVolume": 20945
-      },
-      {
-        "symbol": "TRIVENI",
-        "company": "Triveni Engineering & Industries Limited",
-        "dividend": 1.25,
-        "exDate": "2026-08-31",
-        "subject": "Dividend - Rs 1.25 Per Share",
-        "lastPrice": 284,
-        "previousDayVolume": 792373
-      },
-      {
-        "symbol": "ORBTEXP",
-        "company": "Orbit Exports Limited",
-        "dividend": 0.5,
-        "exDate": "2026-08-31",
-        "subject": "Interim Dividend - Re 0.50 Per Share",
-        "lastPrice": null,
-        "previousDayVolume": null
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-09-01",
     "stocks": [
+      {
+        "symbol": "PGHH",
+        "company": "Procter & Gamble Hygiene and Health Care Limited",
+        "dividend": 60.0,
+        "exDate": "2026-09-01",
+        "subject": "Dividend - Rs 60 Per Share",
+        "lastPrice": 7985,
+        "previousDayVolume": 20411
+      },
       {
         "symbol": "BENGALASM",
         "company": "Bengal & Assam Company Limited",
         "dividend": 50.0,
         "exDate": "2026-09-01",
         "subject": "Dividend - Rs 50 Per Share",
-        "lastPrice": 6339.5,
-        "previousDayVolume": 462
+        "lastPrice": 6548,
+        "previousDayVolume": 1373
       },
       {
         "symbol": "AKCAPIT",
@@ -86,8 +27,8 @@
         "dividend": 12.0,
         "exDate": "2026-09-01",
         "subject": "Interim Dividend - Rs 12 Per Share",
-        "lastPrice": 1719.9,
-        "previousDayVolume": 3268
+        "lastPrice": 1751.2,
+        "previousDayVolume": 1340
       },
       {
         "symbol": "MAHSEAMLES",
@@ -96,7 +37,7 @@
         "exDate": "2026-09-01",
         "subject": "Dividend - Rs 10 Per Share",
         "lastPrice": 663.5,
-        "previousDayVolume": 550119
+        "previousDayVolume": 393023
       },
       {
         "symbol": "ALIVUS",
@@ -104,8 +45,8 @@
         "dividend": 5.0,
         "exDate": "2026-09-01",
         "subject": "Dividend - Rs 5 Per Share",
-        "lastPrice": 1359,
-        "previousDayVolume": 51812
+        "lastPrice": 1400,
+        "previousDayVolume": 1220512
       },
       {
         "symbol": "CCL",
@@ -113,8 +54,8 @@
         "dividend": 3.0,
         "exDate": "2026-09-01",
         "subject": "Dividend - Rs 3 Per Share",
-        "lastPrice": 1125,
-        "previousDayVolume": 131036
+        "lastPrice": 1091,
+        "previousDayVolume": 258424
       },
       {
         "symbol": "SUPRAJIT",
@@ -122,8 +63,8 @@
         "dividend": 2.0,
         "exDate": "2026-09-01",
         "subject": "Dividend - Rs 2 Per Share",
-        "lastPrice": 507.95,
-        "previousDayVolume": 84894
+        "lastPrice": 509.65,
+        "previousDayVolume": 57697
       },
       {
         "symbol": "TAJGVK",
@@ -131,8 +72,8 @@
         "dividend": 2.0,
         "exDate": "2026-09-01",
         "subject": "Dividend - Rs 2 Per Share",
-        "lastPrice": 341.1,
-        "previousDayVolume": 38431
+        "lastPrice": 334.55,
+        "previousDayVolume": 50366
       },
       {
         "symbol": "VADILENT",
@@ -140,8 +81,8 @@
         "dividend": 1.5,
         "exDate": "2026-09-01",
         "subject": "Dividend - Rs 1.50 Per Share",
-        "lastPrice": 10750,
-        "previousDayVolume": 298
+        "lastPrice": 10500,
+        "previousDayVolume": 62
       },
       {
         "symbol": "GARFIBRES",
@@ -149,8 +90,8 @@
         "dividend": 1.0,
         "exDate": "2026-09-01",
         "subject": "Dividend - Re 1 Per Share",
-        "lastPrice": 799.9,
-        "previousDayVolume": 29877
+        "lastPrice": 818.8,
+        "previousDayVolume": 53462
       },
       {
         "symbol": "JINDRILL",
@@ -158,8 +99,8 @@
         "dividend": 1.0,
         "exDate": "2026-09-01",
         "subject": "Dividend - Re 1 Per Share",
-        "lastPrice": 630,
-        "previousDayVolume": 106924
+        "lastPrice": 620,
+        "previousDayVolume": 139375
       },
       {
         "symbol": "RICOAUTO",
@@ -167,8 +108,8 @@
         "dividend": 0.55,
         "exDate": "2026-09-01",
         "subject": "Dividend - Re 0.55 Per Share",
-        "lastPrice": 129.8,
-        "previousDayVolume": 656237
+        "lastPrice": 129.55,
+        "previousDayVolume": 686184
       },
       {
         "symbol": "AEROENTER",
@@ -176,8 +117,8 @@
         "dividend": 0.4,
         "exDate": "2026-09-01",
         "subject": "Dividend - Re 0.40 Per Share",
-        "lastPrice": 146.1,
-        "previousDayVolume": 930558
+        "lastPrice": 137.8,
+        "previousDayVolume": 653171
       },
       {
         "symbol": "ORIRAIL",
@@ -185,13 +126,72 @@
         "dividend": 0.1,
         "exDate": "2026-09-01",
         "subject": "Dividend - Re 0.10 Per Share",
-        "lastPrice": 132,
-        "previousDayVolume": 113427
+        "lastPrice": 127.3,
+        "previousDayVolume": 107168
+      }
+    ]
+  },
+  "tomorrow": {
+    "date": "2026-09-02",
+    "stocks": [
+      {
+        "symbol": "GPPL",
+        "company": "Gujarat Pipavav Port Limited",
+        "dividend": 5.0,
+        "exDate": "2026-09-02",
+        "subject": "Dividend - Rs 5 Per Share",
+        "lastPrice": 168.12,
+        "previousDayVolume": 3304295
+      },
+      {
+        "symbol": "NTPC",
+        "company": "NTPC Limited",
+        "dividend": 3.5,
+        "exDate": "2026-09-02",
+        "subject": "Dividend - Rs 3.50 Per Share",
+        "lastPrice": 327.4,
+        "previousDayVolume": 18400774
+      },
+      {
+        "symbol": "TBZ",
+        "company": "Tribhovandas Bhimji Zaveri Limited",
+        "dividend": 2.5,
+        "exDate": "2026-09-02",
+        "subject": "Dividend - Rs 2.50 Per Share",
+        "lastPrice": 304.4,
+        "previousDayVolume": 1158968
+      },
+      {
+        "symbol": "TRITURBINE",
+        "company": "Triveni Turbine Limited",
+        "dividend": 2.0,
+        "exDate": "2026-09-02",
+        "subject": "Dividend - Rs 2 Per Share",
+        "lastPrice": 581,
+        "previousDayVolume": 359842
+      },
+      {
+        "symbol": "GAIL",
+        "company": "GAIL (India) Limited",
+        "dividend": 0.5,
+        "exDate": "2026-09-02",
+        "subject": "Dividend - Re 0.50 Per Share",
+        "lastPrice": 177.5,
+        "previousDayVolume": 13012294
+      },
+      {
+        "symbol": "COMPUSOFT",
+        "company": "Compucom Software Limited",
+        "dividend": 0.25,
+        "exDate": "2026-09-02",
+        "subject": "Dividend - Re 0.25 Per Share",
+        "lastPrice": 13.58,
+        "previousDayVolume": 23330
       }
     ]
   },
   "dayAfter": {
-    "date": "2026-09-02",
+    "date": "2026-09-03",
     "stocks": []
   }
 }
