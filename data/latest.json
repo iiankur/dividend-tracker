@@ -1,14 +1,10 @@
 {
-  "generatedAt": "05-Sep-2026 06:44 AM IST",
+  "generatedAt": "06-Sep-2026 06:42 AM IST",
   "today": {
-    "date": "2026-09-05",
-    "stocks": []
-  },
-  "tomorrow": {
     "date": "2026-09-06",
     "stocks": []
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-09-07",
     "stocks": [
       {
@@ -37,6 +33,92 @@
         "subject": "Dividend - Re 0.15 Per Share",
         "lastPrice": 115,
         "previousDayVolume": 122665
+      }
+    ]
+  },
+  "dayAfter": {
+    "date": "2026-09-08",
+    "stocks": [
+      {
+        "symbol": "APLAPOLLO",
+        "company": "APL Apollo Tubes Limited",
+        "dividend": 8.5,
+        "exDate": "2026-09-08",
+        "subject": "Dividend - Rs 8.50 Per Share",
+        "lastPrice": 2250,
+        "previousDayVolume": 955928
+      },
+      {
+        "symbol": "KDDL",
+        "company": "KDDL Limited",
+        "dividend": 8.0,
+        "exDate": "2026-09-08",
+        "subject": "Dividend - Rs 8 Per Share",
+        "lastPrice": 3914.4,
+        "previousDayVolume": 25376
+      },
+      {
+        "symbol": "TINNARUBR",
+        "company": "Tinna Rubber and Infrastructure Limited",
+        "dividend": 3.25,
+        "exDate": "2026-09-08",
+        "subject": "Dividend - Rs 3.25 Per Share",
+        "lastPrice": 1034.6,
+        "previousDayVolume": 38228
+      },
+      {
+        "symbol": "POLYPLEX",
+        "company": "Polyplex Corporation Limited",
+        "dividend": 1.0,
+        "exDate": "2026-09-08",
+        "subject": "Dividend - Re 1 Per Share",
+        "lastPrice": 1188,
+        "previousDayVolume": 72824
+      },
+      {
+        "symbol": "SINCLAIR",
+        "company": "Sinclairs Hotels Limited",
+        "dividend": 0.8,
+        "exDate": "2026-09-08",
+        "subject": "Dividend - Rs 0.80 Per Share",
+        "lastPrice": 84,
+        "previousDayVolume": 26997
+      },
+      {
+        "symbol": "BLSE",
+        "company": "BLS E-Services Limited",
+        "dividend": 0.5,
+        "exDate": "2026-09-08",
+        "subject": "Dividend - Re 0.50 Per Share",
+        "lastPrice": 319.1,
+        "previousDayVolume": 143302
+      },
+      {
+        "symbol": "SKIPPER",
+        "company": "Skipper Limited",
+        "dividend": 0.1,
+        "exDate": "2026-09-08",
+        "subject": "Dividend - Re 0.10 Per Share",
+        "lastPrice": 591.75,
+        "previousDayVolume": 10118419
+      },
+      {
+        "symbol": "RUSHIL",
+        "company": "Rushil Decor Limited",
+        "dividend": 0.05,
+        "exDate": "2026-09-08",
+        "subject": "Dividend - Re 0.05 Per Share",
+        "lastPrice": 15.98,
+        "previousDayVolume": 247963
+      },
+      {
+        "symbol": "BHANDARI",
+        "company": "Bhandari Hosiery Exports Limited",
+        "dividend": 0.01,
+        "exDate": "2026-09-08",
+        "subject": "Dividend - Re 0.01 Per Share",
+        "lastPrice": 3.04,
+        "previousDayVolume": 101595
       }
     ]
   }
