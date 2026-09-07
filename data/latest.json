@@ -1,10 +1,6 @@
 {
-  "generatedAt": "06-Sep-2026 06:42 AM IST",
+  "generatedAt": "07-Sep-2026 06:42 AM IST",
   "today": {
-    "date": "2026-09-06",
-    "stocks": []
-  },
-  "tomorrow": {
     "date": "2026-09-07",
     "stocks": [
       {
@@ -36,7 +32,7 @@
       }
     ]
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-09-08",
     "stocks": [
       {
@@ -119,6 +115,20 @@
         "subject": "Dividend - Re 0.01 Per Share",
         "lastPrice": 3.04,
         "previousDayVolume": 101595
+      }
+    ]
+  },
+  "dayAfter": {
+    "date": "2026-09-09",
+    "stocks": [
+      {
+        "symbol": "PRINCEPIPE",
+        "company": "Prince Pipes And Fittings Limited",
+        "dividend": 1.0,
+        "exDate": "2026-09-09",
+        "subject": "Dividend - Re 1 Per Share",
+        "lastPrice": 284,
+        "previousDayVolume": 140756
       }
     ]
   }
