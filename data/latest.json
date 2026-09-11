@@ -1,128 +1,6 @@
 {
-  "generatedAt": "10-Sep-2026 06:48 AM IST",
+  "generatedAt": "11-Sep-2026 06:49 AM IST",
   "today": {
-    "date": "2026-09-10",
-    "stocks": [
-      {
-        "symbol": "TVSSRICHAK",
-        "company": "TVS Srichakra Limited",
-        "dividend": 37.8,
-        "exDate": "2026-09-10",
-        "subject": "Dividend - Rs 37.80 Per Share",
-        "lastPrice": 5179.5,
-        "previousDayVolume": 7739
-      },
-      {
-        "symbol": "GANECOS",
-        "company": "Ganesha Ecosphere Limited",
-        "dividend": 3.5,
-        "exDate": "2026-09-10",
-        "subject": "Dividend - Rs 3.50 Per Share",
-        "lastPrice": 1030,
-        "previousDayVolume": 98699
-      },
-      {
-        "symbol": "DIVGIITTS",
-        "company": "Divgi Torqtransfer Systems Limited",
-        "dividend": 3.27,
-        "exDate": "2026-09-10",
-        "subject": "Dividend - Rs 3.27 Per Share",
-        "lastPrice": 1149.9,
-        "previousDayVolume": 159356
-      },
-      {
-        "symbol": "RADIANTCMS",
-        "company": "Radiant Cash Management Services Limited",
-        "dividend": 2.5,
-        "exDate": "2026-09-10",
-        "subject": "Dividend - Re 2.50 Per Share",
-        "lastPrice": 40.69,
-        "previousDayVolume": 687614
-      },
-      {
-        "symbol": "APEX",
-        "company": "Apex Frozen Foods Limited",
-        "dividend": 2.5,
-        "exDate": "2026-09-10",
-        "subject": "Dividend - Rs 2.50 Per Share",
-        "lastPrice": 379.9,
-        "previousDayVolume": 93004
-      },
-      {
-        "symbol": "ZEEL",
-        "company": "Zee Entertainment Enterprises Limited",
-        "dividend": 2.0,
-        "exDate": "2026-09-10",
-        "subject": "Dividend - Rs 2 Per Share",
-        "lastPrice": 85.55,
-        "previousDayVolume": 12868445
-      },
-      {
-        "symbol": "LINC",
-        "company": "Linc Limited",
-        "dividend": 1.5,
-        "exDate": "2026-09-10",
-        "subject": "Dividend - Rs 1.50 Per Share",
-        "lastPrice": 98.79,
-        "previousDayVolume": 10519
-      },
-      {
-        "symbol": "POWERMECH",
-        "company": "Power Mech Projects Limited",
-        "dividend": 1.5,
-        "exDate": "2026-09-10",
-        "subject": "Dividend - Rs 1.50 Per Share",
-        "lastPrice": 2422.8,
-        "previousDayVolume": 123045
-      },
-      {
-        "symbol": "MBEL",
-        "company": "M & B Engineering Limited",
-        "dividend": 1.0,
-        "exDate": "2026-09-10",
-        "subject": "Dividend - Re 1 Per Share",
-        "lastPrice": 264.55,
-        "previousDayVolume": 44511
-      },
-      {
-        "symbol": "CHEMCRUX",
-        "company": "Chemcrux Enterprises Limited",
-        "dividend": 1.0,
-        "exDate": "2026-09-10",
-        "subject": "Dividend - Re 1 Per Share",
-        "lastPrice": 83.8,
-        "previousDayVolume": 3345
-      },
-      {
-        "symbol": "SICAGEN",
-        "company": "Sicagen India Limited",
-        "dividend": 1.0,
-        "exDate": "2026-09-10",
-        "subject": "Dividend - Re 1 Per Share",
-        "lastPrice": 57.35,
-        "previousDayVolume": 42516
-      },
-      {
-        "symbol": "GRAUWEIL",
-        "company": "Grauer & Weil India Limited",
-        "dividend": 0.5,
-        "exDate": "2026-09-10",
-        "subject": "Dividend - Re 0.50 Per Share",
-        "lastPrice": 73.11,
-        "previousDayVolume": 306598
-      },
-      {
-        "symbol": "INDOCO",
-        "company": "Indoco Remedies Limited",
-        "dividend": 0.2,
-        "exDate": "2026-09-10",
-        "subject": "Dividend - Re 0.20 Per Share",
-        "lastPrice": 231.89,
-        "previousDayVolume": 569994
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-09-11",
     "stocks": [
       {
@@ -131,8 +9,8 @@
         "dividend": 60.0,
         "exDate": "2026-09-11",
         "subject": "Dividend - Rs 60 Per Share",
-        "lastPrice": 17451,
-        "previousDayVolume": 105567
+        "lastPrice": 17379,
+        "previousDayVolume": 114403
       },
       {
         "symbol": "VENKEYS",
@@ -140,8 +18,8 @@
         "dividend": 10.0,
         "exDate": "2026-09-11",
         "subject": "Dividend - Rs 10 Per Share",
-        "lastPrice": 1698.7,
-        "previousDayVolume": 62910
+        "lastPrice": 1704,
+        "previousDayVolume": 83868
       },
       {
         "symbol": "HEIDELBERG",
@@ -149,8 +27,44 @@
         "dividend": 7.0,
         "exDate": "2026-09-11",
         "subject": "Dividend - Rs 7 Per Share",
-        "lastPrice": 159.9,
-        "previousDayVolume": 326934
+        "lastPrice": 159,
+        "previousDayVolume": 467802
+      },
+      {
+        "symbol": "DATAMATICS",
+        "company": "Datamatics Global Services Limited",
+        "dividend": 5.0,
+        "exDate": "2026-09-11",
+        "subject": "Dividend - Rs 5 Per Share",
+        "lastPrice": 783,
+        "previousDayVolume": 84196
+      },
+      {
+        "symbol": "GSFC",
+        "company": "Gujarat State Fertilizers & Chemicals Limited",
+        "dividend": 5.0,
+        "exDate": "2026-09-11",
+        "subject": "Dividend - Rs 5 Per Share",
+        "lastPrice": 160.35,
+        "previousDayVolume": 1757556
+      },
+      {
+        "symbol": "GIPCL",
+        "company": "Gujarat Industries Power Company Limited",
+        "dividend": 4.1,
+        "exDate": "2026-09-11",
+        "subject": "Dividend - Rs 4.10 Per Share",
+        "lastPrice": 201.4,
+        "previousDayVolume": 352513
+      },
+      {
+        "symbol": "NITINSPIN",
+        "company": "Nitin Spinners Limited",
+        "dividend": 3.0,
+        "exDate": "2026-09-11",
+        "subject": "Dividend - Rs 3 Per Share",
+        "lastPrice": 652,
+        "previousDayVolume": 188865
       },
       {
         "symbol": "SUBROS",
@@ -158,8 +72,17 @@
         "dividend": 3.0,
         "exDate": "2026-09-11",
         "subject": "Dividend - Rs 3 Per Share",
-        "lastPrice": 730.9,
-        "previousDayVolume": 96607
+        "lastPrice": 713.75,
+        "previousDayVolume": 45641
+      },
+      {
+        "symbol": "PHOENIXLTD",
+        "company": "The Phoenix Mills Limited",
+        "dividend": 2.5,
+        "exDate": "2026-09-11",
+        "subject": "Dividend - Rs 2.50 Per Share",
+        "lastPrice": 1890,
+        "previousDayVolume": 383380
       },
       {
         "symbol": "UTTAMSUGAR",
@@ -167,8 +90,35 @@
         "dividend": 2.5,
         "exDate": "2026-09-11",
         "subject": "Dividend - Rs 2.50 Per Share",
-        "lastPrice": 284.5,
-        "previousDayVolume": 213906
+        "lastPrice": 283.4,
+        "previousDayVolume": 179791
+      },
+      {
+        "symbol": "ASTRAMICRO",
+        "company": "Astra Microwave Products Limited",
+        "dividend": 2.4,
+        "exDate": "2026-09-11",
+        "subject": "Dividend - Rs 2.40 Per Share",
+        "lastPrice": 1705,
+        "previousDayVolume": 258483
+      },
+      {
+        "symbol": "FINPIPE",
+        "company": "Finolex Industries Limited",
+        "dividend": 2.0,
+        "exDate": "2026-09-11",
+        "subject": "Dividend - Rs 2 Per Share & Special Dividend Re 0.75 Per Share",
+        "lastPrice": 157.4,
+        "previousDayVolume": 286323
+      },
+      {
+        "symbol": "ASAHIINDIA",
+        "company": "Asahi India Glass Limited",
+        "dividend": 2.0,
+        "exDate": "2026-09-11",
+        "subject": "Dividend - Rs 2 Per Share",
+        "lastPrice": 980,
+        "previousDayVolume": 220953
       },
       {
         "symbol": "NCLIND",
@@ -176,8 +126,8 @@
         "dividend": 2.0,
         "exDate": "2026-09-11",
         "subject": "Dividend - Rs 2 Per Share",
-        "lastPrice": 181,
-        "previousDayVolume": 27116
+        "lastPrice": 179.25,
+        "previousDayVolume": 32644
       },
       {
         "symbol": "EDELWEISS",
@@ -185,13 +135,62 @@
         "dividend": 1.5,
         "exDate": "2026-09-11",
         "subject": "Dividend - Rs 1.50 Per Share",
-        "lastPrice": 132.8,
-        "previousDayVolume": 7709484
+        "lastPrice": 136.5,
+        "previousDayVolume": 16928746
+      },
+      {
+        "symbol": "PPAP",
+        "company": "PPAP Automotive Limited",
+        "dividend": 1.5,
+        "exDate": "2026-09-11",
+        "subject": "Dividend - Rs 1.50 Per Share",
+        "lastPrice": null,
+        "previousDayVolume": null
+      },
+      {
+        "symbol": "CONSOFINVT",
+        "company": "Consolidated Finvest & Holdings Limited",
+        "dividend": 1.47,
+        "exDate": "2026-09-11",
+        "subject": "Dividend - Rs 1.47 Per Share",
+        "lastPrice": null,
+        "previousDayVolume": null
+      },
+      {
+        "symbol": "SKMEGGPROD",
+        "company": "SKM Egg Products Export (India) Limited",
+        "dividend": 1.25,
+        "exDate": "2026-09-11",
+        "subject": "Dividend - Rs 1.25 Per Share",
+        "lastPrice": 247.8,
+        "previousDayVolume": 149927
+      },
+      {
+        "symbol": "NFL",
+        "company": "National Fertilizers Limited",
+        "dividend": 1.04,
+        "exDate": "2026-09-11",
+        "subject": "Dividend - Rs 1.04 Per Share",
+        "lastPrice": 69.49,
+        "previousDayVolume": 738161
+      },
+      {
+        "symbol": "AARTIIND",
+        "company": "Aarti Industries Limited",
+        "dividend": 1.0,
+        "exDate": "2026-09-11",
+        "subject": "Dividend - Re 1 Per Share",
+        "lastPrice": 505.25,
+        "previousDayVolume": 589520
       }
     ]
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-09-12",
+    "stocks": []
+  },
+  "dayAfter": {
+    "date": "2026-09-13",
     "stocks": []
   }
 }
