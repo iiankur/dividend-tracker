@@ -1,196 +1,196 @@
 {
-  "generatedAt": "16-Sep-2026 07:01 AM IST",
+  "generatedAt": "17-Sep-2026 07:06 AM IST",
   "today": {
-    "date": "2026-09-16",
+    "date": "2026-09-17",
     "stocks": [
       {
-        "symbol": "VSTTILLERS",
-        "company": "V.S.T Tillers Tractors Limited",
-        "dividend": 25.0,
-        "exDate": "2026-09-16",
-        "subject": "Dividend - Rs 25 Per Share",
-        "lastPrice": 4030,
-        "previousDayVolume": 7195
+        "symbol": "MSTCLTD",
+        "company": "Mstc Limited",
+        "dividend": 8.1,
+        "exDate": "2026-09-17",
+        "subject": "Dividend - Rs 8.10 Per Share",
+        "lastPrice": 700.2,
+        "previousDayVolume": 248850
       },
       {
-        "symbol": "BANARISUG",
-        "company": "Bannari Amman Sugars Limited",
-        "dividend": 12.5,
-        "exDate": "2026-09-16",
-        "subject": "Dividend - Rs 12.50 Per Share",
-        "lastPrice": 3400,
-        "previousDayVolume": 1035
-      },
-      {
-        "symbol": "GRWRHITECH",
-        "company": "Garware Hi-Tech Films Limited",
-        "dividend": 12.0,
-        "exDate": "2026-09-16",
-        "subject": "Dividend - Rs 12 Per Share",
-        "lastPrice": 6590,
-        "previousDayVolume": 31955
-      },
-      {
-        "symbol": "INDOTECH",
-        "company": "Indo Tech Transformers Limited",
-        "dividend": 10.0,
-        "exDate": "2026-09-16",
-        "subject": "Dividend - Rs 10 Per Share",
-        "lastPrice": 3346.8,
-        "previousDayVolume": 32734
-      },
-      {
-        "symbol": "DENORA",
-        "company": "De Nora India Limited",
+        "symbol": "TNPL",
+        "company": "Tamil Nadu Newsprint & Papers Limited",
         "dividend": 4.0,
-        "exDate": "2026-09-16",
+        "exDate": "2026-09-17",
         "subject": "Dividend - Rs 4 Per Share",
-        "lastPrice": 818,
-        "previousDayVolume": 2684
+        "lastPrice": 151.34,
+        "previousDayVolume": 219131
       },
       {
-        "symbol": "PPL",
-        "company": "Prakash Pipes Limited",
-        "dividend": 2.4,
-        "exDate": "2026-09-16",
-        "subject": "Dividend - Rs 2.40 Per Share",
-        "lastPrice": null,
-        "previousDayVolume": null
+        "symbol": "AGARIND",
+        "company": "Agarwal Industrial Corporation Limited",
+        "dividend": 3.3,
+        "exDate": "2026-09-17",
+        "subject": "Dividend - Rs 3.30 Per Share",
+        "lastPrice": 408.95,
+        "previousDayVolume": 46733
       },
       {
-        "symbol": "VIJAYA",
-        "company": "Vijaya Diagnostic Centre Limited",
-        "dividend": 2.0,
-        "exDate": "2026-09-16",
-        "subject": "Dividend - Rs 2 Per Share",
-        "lastPrice": 1432.4,
-        "previousDayVolume": 116091
+        "symbol": "RUBYMILLS",
+        "company": "The Ruby Mills Limited",
+        "dividend": 2.5,
+        "exDate": "2026-09-17",
+        "subject": "Dividend - Rs 2.5 Per Share",
+        "lastPrice": 464,
+        "previousDayVolume": 90742
       },
       {
-        "symbol": "63MOONS",
-        "company": "63 moons technologies limited",
-        "dividend": 2.0,
-        "exDate": "2026-09-16",
-        "subject": "Dividend - Rs 2 Per Share",
-        "lastPrice": 867,
-        "previousDayVolume": 310775
+        "symbol": "STARPAPER",
+        "company": "Star Paper Mills Limited",
+        "dividend": 2.5,
+        "exDate": "2026-09-17",
+        "subject": "Dividend - Rs 2.50 Per Share",
+        "lastPrice": 163.5,
+        "previousDayVolume": 10208
       },
       {
-        "symbol": "HINDCOPPER",
-        "company": "Hindustan Copper Limited",
-        "dividend": 1.86,
-        "exDate": "2026-09-16",
-        "subject": "Dividend - Rs 1.86 Per Share",
-        "lastPrice": 493.7,
-        "previousDayVolume": 6982438
-      },
-      {
-        "symbol": "PRAKASH",
-        "company": "Prakash Industries Limited",
-        "dividend": 1.8,
-        "exDate": "2026-09-16",
-        "subject": "Dividend - Rs 1.80 Per Share",
-        "lastPrice": 118.5,
-        "previousDayVolume": 716947
-      },
-      {
-        "symbol": "MACPOWER",
-        "company": "Macpower CNC Machines Limited",
+        "symbol": "SUNTECK",
+        "company": "Sunteck Realty Limited",
         "dividend": 1.5,
-        "exDate": "2026-09-16",
+        "exDate": "2026-09-17",
         "subject": "Dividend - Rs 1.50 Per Share",
-        "lastPrice": 1872.9,
-        "previousDayVolume": 51674
+        "lastPrice": 280,
+        "previousDayVolume": 216291
       },
       {
-        "symbol": "CINELINE",
-        "company": "Cineline India Limited",
-        "dividend": 1.25,
-        "exDate": "2026-09-16",
-        "subject": "Dividend - Rs 1.25 Per Share",
-        "lastPrice": 92.18,
-        "previousDayVolume": 12901
+        "symbol": "TNPETRO",
+        "company": "Tamilnadu PetroProducts Limited",
+        "dividend": 1.5,
+        "exDate": "2026-09-17",
+        "subject": "Dividend - Rs 1.50 Per Share",
+        "lastPrice": 127.76,
+        "previousDayVolume": 947867
       },
       {
-        "symbol": "JASH",
-        "company": "Jash Engineering Limited",
+        "symbol": "BALPHARMA",
+        "company": "Bal Pharma Limited",
+        "dividend": 1.2,
+        "exDate": "2026-09-17",
+        "subject": "Dividend - Rs 1.20 Per Share",
+        "lastPrice": 102.02,
+        "previousDayVolume": 125428
+      },
+      {
+        "symbol": "WEALTH",
+        "company": "Wealth First Portfolio Managers Limited",
         "dividend": 1.0,
-        "exDate": "2026-09-16",
+        "exDate": "2026-09-17",
         "subject": "Dividend - Re 1 Per Share",
-        "lastPrice": 496.8,
-        "previousDayVolume": 94635
+        "lastPrice": 837.8,
+        "previousDayVolume": 2584
       },
       {
-        "symbol": "AJMERA",
-        "company": "Ajmera Realty & Infra India Limited",
+        "symbol": "HPL",
+        "company": "HPL Electric & Power Limited",
         "dividend": 1.0,
-        "exDate": "2026-09-16",
+        "exDate": "2026-09-17",
         "subject": "Dividend - Re 1 Per Share",
-        "lastPrice": 114.9,
-        "previousDayVolume": 421507
+        "lastPrice": 276.1,
+        "previousDayVolume": 116910
       },
       {
-        "symbol": "ZODIAC",
-        "company": "Zodiac Energy Limited",
-        "dividend": 0.75,
-        "exDate": "2026-09-16",
-        "subject": "Dividend - Re 0.75 Per Share",
-        "lastPrice": 221.15,
-        "previousDayVolume": 14986
+        "symbol": "AUSOMENT",
+        "company": "Ausom Enterprise Limited",
+        "dividend": 1.0,
+        "exDate": "2026-09-17",
+        "subject": "Dividend - Re 1 Per Share",
+        "lastPrice": 155,
+        "previousDayVolume": 5638
       },
       {
-        "symbol": "UNIDT",
-        "company": "United Drilling Tools Limited",
-        "dividend": 0.6,
-        "exDate": "2026-09-16",
-        "subject": "Dividend - Re 0.60 Per Share",
-        "lastPrice": 215,
-        "previousDayVolume": 42891
+        "symbol": "IRCON",
+        "company": "Ircon International Limited",
+        "dividend": 0.7,
+        "exDate": "2026-09-17",
+        "subject": "Dividend - Re 0.70 Per Share",
+        "lastPrice": 108.41,
+        "previousDayVolume": 1405153
       },
       {
-        "symbol": "SALONA",
-        "company": "Salona Cotspin Limited",
-        "dividend": 0.6,
-        "exDate": "2026-09-16",
-        "subject": "Dividend - Re 0.60 Per Share",
-        "lastPrice": 262.5,
-        "previousDayVolume": 65
-      },
-      {
-        "symbol": "BLS",
-        "company": "BLS International Services Limited",
+        "symbol": "INDOAMIN",
+        "company": "Indo Amines Limited",
         "dividend": 0.5,
-        "exDate": "2026-09-16",
+        "exDate": "2026-09-17",
         "subject": "Dividend - Re 0.50 Per Share",
-        "lastPrice": 229.7,
-        "previousDayVolume": 1252796
-      },
-      {
-        "symbol": "EMMBI",
-        "company": "Emmbi Industries Limited",
-        "dividend": 0.3,
-        "exDate": "2026-09-16",
-        "subject": "Dividend - Re 0.30 Per Share",
         "lastPrice": null,
         "previousDayVolume": null
       },
       {
-        "symbol": "BAIDFIN",
-        "company": "Baid Finserv Limited",
+        "symbol": "INTLCONV",
+        "company": "International Conveyors Limited",
+        "dividend": 0.5,
+        "exDate": "2026-09-17",
+        "subject": "Dividend - Re 0.50 Per Share",
+        "lastPrice": 75.02,
+        "previousDayVolume": 23067
+      },
+      {
+        "symbol": "BHARATRAS",
+        "company": "Bharat Rasayan Limited",
+        "dividend": 0.5,
+        "exDate": "2026-09-17",
+        "subject": "Dividend - Re 0.50 Per Share",
+        "lastPrice": 1158,
+        "previousDayVolume": 16438
+      },
+      {
+        "symbol": "ESTER",
+        "company": "Ester Industries Limited",
+        "dividend": 0.25,
+        "exDate": "2026-09-17",
+        "subject": "Dividend - Re 0.25 Per Share",
+        "lastPrice": 85.92,
+        "previousDayVolume": 40282
+      },
+      {
+        "symbol": "HIMATSEIDE",
+        "company": "Himatsingka Seide Limited",
+        "dividend": 0.25,
+        "exDate": "2026-09-17",
+        "subject": "Dividend - Re 0.25 Per Share",
+        "lastPrice": 64.51,
+        "previousDayVolume": 353499
+      },
+      {
+        "symbol": "PATINTLOG",
+        "company": "Patel Integrated Logistics Limited",
+        "dividend": 0.2,
+        "exDate": "2026-09-17",
+        "subject": "Dividend - Re 0.20 Per Share",
+        "lastPrice": null,
+        "previousDayVolume": null
+      },
+      {
+        "symbol": "PREMIERPOL",
+        "company": "Premier Polyfilm Limited",
+        "dividend": 0.15,
+        "exDate": "2026-09-17",
+        "subject": "Dividend - Re 0.15 Per Share",
+        "lastPrice": 84.95,
+        "previousDayVolume": 260231
+      },
+      {
+        "symbol": "KCPSUGIND",
+        "company": "KCP Sugar and Industries Corporation Limited",
         "dividend": 0.1,
-        "exDate": "2026-09-16",
+        "exDate": "2026-09-17",
         "subject": "Dividend - Re 0.10 Per Share",
-        "lastPrice": 10.09,
-        "previousDayVolume": 552693
+        "lastPrice": null,
+        "previousDayVolume": null
       }
     ]
   },
   "tomorrow": {
-    "date": "2026-09-17",
+    "date": "2026-09-18",
     "stocks": []
   },
   "dayAfter": {
-    "date": "2026-09-18",
+    "date": "2026-09-19",
     "stocks": []
   }
 }
