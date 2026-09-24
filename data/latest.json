@@ -1,196 +1,44 @@
 {
-  "generatedAt": "23-Sep-2026 07:08 AM IST",
+  "generatedAt": "24-Sep-2026 07:05 AM IST",
   "today": {
-    "date": "2026-09-23",
+    "date": "2026-09-24",
     "stocks": [
       {
-        "symbol": "GMDCLTD",
-        "company": "Gujarat Mineral Development Corporation Limited",
-        "dividend": 9.5,
-        "exDate": "2026-09-23",
-        "subject": "Dividend - Rs 9.50 Per Share",
-        "lastPrice": 563.2,
-        "previousDayVolume": 726787
+        "symbol": "ENGINERSIN",
+        "company": "Engineers India Limited",
+        "dividend": 2.5,
+        "exDate": "2026-09-24",
+        "subject": "Dividend - Rs 2.50 Per Share",
+        "lastPrice": 306.25,
+        "previousDayVolume": 11229270
       },
       {
-        "symbol": "ICEMAKE",
-        "company": "Ice Make Refrigeration Limited",
-        "dividend": 2.25,
-        "exDate": "2026-09-23",
-        "subject": "Dividend - Rs 2.25 Per Share",
-        "lastPrice": 700,
-        "previousDayVolume": 14608
-      },
+        "symbol": "ARFIN",
+        "company": "Arfin India Limited",
+        "dividend": 0.12,
+        "exDate": "2026-09-24",
+        "subject": "Interim Dividend - Re 0.12 Per Share",
+        "lastPrice": 91.7,
+        "previousDayVolume": 1313201
+      }
+    ]
+  },
+  "tomorrow": {
+    "date": "2026-09-25",
+    "stocks": [
       {
-        "symbol": "SSWL",
-        "company": "Steel Strips Wheels Limited",
-        "dividend": 1.5,
-        "exDate": "2026-09-23",
-        "subject": "Dividend - Rs 1.50 Per Share",
-        "lastPrice": 366,
-        "previousDayVolume": 2427282
-      },
-      {
-        "symbol": "ASAHISONG",
-        "company": "Asahi Songwon Colors Limited",
-        "dividend": 1.5,
-        "exDate": "2026-09-23",
-        "subject": "Dividend - Rs 1.50 Per Share",
-        "lastPrice": null,
-        "previousDayVolume": null
-      },
-      {
-        "symbol": "MIDHANI",
-        "company": "Mishra Dhatu Nigam Limited",
-        "dividend": 1.25,
-        "exDate": "2026-09-23",
-        "subject": "Dividend - Rs 1.25 Per Share",
-        "lastPrice": 414.9,
-        "previousDayVolume": 496164
-      },
-      {
-        "symbol": "AAATECH",
-        "company": "Aaa Technologies Limited",
-        "dividend": 1.0,
-        "exDate": "2026-09-23",
-        "subject": "Dividend - Re 1 Per Share",
-        "lastPrice": 94.1,
-        "previousDayVolume": 122242
-      },
-      {
-        "symbol": "TITAGARH",
-        "company": "TITAGARH RAIL SYSTEMS LIMITED",
-        "dividend": 1.0,
-        "exDate": "2026-09-23",
-        "subject": "Dividend - Re 1 Per Share",
-        "lastPrice": 837.5,
-        "previousDayVolume": 341550
-      },
-      {
-        "symbol": "GOODLUCK",
-        "company": "Goodluck India Limited",
-        "dividend": 1.0,
-        "exDate": "2026-09-23",
-        "subject": "Dividend - Re 1 Per Share",
-        "lastPrice": 539.7,
-        "previousDayVolume": 827953
-      },
-      {
-        "symbol": "HARIOMPIPE",
-        "company": "Hariom Pipe Industries Limited",
-        "dividend": 0.75,
-        "exDate": "2026-09-23",
-        "subject": "Dividend - Re 0.75 Per Share",
-        "lastPrice": 358.5,
-        "previousDayVolume": 127395
-      },
-      {
-        "symbol": "PNCINFRA",
-        "company": "PNC Infratech Limited",
-        "dividend": 0.6,
-        "exDate": "2026-09-23",
-        "subject": "Dividend - Re 0.60 Per Share",
-        "lastPrice": 139.76,
-        "previousDayVolume": 1611269
-      },
-      {
-        "symbol": "SIGIND",
-        "company": "Signet Industries Limited",
+        "symbol": "LOTUSDEV",
+        "company": "Sri Lotus Developers and Realty Limited",
         "dividend": 0.5,
-        "exDate": "2026-09-23",
+        "exDate": "2026-09-25",
         "subject": "Dividend - Re 0.50 Per Share",
-        "lastPrice": null,
-        "previousDayVolume": null
-      },
-      {
-        "symbol": "PREMEXPLN",
-        "company": "Premier Explosives Limited",
-        "dividend": 0.5,
-        "exDate": "2026-09-23",
-        "subject": "Dividend - Re 0.50 Per Share",
-        "lastPrice": 673.5,
-        "previousDayVolume": 109557
-      },
-      {
-        "symbol": "THEMISMED",
-        "company": "Themis Medicare Limited",
-        "dividend": 0.5,
-        "exDate": "2026-09-23",
-        "subject": "Dividend - Re 0.50 Per Share",
-        "lastPrice": 123.5,
-        "previousDayVolume": 57664
-      },
-      {
-        "symbol": "SATIA",
-        "company": "Satia Industries Limited",
-        "dividend": 0.4,
-        "exDate": "2026-09-23",
-        "subject": "Dividend - Re 0.40 Per Share",
-        "lastPrice": 67.5,
-        "previousDayVolume": 70149
-      },
-      {
-        "symbol": "APOLLO",
-        "company": "Apollo Micro Systems Limited",
-        "dividend": 0.25,
-        "exDate": "2026-09-23",
-        "subject": "Dividend - Re 0.25 Per Share",
-        "lastPrice": 408.6,
-        "previousDayVolume": 13757604
-      },
-      {
-        "symbol": "CONFIPET",
-        "company": "Confidence Petroleum India Limited",
-        "dividend": 0.1,
-        "exDate": "2026-09-23",
-        "subject": "Dividend - Re 0.10 Per Share",
-        "lastPrice": 86.7,
-        "previousDayVolume": 1813161
-      },
-      {
-        "symbol": "DEVIT",
-        "company": "Dev Information Technology Limited",
-        "dividend": 0.1,
-        "exDate": "2026-09-23",
-        "subject": "Dividend - Re 0.10 Per Share",
-        "lastPrice": 23.44,
-        "previousDayVolume": 30918
-      },
-      {
-        "symbol": "REMSONSIND",
-        "company": "Remsons Industries Limited",
-        "dividend": 0.1,
-        "exDate": "2026-09-23",
-        "subject": "Dividend - Re 0.10 Per Share",
-        "lastPrice": 99.35,
-        "previousDayVolume": 111502
-      },
-      {
-        "symbol": "PASHUPATI",
-        "company": "Pashupati Cotspin Limited",
-        "dividend": 0.05,
-        "exDate": "2026-09-23",
-        "subject": "Dividend - Re 0.05 Per Share",
-        "lastPrice": 80.4,
-        "previousDayVolume": 127639
-      },
-      {
-        "symbol": "RMDRIP",
-        "company": "R M Drip and Sprinklers Systems Limited",
-        "dividend": 0.03,
-        "exDate": "2026-09-23",
-        "subject": "Dividend - Re 0.03 Per Share",
         "lastPrice": null,
         "previousDayVolume": null
       }
     ]
   },
-  "tomorrow": {
-    "date": "2026-09-24",
-    "stocks": []
-  },
   "dayAfter": {
-    "date": "2026-09-25",
+    "date": "2026-09-26",
     "stocks": []
   }
 }
