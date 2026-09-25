@@ -1,29 +1,6 @@
 {
-  "generatedAt": "24-Sep-2026 07:05 AM IST",
+  "generatedAt": "25-Sep-2026 07:13 AM IST",
   "today": {
-    "date": "2026-09-24",
-    "stocks": [
-      {
-        "symbol": "ENGINERSIN",
-        "company": "Engineers India Limited",
-        "dividend": 2.5,
-        "exDate": "2026-09-24",
-        "subject": "Dividend - Rs 2.50 Per Share",
-        "lastPrice": 306.25,
-        "previousDayVolume": 11229270
-      },
-      {
-        "symbol": "ARFIN",
-        "company": "Arfin India Limited",
-        "dividend": 0.12,
-        "exDate": "2026-09-24",
-        "subject": "Interim Dividend - Re 0.12 Per Share",
-        "lastPrice": 91.7,
-        "previousDayVolume": 1313201
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-09-25",
     "stocks": [
       {
@@ -37,8 +14,12 @@
       }
     ]
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-09-26",
+    "stocks": []
+  },
+  "dayAfter": {
+    "date": "2026-09-27",
     "stocks": []
   }
 }
