@@ -1,25 +1,15 @@
 {
-  "generatedAt": "25-Sep-2026 07:13 AM IST",
+  "generatedAt": "26-Sep-2026 07:17 AM IST",
   "today": {
-    "date": "2026-09-25",
-    "stocks": [
-      {
-        "symbol": "LOTUSDEV",
-        "company": "Sri Lotus Developers and Realty Limited",
-        "dividend": 0.5,
-        "exDate": "2026-09-25",
-        "subject": "Dividend - Re 0.50 Per Share",
-        "lastPrice": null,
-        "previousDayVolume": null
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-09-26",
     "stocks": []
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-09-27",
+    "stocks": []
+  },
+  "dayAfter": {
+    "date": "2026-09-28",
     "stocks": []
   }
 }
