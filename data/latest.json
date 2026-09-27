@@ -1,15 +1,15 @@
 {
-  "generatedAt": "26-Sep-2026 07:17 AM IST",
+  "generatedAt": "27-Sep-2026 07:08 AM IST",
   "today": {
-    "date": "2026-09-26",
-    "stocks": []
-  },
-  "tomorrow": {
     "date": "2026-09-27",
     "stocks": []
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-09-28",
+    "stocks": []
+  },
+  "dayAfter": {
+    "date": "2026-09-29",
     "stocks": []
   }
 }
