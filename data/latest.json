@@ -1,24 +1,52 @@
 {
-  "generatedAt": "28-Sep-2026 07:20 AM IST",
+  "generatedAt": "29-Sep-2026 08:09 AM IST",
   "today": {
-    "date": "2026-09-28",
-    "stocks": []
-  },
-  "tomorrow": {
     "date": "2026-09-29",
     "stocks": []
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-09-30",
     "stocks": [
+      {
+        "symbol": "SSDL",
+        "company": "Saraswati Saree Depot Limited",
+        "dividend": 3.0,
+        "exDate": "2026-09-30",
+        "subject": "Interim Dividend - Rs 3 Per Share",
+        "lastPrice": 82,
+        "previousDayVolume": 1315517
+      },
       {
         "symbol": "SAIL",
         "company": "Steel Authority of India Limited",
         "dividend": 2.35,
         "exDate": "2026-09-30",
         "subject": "Dividend - Rs 2.35 Per Share",
-        "lastPrice": 185,
-        "previousDayVolume": 9681139
+        "lastPrice": 184.2,
+        "previousDayVolume": 14311000
+      }
+    ]
+  },
+  "dayAfter": {
+    "date": "2026-10-01",
+    "stocks": [
+      {
+        "symbol": "RSYSTEMS",
+        "company": "R Systems International Limited",
+        "dividend": 8.0,
+        "exDate": "2026-10-01",
+        "subject": "Interim Dividend - Rs 8 Per Share",
+        "lastPrice": 282.74,
+        "previousDayVolume": 61311130
+      },
+      {
+        "symbol": "IGL",
+        "company": "Indraprastha Gas Limited",
+        "dividend": 1.5,
+        "exDate": "2026-10-01",
+        "subject": "Dividend - Rs 1.50 Per Share",
+        "lastPrice": 143.4,
+        "previousDayVolume": 1200707
       }
     ]
   }
