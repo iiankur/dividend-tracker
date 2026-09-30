@@ -1,10 +1,6 @@
 {
-  "generatedAt": "29-Sep-2026 08:09 AM IST",
+  "generatedAt": "30-Sep-2026 07:46 AM IST",
   "today": {
-    "date": "2026-09-29",
-    "stocks": []
-  },
-  "tomorrow": {
     "date": "2026-09-30",
     "stocks": [
       {
@@ -13,8 +9,8 @@
         "dividend": 3.0,
         "exDate": "2026-09-30",
         "subject": "Interim Dividend - Rs 3 Per Share",
-        "lastPrice": 82,
-        "previousDayVolume": 1315517
+        "lastPrice": 84,
+        "previousDayVolume": 411654
       },
       {
         "symbol": "SAIL",
@@ -22,12 +18,12 @@
         "dividend": 2.35,
         "exDate": "2026-09-30",
         "subject": "Dividend - Rs 2.35 Per Share",
-        "lastPrice": 184.2,
-        "previousDayVolume": 14311000
+        "lastPrice": 181.82,
+        "previousDayVolume": 21241634
       }
     ]
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-10-01",
     "stocks": [
       {
@@ -36,8 +32,8 @@
         "dividend": 8.0,
         "exDate": "2026-10-01",
         "subject": "Interim Dividend - Rs 8 Per Share",
-        "lastPrice": 282.74,
-        "previousDayVolume": 61311130
+        "lastPrice": 301,
+        "previousDayVolume": 67292815
       },
       {
         "symbol": "IGL",
@@ -45,9 +41,13 @@
         "dividend": 1.5,
         "exDate": "2026-10-01",
         "subject": "Dividend - Rs 1.50 Per Share",
-        "lastPrice": 143.4,
-        "previousDayVolume": 1200707
+        "lastPrice": 141.4,
+        "previousDayVolume": 3801920
       }
     ]
+  },
+  "dayAfter": {
+    "date": "2026-10-02",
+    "stocks": []
   }
 }
