@@ -1,34 +1,15 @@
 {
-  "generatedAt": "01-Oct-2026 07:47 AM IST",
+  "generatedAt": "02-Oct-2026 07:56 AM IST",
   "today": {
-    "date": "2026-10-01",
-    "stocks": [
-      {
-        "symbol": "RSYSTEMS",
-        "company": "R Systems International Limited",
-        "dividend": 8.0,
-        "exDate": "2026-10-01",
-        "subject": "Interim Dividend - Rs 8 Per Share",
-        "lastPrice": 285.71,
-        "previousDayVolume": 12512625
-      },
-      {
-        "symbol": "IGL",
-        "company": "Indraprastha Gas Limited",
-        "dividend": 1.5,
-        "exDate": "2026-10-01",
-        "subject": "Dividend - Rs 1.50 Per Share",
-        "lastPrice": 145.35,
-        "previousDayVolume": 3093267
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-10-02",
     "stocks": []
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-10-03",
+    "stocks": []
+  },
+  "dayAfter": {
+    "date": "2026-10-04",
     "stocks": []
   }
 }
