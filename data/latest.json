@@ -1,15 +1,25 @@
 {
-  "generatedAt": "02-Oct-2026 07:56 AM IST",
+  "generatedAt": "03-Oct-2026 07:42 AM IST",
   "today": {
-    "date": "2026-10-02",
-    "stocks": []
-  },
-  "tomorrow": {
     "date": "2026-10-03",
     "stocks": []
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-10-04",
     "stocks": []
+  },
+  "dayAfter": {
+    "date": "2026-10-05",
+    "stocks": [
+      {
+        "symbol": "NMDC",
+        "company": "NMDC Limited",
+        "dividend": 1.0,
+        "exDate": "2026-10-05",
+        "subject": "Dividend - Re 1 Per Share",
+        "lastPrice": 74.64,
+        "previousDayVolume": 17077400
+      }
+    ]
   }
 }
