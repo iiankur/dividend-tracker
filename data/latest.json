@@ -1,10 +1,6 @@
 {
-  "generatedAt": "04-Oct-2026 08:18 AM IST",
+  "generatedAt": "05-Oct-2026 07:44 AM IST",
   "today": {
-    "date": "2026-10-04",
-    "stocks": []
-  },
-  "tomorrow": {
     "date": "2026-10-05",
     "stocks": [
       {
@@ -18,8 +14,22 @@
       }
     ]
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-10-06",
     "stocks": []
+  },
+  "dayAfter": {
+    "date": "2026-10-07",
+    "stocks": [
+      {
+        "symbol": "PTC",
+        "company": "PTC India Limited",
+        "dividend": 5.5,
+        "exDate": "2026-10-07",
+        "subject": "Dividend - Rs 5.50 Per Share",
+        "lastPrice": 154.83,
+        "previousDayVolume": 1221503
+      }
+    ]
   }
 }
