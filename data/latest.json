@@ -1,24 +1,10 @@
 {
-  "generatedAt": "07-Oct-2026 08:05 AM IST",
+  "generatedAt": "08-Oct-2026 08:19 AM IST",
   "today": {
-    "date": "2026-10-07",
-    "stocks": [
-      {
-        "symbol": "PTC",
-        "company": "PTC India Limited",
-        "dividend": 5.5,
-        "exDate": "2026-10-07",
-        "subject": "Dividend - Rs 5.50 Per Share",
-        "lastPrice": 157.27,
-        "previousDayVolume": 3439913
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-10-08",
     "stocks": []
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-10-09",
     "stocks": [
       {
@@ -27,8 +13,8 @@
         "dividend": 35.0,
         "exDate": "2026-10-09",
         "subject": "Dividend - Rs 35 Per Share",
-        "lastPrice": 1091,
-        "previousDayVolume": 64134
+        "lastPrice": 1099,
+        "previousDayVolume": 50002
       },
       {
         "symbol": "SKYWAYS",
@@ -36,9 +22,13 @@
         "dividend": 0.25,
         "exDate": "2026-10-09",
         "subject": "Interim Dividend - Re 0.25 Per Share",
-        "lastPrice": 116.5,
-        "previousDayVolume": 1344512
+        "lastPrice": 115,
+        "previousDayVolume": 1464352
       }
     ]
+  },
+  "dayAfter": {
+    "date": "2026-10-10",
+    "stocks": []
   }
 }
