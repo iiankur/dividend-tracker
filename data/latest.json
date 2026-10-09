@@ -1,10 +1,6 @@
 {
-  "generatedAt": "08-Oct-2026 08:19 AM IST",
+  "generatedAt": "09-Oct-2026 08:30 AM IST",
   "today": {
-    "date": "2026-10-08",
-    "stocks": []
-  },
-  "tomorrow": {
     "date": "2026-10-09",
     "stocks": [
       {
@@ -13,8 +9,8 @@
         "dividend": 35.0,
         "exDate": "2026-10-09",
         "subject": "Dividend - Rs 35 Per Share",
-        "lastPrice": 1099,
-        "previousDayVolume": 50002
+        "lastPrice": 1096.9,
+        "previousDayVolume": 44431
       },
       {
         "symbol": "SKYWAYS",
@@ -22,13 +18,17 @@
         "dividend": 0.25,
         "exDate": "2026-10-09",
         "subject": "Interim Dividend - Re 0.25 Per Share",
-        "lastPrice": 115,
-        "previousDayVolume": 1464352
+        "lastPrice": 110.7,
+        "previousDayVolume": 2087847
       }
     ]
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-10-10",
+    "stocks": []
+  },
+  "dayAfter": {
+    "date": "2026-10-11",
     "stocks": []
   }
 }
