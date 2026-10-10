@@ -1,34 +1,15 @@
 {
-  "generatedAt": "09-Oct-2026 08:30 AM IST",
+  "generatedAt": "10-Oct-2026 08:02 AM IST",
   "today": {
-    "date": "2026-10-09",
-    "stocks": [
-      {
-        "symbol": "ACCELYA",
-        "company": "Accelya Solutions India Limited",
-        "dividend": 35.0,
-        "exDate": "2026-10-09",
-        "subject": "Dividend - Rs 35 Per Share",
-        "lastPrice": 1096.9,
-        "previousDayVolume": 44431
-      },
-      {
-        "symbol": "SKYWAYS",
-        "company": "Skyways Air Services Limited",
-        "dividend": 0.25,
-        "exDate": "2026-10-09",
-        "subject": "Interim Dividend - Re 0.25 Per Share",
-        "lastPrice": 110.7,
-        "previousDayVolume": 2087847
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-10-10",
     "stocks": []
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-10-11",
+    "stocks": []
+  },
+  "dayAfter": {
+    "date": "2026-10-12",
     "stocks": []
   }
 }
