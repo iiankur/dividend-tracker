@@ -1,29 +1,6 @@
 {
-  "generatedAt": "14-Oct-2026 07:33 AM IST",
+  "generatedAt": "15-Oct-2026 07:09 AM IST",
   "today": {
-    "date": "2026-10-14",
-    "stocks": [
-      {
-        "symbol": "TCS",
-        "company": "Tata Consultancy Services Limited",
-        "dividend": 12.0,
-        "exDate": "2026-10-14",
-        "subject": "Interim Dividend - Rs 12 Per Share",
-        "lastPrice": 2269.3,
-        "previousDayVolume": 11048193
-      },
-      {
-        "symbol": "VEDL",
-        "company": "Vedanta Limited",
-        "dividend": 5.0,
-        "exDate": "2026-10-14",
-        "subject": "Interim Dividend - Rs 5 Per Share",
-        "lastPrice": 256.3,
-        "previousDayVolume": 19282774
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-10-15",
     "stocks": [
       {
@@ -32,12 +9,12 @@
         "dividend": 4.0,
         "exDate": "2026-10-15",
         "subject": "Interim Dividend - Rs 4 Per Share",
-        "lastPrice": 2100,
-        "previousDayVolume": 244085
+        "lastPrice": 2117.2,
+        "previousDayVolume": 173478
       }
     ]
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-10-16",
     "stocks": [
       {
@@ -46,8 +23,8 @@
         "dividend": 21.0,
         "exDate": "2026-10-16",
         "subject": "Special Dividend - Rs 21 Per Share",
-        "lastPrice": 440.55,
-        "previousDayVolume": 101482
+        "lastPrice": 463.1,
+        "previousDayVolume": 168618
       },
       {
         "symbol": "HCLTECH",
@@ -55,8 +32,8 @@
         "dividend": 12.0,
         "exDate": "2026-10-16",
         "subject": "Interim Dividend - Rs 12 Per Share",
-        "lastPrice": 1326,
-        "previousDayVolume": 21744525
+        "lastPrice": 1327,
+        "previousDayVolume": 9240685
       },
       {
         "symbol": "CRAMC",
@@ -64,9 +41,13 @@
         "dividend": 2.0,
         "exDate": "2026-10-16",
         "subject": "Interim Dividend - Rs 2 Per Share",
-        "lastPrice": 223.01,
-        "previousDayVolume": 475527
+        "lastPrice": 225.1,
+        "previousDayVolume": 424489
       }
     ]
+  },
+  "dayAfter": {
+    "date": "2026-10-17",
+    "stocks": []
   }
 }
