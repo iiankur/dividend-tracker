@@ -1,43 +1,15 @@
 {
-  "generatedAt": "16-Oct-2026 07:03 AM IST",
+  "generatedAt": "17-Oct-2026 06:54 AM IST",
   "today": {
-    "date": "2026-10-16",
-    "stocks": [
-      {
-        "symbol": "HINDCOMPOS",
-        "company": "Hindustan Composites Limited",
-        "dividend": 21.0,
-        "exDate": "2026-10-16",
-        "subject": "Special Dividend - Rs 21 Per Share",
-        "lastPrice": 480,
-        "previousDayVolume": 147660
-      },
-      {
-        "symbol": "HCLTECH",
-        "company": "HCL Technologies Limited",
-        "dividend": 12.0,
-        "exDate": "2026-10-16",
-        "subject": "Interim Dividend - Rs 12 Per Share",
-        "lastPrice": 1360,
-        "previousDayVolume": 8001609
-      },
-      {
-        "symbol": "CRAMC",
-        "company": "Canara Robeco Asset Management Company Limited",
-        "dividend": 2.0,
-        "exDate": "2026-10-16",
-        "subject": "Interim Dividend - Rs 2 Per Share",
-        "lastPrice": 223.85,
-        "previousDayVolume": 215775
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-10-17",
     "stocks": []
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-10-18",
+    "stocks": []
+  },
+  "dayAfter": {
+    "date": "2026-10-19",
     "stocks": []
   }
 }
