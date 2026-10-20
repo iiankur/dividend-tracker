@@ -1,14 +1,10 @@
 {
-  "generatedAt": "19-Oct-2026 07:00 AM IST",
+  "generatedAt": "20-Oct-2026 07:29 AM IST",
   "today": {
-    "date": "2026-10-19",
-    "stocks": []
-  },
-  "tomorrow": {
     "date": "2026-10-20",
     "stocks": []
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-10-21",
     "stocks": [
       {
@@ -17,8 +13,8 @@
         "dividend": 30.0,
         "exDate": "2026-10-21",
         "subject": "Interim Dividend - Rs 30 Per Share",
-        "lastPrice": 2809.3,
-        "previousDayVolume": 674140
+        "lastPrice": 2766,
+        "previousDayVolume": 484366
       },
       {
         "symbol": "MRPL",
@@ -26,8 +22,8 @@
         "dividend": 3.0,
         "exDate": "2026-10-21",
         "subject": "Interim Dividend - Rs 3 Per Share",
-        "lastPrice": 172.95,
-        "previousDayVolume": 13984495
+        "lastPrice": 173.4,
+        "previousDayVolume": 9487154
       },
       {
         "symbol": "ELECON",
@@ -35,8 +31,31 @@
         "dividend": 0.5,
         "exDate": "2026-10-21",
         "subject": "Interim Dividend - Re 0.50 Per Share",
-        "lastPrice": 479.2,
-        "previousDayVolume": 2257706
+        "lastPrice": 458.75,
+        "previousDayVolume": 552547
+      }
+    ]
+  },
+  "dayAfter": {
+    "date": "2026-10-22",
+    "stocks": [
+      {
+        "symbol": "TIPSMUSIC",
+        "company": "Tips Music Limited",
+        "dividend": 6.5,
+        "exDate": "2026-10-22",
+        "subject": "Interim Dividend - Rs 6.50 Per Share",
+        "lastPrice": 766.85,
+        "previousDayVolume": 2991811
+      },
+      {
+        "symbol": "ANGELONE",
+        "company": "Angel One Limited",
+        "dividend": 1.4,
+        "exDate": "2026-10-22",
+        "subject": "Interim Dividend - Rs 1.40 Per Share",
+        "lastPrice": 302.9,
+        "previousDayVolume": 6096648
       }
     ]
   }
