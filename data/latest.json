@@ -1,10 +1,6 @@
 {
-  "generatedAt": "20-Oct-2026 07:29 AM IST",
+  "generatedAt": "21-Oct-2026 07:19 AM IST",
   "today": {
-    "date": "2026-10-20",
-    "stocks": []
-  },
-  "tomorrow": {
     "date": "2026-10-21",
     "stocks": [
       {
@@ -36,7 +32,7 @@
       }
     ]
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-10-22",
     "stocks": [
       {
@@ -58,5 +54,9 @@
         "previousDayVolume": 6096648
       }
     ]
+  },
+  "dayAfter": {
+    "date": "2026-10-23",
+    "stocks": []
   }
 }
