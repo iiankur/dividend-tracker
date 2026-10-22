@@ -1,38 +1,6 @@
 {
-  "generatedAt": "21-Oct-2026 07:19 AM IST",
+  "generatedAt": "22-Oct-2026 07:11 AM IST",
   "today": {
-    "date": "2026-10-21",
-    "stocks": [
-      {
-        "symbol": "ICICIAMC",
-        "company": "ICICI Prudential Asset Management Company Limited",
-        "dividend": 30.0,
-        "exDate": "2026-10-21",
-        "subject": "Interim Dividend - Rs 30 Per Share",
-        "lastPrice": 2766,
-        "previousDayVolume": 484366
-      },
-      {
-        "symbol": "MRPL",
-        "company": "Mangalore Refinery and Petrochemicals Limited",
-        "dividend": 3.0,
-        "exDate": "2026-10-21",
-        "subject": "Interim Dividend - Rs 3 Per Share",
-        "lastPrice": 173.4,
-        "previousDayVolume": 9487154
-      },
-      {
-        "symbol": "ELECON",
-        "company": "Elecon Engineering Company Limited",
-        "dividend": 0.5,
-        "exDate": "2026-10-21",
-        "subject": "Interim Dividend - Re 0.50 Per Share",
-        "lastPrice": 458.75,
-        "previousDayVolume": 552547
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-10-22",
     "stocks": [
       {
@@ -41,8 +9,8 @@
         "dividend": 6.5,
         "exDate": "2026-10-22",
         "subject": "Interim Dividend - Rs 6.50 Per Share",
-        "lastPrice": 766.85,
-        "previousDayVolume": 2991811
+        "lastPrice": 740,
+        "previousDayVolume": 718565
       },
       {
         "symbol": "ANGELONE",
@@ -50,13 +18,63 @@
         "dividend": 1.4,
         "exDate": "2026-10-22",
         "subject": "Interim Dividend - Rs 1.40 Per Share",
-        "lastPrice": 302.9,
-        "previousDayVolume": 6096648
+        "lastPrice": 293.2,
+        "previousDayVolume": 3990362
+      }
+    ]
+  },
+  "tomorrow": {
+    "date": "2026-10-23",
+    "stocks": [
+      {
+        "symbol": "LTM",
+        "company": "LTM Limited",
+        "dividend": 25.0,
+        "exDate": "2026-10-23",
+        "subject": "Interim Dividend - Rs 25 Per Share",
+        "lastPrice": 4298,
+        "previousDayVolume": 1420540
+      },
+      {
+        "symbol": "TECHM",
+        "company": "Tech Mahindra Limited",
+        "dividend": 15.0,
+        "exDate": "2026-10-23",
+        "subject": "Interim Dividend - Rs  15 Per Share",
+        "lastPrice": 1834.7,
+        "previousDayVolume": 5444847
+      },
+      {
+        "symbol": "MODISONLTD",
+        "company": "MODISON LIMITED",
+        "dividend": 4.0,
+        "exDate": "2026-10-23",
+        "subject": "Interim Dividend - Rs 4 Per Share",
+        "lastPrice": null,
+        "previousDayVolume": null
+      },
+      {
+        "symbol": "IRFC",
+        "company": "Indian Railway Finance Corporation Limited",
+        "dividend": 1.15,
+        "exDate": "2026-10-23",
+        "subject": "Interim Dividend - Rs 1.15 Per Share",
+        "lastPrice": 76.8,
+        "previousDayVolume": 8727986
+      },
+      {
+        "symbol": "GARUDA",
+        "company": "Garuda Construction and Engineering Limited",
+        "dividend": 0.03,
+        "exDate": "2026-10-23",
+        "subject": "Interim Dividend - Re 0.03 Per Share",
+        "lastPrice": 152.5,
+        "previousDayVolume": 324356
       }
     ]
   },
   "dayAfter": {
-    "date": "2026-10-23",
+    "date": "2026-10-24",
     "stocks": []
   }
 }
