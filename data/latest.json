@@ -1,106 +1,25 @@
 {
-  "generatedAt": "23-Oct-2026 07:14 AM IST",
+  "generatedAt": "24-Oct-2026 07:17 AM IST",
   "today": {
-    "date": "2026-10-23",
-    "stocks": [
-      {
-        "symbol": "LTM",
-        "company": "LTM Limited",
-        "dividend": 25.0,
-        "exDate": "2026-10-23",
-        "subject": "Interim Dividend - Rs 25 Per Share",
-        "lastPrice": 4274,
-        "previousDayVolume": 468985
-      },
-      {
-        "symbol": "TECHM",
-        "company": "Tech Mahindra Limited",
-        "dividend": 15.0,
-        "exDate": "2026-10-23",
-        "subject": "Interim Dividend - Rs  15 Per Share",
-        "lastPrice": 1829.1,
-        "previousDayVolume": 4077602
-      },
-      {
-        "symbol": "360ONE",
-        "company": "360 ONE WAM LIMITED",
-        "dividend": 7.5,
-        "exDate": "2026-10-23",
-        "subject": "Interim Dividend - Rs 7.50 Per Share",
-        "lastPrice": 1047,
-        "previousDayVolume": 578496
-      },
-      {
-        "symbol": "ICICIGI",
-        "company": "ICICI Lombard General Insurance Company Limited",
-        "dividend": 7.0,
-        "exDate": "2026-10-23",
-        "subject": "Interim Dividend - Rs 7 Per Share",
-        "lastPrice": 1633,
-        "previousDayVolume": 306092
-      },
-      {
-        "symbol": "MODISONLTD",
-        "company": "MODISON LIMITED",
-        "dividend": 4.0,
-        "exDate": "2026-10-23",
-        "subject": "Interim Dividend - Rs 4 Per Share",
-        "lastPrice": null,
-        "previousDayVolume": null
-      },
-      {
-        "symbol": "OBEROIRLTY",
-        "company": "Oberoi Realty Limited",
-        "dividend": 2.0,
-        "exDate": "2026-10-23",
-        "subject": "Interim Dividend - Rs 2 Per Share",
-        "lastPrice": 1625.2,
-        "previousDayVolume": 210706
-      },
-      {
-        "symbol": "HDBFS",
-        "company": "HDB Financial Services Limited",
-        "dividend": 2.0,
-        "exDate": "2026-10-23",
-        "subject": "Interim Dividend - Rs 2 Per Share",
-        "lastPrice": 510.1,
-        "previousDayVolume": 967392
-      },
-      {
-        "symbol": "IRFC",
-        "company": "Indian Railway Finance Corporation Limited",
-        "dividend": 1.15,
-        "exDate": "2026-10-23",
-        "subject": "Interim Dividend - Rs 1.15 Per Share",
-        "lastPrice": 77,
-        "previousDayVolume": 8918190
-      },
-      {
-        "symbol": "BEPL",
-        "company": "Bhansali Engineering Polymers Limited",
-        "dividend": 1.0,
-        "exDate": "2026-10-23",
-        "subject": "Interim Dividend - Re 1 Per Share",
-        "lastPrice": 110.91,
-        "previousDayVolume": 1347613
-      },
-      {
-        "symbol": "GARUDA",
-        "company": "Garuda Construction and Engineering Limited",
-        "dividend": 0.03,
-        "exDate": "2026-10-23",
-        "subject": "Interim Dividend - Re 0.03 Per Share",
-        "lastPrice": 145,
-        "previousDayVolume": 360119
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-10-24",
     "stocks": []
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-10-25",
     "stocks": []
+  },
+  "dayAfter": {
+    "date": "2026-10-26",
+    "stocks": [
+      {
+        "symbol": "HEXT",
+        "company": "Hexaware Technologies Limited",
+        "dividend": 9.5,
+        "exDate": "2026-10-26",
+        "subject": "Interim Dividend - Rs 9.50 Per Share",
+        "lastPrice": 590,
+        "previousDayVolume": 624430
+      }
+    ]
   }
 }
