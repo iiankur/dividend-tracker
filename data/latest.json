@@ -1,14 +1,10 @@
 {
-  "generatedAt": "24-Oct-2026 07:17 AM IST",
+  "generatedAt": "25-Oct-2026 06:54 AM IST",
   "today": {
-    "date": "2026-10-24",
-    "stocks": []
-  },
-  "tomorrow": {
     "date": "2026-10-25",
     "stocks": []
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-10-26",
     "stocks": [
       {
@@ -19,6 +15,20 @@
         "subject": "Interim Dividend - Rs 9.50 Per Share",
         "lastPrice": 590,
         "previousDayVolume": 624430
+      }
+    ]
+  },
+  "dayAfter": {
+    "date": "2026-10-27",
+    "stocks": [
+      {
+        "symbol": "LTTS",
+        "company": "L&T Technology Services Limited",
+        "dividend": 20.0,
+        "exDate": "2026-10-27",
+        "subject": "Interim Dividend - Rs 20 Per Share",
+        "lastPrice": 3908,
+        "previousDayVolume": 599040
       }
     ]
   }
