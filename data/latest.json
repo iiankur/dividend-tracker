@@ -1,10 +1,6 @@
 {
-  "generatedAt": "25-Oct-2026 06:54 AM IST",
+  "generatedAt": "26-Oct-2026 06:58 AM IST",
   "today": {
-    "date": "2026-10-25",
-    "stocks": []
-  },
-  "tomorrow": {
     "date": "2026-10-26",
     "stocks": [
       {
@@ -18,7 +14,7 @@
       }
     ]
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-10-27",
     "stocks": [
       {
@@ -29,6 +25,20 @@
         "subject": "Interim Dividend - Rs 20 Per Share",
         "lastPrice": 3908,
         "previousDayVolume": 599040
+      }
+    ]
+  },
+  "dayAfter": {
+    "date": "2026-10-28",
+    "stocks": [
+      {
+        "symbol": "NAM-INDIA",
+        "company": "Nippon Life India Asset Management Limited",
+        "dividend": 9.5,
+        "exDate": "2026-10-28",
+        "subject": "Interim Dividend - Rs 9.50 Per Share",
+        "lastPrice": 922.6,
+        "previousDayVolume": 3036853
       }
     ]
   }
