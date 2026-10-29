@@ -1,29 +1,6 @@
 {
-  "generatedAt": "28-Oct-2026 08:00 AM IST",
+  "generatedAt": "29-Oct-2026 08:08 AM IST",
   "today": {
-    "date": "2026-10-28",
-    "stocks": [
-      {
-        "symbol": "CYIENT",
-        "company": "Cyient Limited",
-        "dividend": 12.0,
-        "exDate": "2026-10-28",
-        "subject": "Interim Dividend - Rs 12 Per Share",
-        "lastPrice": 1185,
-        "previousDayVolume": 1203367
-      },
-      {
-        "symbol": "NAM-INDIA",
-        "company": "Nippon Life India Asset Management Limited",
-        "dividend": 9.5,
-        "exDate": "2026-10-28",
-        "subject": "Interim Dividend - Rs 9.50 Per Share",
-        "lastPrice": 943,
-        "previousDayVolume": 1686710
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-10-29",
     "stocks": [
       {
@@ -32,8 +9,8 @@
         "dividend": 17.0,
         "exDate": "2026-10-29",
         "subject": "Interim Dividend - Rs 17 Per Share",
-        "lastPrice": 4708.6,
-        "previousDayVolume": 109666
+        "lastPrice": 4651,
+        "previousDayVolume": 15498
       },
       {
         "symbol": "KAJARIACER",
@@ -41,8 +18,8 @@
         "dividend": 12.0,
         "exDate": "2026-10-29",
         "subject": "Interim Dividend - Rs 12 Per Share",
-        "lastPrice": 1146.9,
-        "previousDayVolume": 1525152
+        "lastPrice": 1116,
+        "previousDayVolume": 377609
       },
       {
         "symbol": "SHRIRAMFIN",
@@ -50,8 +27,8 @@
         "dividend": 6.5,
         "exDate": "2026-10-29",
         "subject": "Interim Dividend - Rs 6.50 Per Share",
-        "lastPrice": 823.6,
-        "previousDayVolume": 8138992
+        "lastPrice": 832.55,
+        "previousDayVolume": 6278214
       },
       {
         "symbol": "CMPDI",
@@ -59,8 +36,8 @@
         "dividend": 1.05,
         "exDate": "2026-10-29",
         "subject": "Interim Dividend - Rs  1.05 Per Share",
-        "lastPrice": 184.9,
-        "previousDayVolume": 1711833
+        "lastPrice": 186.8,
+        "previousDayVolume": 946556
       },
       {
         "symbol": "KSOLVES",
@@ -68,12 +45,12 @@
         "dividend": 1.0,
         "exDate": "2026-10-29",
         "subject": "Interim Dividend - Re  1 Per Share",
-        "lastPrice": 204,
-        "previousDayVolume": 45053
+        "lastPrice": 208,
+        "previousDayVolume": 62279
       }
     ]
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-10-30",
     "stocks": [
       {
@@ -82,8 +59,8 @@
         "dividend": 25.0,
         "exDate": "2026-10-30",
         "subject": "Interim Dividend - Rs 25 Per Share",
-        "lastPrice": 1564.9,
-        "previousDayVolume": 2161543
+        "lastPrice": 1518,
+        "previousDayVolume": 1534079
       },
       {
         "symbol": "SUPREMEIND",
@@ -91,8 +68,8 @@
         "dividend": 12.0,
         "exDate": "2026-10-30",
         "subject": "Interim Dividend - Rs 12 Per Share",
-        "lastPrice": 3298.4,
-        "previousDayVolume": 376005
+        "lastPrice": 3229,
+        "previousDayVolume": 143352
       },
       {
         "symbol": "ADOR",
@@ -100,8 +77,17 @@
         "dividend": 7.5,
         "exDate": "2026-10-30",
         "subject": "Interim Dividend - Rs 7.50 Per Share",
-        "lastPrice": 1373,
-        "previousDayVolume": 39312
+        "lastPrice": 1362.3,
+        "previousDayVolume": 13973
+      },
+      {
+        "symbol": "SIYSIL",
+        "company": "Siyaram Silk Mills Limited",
+        "dividend": 4.0,
+        "exDate": "2026-10-30",
+        "subject": "Interim Dividend - Rs 4 Per Share",
+        "lastPrice": 448.7,
+        "previousDayVolume": 77463
       },
       {
         "symbol": "DCMSHRIRAM",
@@ -109,8 +95,8 @@
         "dividend": 4.0,
         "exDate": "2026-10-30",
         "subject": "Interim Dividend - Rs 4 Per Share",
-        "lastPrice": 910.95,
-        "previousDayVolume": 148779
+        "lastPrice": 908.1,
+        "previousDayVolume": 69860
       },
       {
         "symbol": "DALBHARAT",
@@ -118,8 +104,8 @@
         "dividend": 4.0,
         "exDate": "2026-10-30",
         "subject": "Interim Dividend - Rs 4 Per Share",
-        "lastPrice": 1518,
-        "previousDayVolume": 741889
+        "lastPrice": 1479,
+        "previousDayVolume": 212712
       },
       {
         "symbol": "RECLTD",
@@ -127,8 +113,8 @@
         "dividend": 3.5,
         "exDate": "2026-10-30",
         "subject": "Interim Dividend - Rs 3.50 Per Share",
-        "lastPrice": 286.5,
-        "previousDayVolume": 13957275
+        "lastPrice": 290,
+        "previousDayVolume": 4193716
       },
       {
         "symbol": "SPLPETRO",
@@ -136,8 +122,8 @@
         "dividend": 2.5,
         "exDate": "2026-10-30",
         "subject": "Interim Dividend - Rs 2.50 Per Share",
-        "lastPrice": 715.2,
-        "previousDayVolume": 90458
+        "lastPrice": 723.5,
+        "previousDayVolume": 41212
       },
       {
         "symbol": "SSWL",
@@ -145,8 +131,8 @@
         "dividend": 1.5,
         "exDate": "2026-10-30",
         "subject": "Interim Dividend - Rs 1.50 Per Share",
-        "lastPrice": 531,
-        "previousDayVolume": 7383330
+        "lastPrice": 528.9,
+        "previousDayVolume": 1432716
       },
       {
         "symbol": "RAILTEL",
@@ -154,8 +140,8 @@
         "dividend": 1.0,
         "exDate": "2026-10-30",
         "subject": "Interim Dividend - Re 1 Per Share",
-        "lastPrice": 229.05,
-        "previousDayVolume": 1072955
+        "lastPrice": 228.6,
+        "previousDayVolume": 770247
       },
       {
         "symbol": "SAGILITY",
@@ -163,9 +149,13 @@
         "dividend": 0.15,
         "exDate": "2026-10-30",
         "subject": "Interim Dividend - Re 0.15 Per Share",
-        "lastPrice": 46.06,
-        "previousDayVolume": 24542135
+        "lastPrice": 45.29,
+        "previousDayVolume": 17791508
       }
     ]
+  },
+  "dayAfter": {
+    "date": "2026-10-31",
+    "stocks": []
   }
 }
