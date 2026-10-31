@@ -1,115 +1,52 @@
 {
-  "generatedAt": "30-Oct-2026 08:16 AM IST",
+  "generatedAt": "31-Oct-2026 08:07 AM IST",
   "today": {
-    "date": "2026-10-30",
-    "stocks": [
-      {
-        "symbol": "CHENNPETRO",
-        "company": "Chennai Petroleum Corporation Limited",
-        "dividend": 25.0,
-        "exDate": "2026-10-30",
-        "subject": "Interim Dividend - Rs 25 Per Share",
-        "lastPrice": 1516,
-        "previousDayVolume": 1122874
-      },
-      {
-        "symbol": "SUPREMEIND",
-        "company": "Supreme Industries Limited",
-        "dividend": 12.0,
-        "exDate": "2026-10-30",
-        "subject": "Interim Dividend - Rs 12 Per Share",
-        "lastPrice": 3210,
-        "previousDayVolume": 146988
-      },
-      {
-        "symbol": "ADOR",
-        "company": "Ador Welding Limited",
-        "dividend": 7.5,
-        "exDate": "2026-10-30",
-        "subject": "Interim Dividend - Rs 7.50 Per Share",
-        "lastPrice": 1368,
-        "previousDayVolume": 10185
-      },
-      {
-        "symbol": "DALBHARAT",
-        "company": "Dalmia Bharat Limited",
-        "dividend": 4.0,
-        "exDate": "2026-10-30",
-        "subject": "Interim Dividend - Rs 4 Per Share",
-        "lastPrice": 1407,
-        "previousDayVolume": 1271203
-      },
-      {
-        "symbol": "DCMSHRIRAM",
-        "company": "DCM Shriram Limited",
-        "dividend": 4.0,
-        "exDate": "2026-10-30",
-        "subject": "Interim Dividend - Rs 4 Per Share",
-        "lastPrice": 909,
-        "previousDayVolume": 38212
-      },
-      {
-        "symbol": "SIYSIL",
-        "company": "Siyaram Silk Mills Limited",
-        "dividend": 4.0,
-        "exDate": "2026-10-30",
-        "subject": "Interim Dividend - Rs 4 Per Share",
-        "lastPrice": 455.1,
-        "previousDayVolume": 82940
-      },
-      {
-        "symbol": "RECLTD",
-        "company": "REC Limited",
-        "dividend": 3.5,
-        "exDate": "2026-10-30",
-        "subject": "Interim Dividend - Rs 3.50 Per Share",
-        "lastPrice": 296.15,
-        "previousDayVolume": 4778588
-      },
-      {
-        "symbol": "SPLPETRO",
-        "company": "Supreme Petrochem Limited",
-        "dividend": 2.5,
-        "exDate": "2026-10-30",
-        "subject": "Interim Dividend - Rs 2.50 Per Share",
-        "lastPrice": 715.45,
-        "previousDayVolume": 81438
-      },
-      {
-        "symbol": "SSWL",
-        "company": "Steel Strips Wheels Limited",
-        "dividend": 1.5,
-        "exDate": "2026-10-30",
-        "subject": "Interim Dividend - Rs 1.50 Per Share",
-        "lastPrice": 525.6,
-        "previousDayVolume": 1255757
-      },
-      {
-        "symbol": "RAILTEL",
-        "company": "Railtel Corporation Of India Limited",
-        "dividend": 1.0,
-        "exDate": "2026-10-30",
-        "subject": "Interim Dividend - Re 1 Per Share",
-        "lastPrice": 230.5,
-        "previousDayVolume": 813715
-      },
-      {
-        "symbol": "SAGILITY",
-        "company": "SAGILITY LIMITED",
-        "dividend": 0.15,
-        "exDate": "2026-10-30",
-        "subject": "Interim Dividend - Re 0.15 Per Share",
-        "lastPrice": 44.66,
-        "previousDayVolume": 12535710
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-10-31",
     "stocks": []
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-11-01",
     "stocks": []
+  },
+  "dayAfter": {
+    "date": "2026-11-02",
+    "stocks": [
+      {
+        "symbol": "COLPAL",
+        "company": "Colgate Palmolive (India) Limited",
+        "dividend": 24.0,
+        "exDate": "2026-11-02",
+        "subject": "Interim Dividend - Rs 24 Per Share",
+        "lastPrice": 1596.5,
+        "previousDayVolume": 542644
+      },
+      {
+        "symbol": "TANLA",
+        "company": "Tanla Platforms Limited",
+        "dividend": 6.0,
+        "exDate": "2026-11-02",
+        "subject": "Interim Dividend - Rs 6 Per Share",
+        "lastPrice": 624,
+        "previousDayVolume": 1913891
+      },
+      {
+        "symbol": "ROUTE",
+        "company": "ROUTE MOBILE LIMITED",
+        "dividend": 4.0,
+        "exDate": "2026-11-02",
+        "subject": "Interim Dividend - Rs 4 Per Share",
+        "lastPrice": 439,
+        "previousDayVolume": 152346
+      },
+      {
+        "symbol": "PITTIENG",
+        "company": "Pitti Engineering Limited",
+        "dividend": 2.0,
+        "exDate": "2026-11-02",
+        "subject": "Interim Dividend - Rs 2 Per Share",
+        "lastPrice": 854.7,
+        "previousDayVolume": 89328
+      }
+    ]
   }
 }
