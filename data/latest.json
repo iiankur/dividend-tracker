@@ -1,14 +1,10 @@
 {
-  "generatedAt": "31-Oct-2026 08:07 AM IST",
+  "generatedAt": "01-Nov-2026 07:55 AM IST",
   "today": {
-    "date": "2026-10-31",
-    "stocks": []
-  },
-  "tomorrow": {
     "date": "2026-11-01",
     "stocks": []
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-11-02",
     "stocks": [
       {
@@ -46,6 +42,56 @@
         "subject": "Interim Dividend - Rs 2 Per Share",
         "lastPrice": 854.7,
         "previousDayVolume": 89328
+      }
+    ]
+  },
+  "dayAfter": {
+    "date": "2026-11-03",
+    "stocks": [
+      {
+        "symbol": "INFY",
+        "company": "Infosys Limited",
+        "dividend": 26.0,
+        "exDate": "2026-11-03",
+        "subject": "Interim Dividend - Rs 26 Per Share",
+        "lastPrice": 1185,
+        "previousDayVolume": 13030713
+      },
+      {
+        "symbol": "SASKEN",
+        "company": "Sasken Technologies Limited",
+        "dividend": 12.0,
+        "exDate": "2026-11-03",
+        "subject": "Interim Dividend - Rs 12 Per Share",
+        "lastPrice": 1728.4,
+        "previousDayVolume": 113217
+      },
+      {
+        "symbol": "GRAVITA",
+        "company": "Gravita India Limited",
+        "dividend": 7.7,
+        "exDate": "2026-11-03",
+        "subject": "Interim Dividend - Rs   7.70 Per Share",
+        "lastPrice": 1382,
+        "previousDayVolume": 262291
+      },
+      {
+        "symbol": "RRKABEL",
+        "company": "R R Kabel Limited",
+        "dividend": 6.5,
+        "exDate": "2026-11-03",
+        "subject": "Interim Dividend - Rs 6.50 Per Share",
+        "lastPrice": 2083.4,
+        "previousDayVolume": 851819
+      },
+      {
+        "symbol": "MAZDOCK",
+        "company": "Mazagon Dock Shipbuilders Limited",
+        "dividend": 5.0,
+        "exDate": "2026-11-03",
+        "subject": "Interim Dividend - Rs 5 Per Share",
+        "lastPrice": 1705.3,
+        "previousDayVolume": 1010927
       }
     ]
   }
