@@ -1,10 +1,6 @@
 {
-  "generatedAt": "01-Nov-2026 07:55 AM IST",
+  "generatedAt": "02-Nov-2026 08:10 AM IST",
   "today": {
-    "date": "2026-11-01",
-    "stocks": []
-  },
-  "tomorrow": {
     "date": "2026-11-02",
     "stocks": [
       {
@@ -45,7 +41,7 @@
       }
     ]
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-11-03",
     "stocks": [
       {
@@ -92,6 +88,65 @@
         "subject": "Interim Dividend - Rs 5 Per Share",
         "lastPrice": 1705.3,
         "previousDayVolume": 1010927
+      }
+    ]
+  },
+  "dayAfter": {
+    "date": "2026-11-04",
+    "stocks": [
+      {
+        "symbol": "COALINDIA",
+        "company": "Coal India Limited",
+        "dividend": 10.25,
+        "exDate": "2026-11-04",
+        "subject": "Interim Dividend - Rs 10.25 Per Share",
+        "lastPrice": 389,
+        "previousDayVolume": 21081382
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "company": "Asian Paints Limited",
+        "dividend": 5.75,
+        "exDate": "2026-11-04",
+        "subject": "Interim Dividend - Rs 5.75 Per Share",
+        "lastPrice": 2320,
+        "previousDayVolume": 1315150
+      },
+      {
+        "symbol": "GODREJCP",
+        "company": "Godrej Consumer Products Limited",
+        "dividend": 5.0,
+        "exDate": "2026-11-04",
+        "subject": "Interim Dividend - Rs 5 Per Share",
+        "lastPrice": 818,
+        "previousDayVolume": 9567186
+      },
+      {
+        "symbol": "PRIVISCL",
+        "company": "Privi Speciality Chemicals Limited",
+        "dividend": 5.0,
+        "exDate": "2026-11-04",
+        "subject": "Interim Dividend - Rs 5 Per Share",
+        "lastPrice": 3275,
+        "previousDayVolume": 212979
+      },
+      {
+        "symbol": "SYMPHONY",
+        "company": "Symphony Limited",
+        "dividend": 2.0,
+        "exDate": "2026-11-04",
+        "subject": "Interim Dividend - Rs 2 Per Share",
+        "lastPrice": 488,
+        "previousDayVolume": 100841
+      },
+      {
+        "symbol": "VAIBHAVGBL",
+        "company": "Vaibhav Global Limited",
+        "dividend": 1.5,
+        "exDate": "2026-11-04",
+        "subject": "Interim Dividend - Rs 1.50 Per Share",
+        "lastPrice": 157.95,
+        "previousDayVolume": 918957
       }
     ]
   }
