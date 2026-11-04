@@ -1,56 +1,6 @@
 {
-  "generatedAt": "03-Nov-2026 09:28 AM IST",
+  "generatedAt": "04-Nov-2026 08:36 AM IST",
   "today": {
-    "date": "2026-11-03",
-    "stocks": [
-      {
-        "symbol": "INFY",
-        "company": "Infosys Limited",
-        "dividend": 26.0,
-        "exDate": "2026-11-03",
-        "subject": "Interim Dividend - Rs 26 Per Share",
-        "lastPrice": 1155.4,
-        "previousDayVolume": 1266323
-      },
-      {
-        "symbol": "SASKEN",
-        "company": "Sasken Technologies Limited",
-        "dividend": 12.0,
-        "exDate": "2026-11-03",
-        "subject": "Interim Dividend - Rs 12 Per Share",
-        "lastPrice": 1676.3,
-        "previousDayVolume": 2019
-      },
-      {
-        "symbol": "GRAVITA",
-        "company": "Gravita India Limited",
-        "dividend": 7.7,
-        "exDate": "2026-11-03",
-        "subject": "Interim Dividend - Rs   7.70 Per Share",
-        "lastPrice": 1415.8,
-        "previousDayVolume": 16967
-      },
-      {
-        "symbol": "RRKABEL",
-        "company": "R R Kabel Limited",
-        "dividend": 6.5,
-        "exDate": "2026-11-03",
-        "subject": "Interim Dividend - Rs 6.50 Per Share",
-        "lastPrice": 1952.2,
-        "previousDayVolume": 84973
-      },
-      {
-        "symbol": "MAZDOCK",
-        "company": "Mazagon Dock Shipbuilders Limited",
-        "dividend": 5.0,
-        "exDate": "2026-11-03",
-        "subject": "Interim Dividend - Rs 5 Per Share",
-        "lastPrice": 1772.1,
-        "previousDayVolume": 133606
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-11-04",
     "stocks": [
       {
@@ -59,8 +9,8 @@
         "dividend": 10.25,
         "exDate": "2026-11-04",
         "subject": "Interim Dividend - Rs 10.25 Per Share",
-        "lastPrice": 407.7,
-        "previousDayVolume": 1273694
+        "lastPrice": 408,
+        "previousDayVolume": 11746958
       },
       {
         "symbol": "ASIANPAINT",
@@ -68,8 +18,8 @@
         "dividend": 5.75,
         "exDate": "2026-11-04",
         "subject": "Interim Dividend - Rs 5.75 Per Share",
-        "lastPrice": 2399.6,
-        "previousDayVolume": 238584
+        "lastPrice": 2437.8,
+        "previousDayVolume": 2008963
       },
       {
         "symbol": "GODREJCP",
@@ -77,8 +27,8 @@
         "dividend": 5.0,
         "exDate": "2026-11-04",
         "subject": "Interim Dividend - Rs 5 Per Share",
-        "lastPrice": 828.15,
-        "previousDayVolume": 90690
+        "lastPrice": 830,
+        "previousDayVolume": 1019894
       },
       {
         "symbol": "PRIVISCL",
@@ -86,8 +36,8 @@
         "dividend": 5.0,
         "exDate": "2026-11-04",
         "subject": "Interim Dividend - Rs 5 Per Share",
-        "lastPrice": 3283,
-        "previousDayVolume": 4490
+        "lastPrice": 3287,
+        "previousDayVolume": 153156
       },
       {
         "symbol": "SYMPHONY",
@@ -95,8 +45,8 @@
         "dividend": 2.0,
         "exDate": "2026-11-04",
         "subject": "Interim Dividend - Rs 2 Per Share",
-        "lastPrice": 509.9,
-        "previousDayVolume": 7322
+        "lastPrice": 495,
+        "previousDayVolume": 32798
       },
       {
         "symbol": "VAIBHAVGBL",
@@ -104,8 +54,8 @@
         "dividend": 1.5,
         "exDate": "2026-11-04",
         "subject": "Interim Dividend - Rs 1.50 Per Share",
-        "lastPrice": 158.2,
-        "previousDayVolume": 30371
+        "lastPrice": 158,
+        "previousDayVolume": 319179
       },
       {
         "symbol": "SILVERTUC",
@@ -113,12 +63,12 @@
         "dividend": 0.1,
         "exDate": "2026-11-04",
         "subject": "Interim Dividend - Re 0.10 Per Share",
-        "lastPrice": 121.15,
-        "previousDayVolume": 16845
+        "lastPrice": 122.2,
+        "previousDayVolume": 75001
       }
     ]
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-11-05",
     "stocks": [
       {
@@ -127,8 +77,8 @@
         "dividend": 75.0,
         "exDate": "2026-11-05",
         "subject": "Interim Dividend - Rs 75 Per Share",
-        "lastPrice": 3354,
-        "previousDayVolume": 6172
+        "lastPrice": 3385,
+        "previousDayVolume": 40608
       },
       {
         "symbol": "NAVINFLUOR",
@@ -136,8 +86,8 @@
         "dividend": 8.0,
         "exDate": "2026-11-05",
         "subject": "Interim Dividend - Rs 8 Per Share",
-        "lastPrice": 8379.5,
-        "previousDayVolume": 14599
+        "lastPrice": 8530,
+        "previousDayVolume": 173729
       },
       {
         "symbol": "SUNTV",
@@ -145,8 +95,35 @@
         "dividend": 3.75,
         "exDate": "2026-11-05",
         "subject": "Interim Dividend - Rs 3.75 Per Share",
-        "lastPrice": 598.6,
-        "previousDayVolume": 39159
+        "lastPrice": 588,
+        "previousDayVolume": 256035
+      },
+      {
+        "symbol": "BSOFT",
+        "company": "BIRLASOFT LIMITED",
+        "dividend": 3.0,
+        "exDate": "2026-11-05",
+        "subject": "Interim Dividend - Rs 3 Per Share",
+        "lastPrice": 322.9,
+        "previousDayVolume": 1223125
+      },
+      {
+        "symbol": "ENGINERSIN",
+        "company": "Engineers India Limited",
+        "dividend": 1.5,
+        "exDate": "2026-11-05",
+        "subject": "Interim Dividend - Rs 1.50 Per Share",
+        "lastPrice": 289.45,
+        "previousDayVolume": 8219183
+      },
+      {
+        "symbol": "KRISHNADEF",
+        "company": "Krishna Defence and Allied Industries Limited",
+        "dividend": 0.75,
+        "exDate": "2026-11-05",
+        "subject": "Interim Dividend - Re 0.75 Per Share",
+        "lastPrice": 1240,
+        "previousDayVolume": 244723
       },
       {
         "symbol": "VBL",
@@ -154,9 +131,22 @@
         "dividend": 0.5,
         "exDate": "2026-11-05",
         "subject": "Interim Dividend - Re 0.50 Per Share",
-        "lastPrice": 407.35,
-        "previousDayVolume": 990774
+        "lastPrice": 408.15,
+        "previousDayVolume": 5314439
+      },
+      {
+        "symbol": "SHAREINDIA",
+        "company": "Share India Securities Limited",
+        "dividend": 0.4,
+        "exDate": "2026-11-05",
+        "subject": "Interim Dividend - Re 0.40 Per Share",
+        "lastPrice": 180,
+        "previousDayVolume": 22113365
       }
     ]
+  },
+  "dayAfter": {
+    "date": "2026-11-06",
+    "stocks": []
   }
 }
