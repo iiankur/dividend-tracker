@@ -1,74 +1,6 @@
 {
-  "generatedAt": "04-Nov-2026 08:36 AM IST",
+  "generatedAt": "05-Nov-2026 09:06 AM IST",
   "today": {
-    "date": "2026-11-04",
-    "stocks": [
-      {
-        "symbol": "COALINDIA",
-        "company": "Coal India Limited",
-        "dividend": 10.25,
-        "exDate": "2026-11-04",
-        "subject": "Interim Dividend - Rs 10.25 Per Share",
-        "lastPrice": 408,
-        "previousDayVolume": 11746958
-      },
-      {
-        "symbol": "ASIANPAINT",
-        "company": "Asian Paints Limited",
-        "dividend": 5.75,
-        "exDate": "2026-11-04",
-        "subject": "Interim Dividend - Rs 5.75 Per Share",
-        "lastPrice": 2437.8,
-        "previousDayVolume": 2008963
-      },
-      {
-        "symbol": "GODREJCP",
-        "company": "Godrej Consumer Products Limited",
-        "dividend": 5.0,
-        "exDate": "2026-11-04",
-        "subject": "Interim Dividend - Rs 5 Per Share",
-        "lastPrice": 830,
-        "previousDayVolume": 1019894
-      },
-      {
-        "symbol": "PRIVISCL",
-        "company": "Privi Speciality Chemicals Limited",
-        "dividend": 5.0,
-        "exDate": "2026-11-04",
-        "subject": "Interim Dividend - Rs 5 Per Share",
-        "lastPrice": 3287,
-        "previousDayVolume": 153156
-      },
-      {
-        "symbol": "SYMPHONY",
-        "company": "Symphony Limited",
-        "dividend": 2.0,
-        "exDate": "2026-11-04",
-        "subject": "Interim Dividend - Rs 2 Per Share",
-        "lastPrice": 495,
-        "previousDayVolume": 32798
-      },
-      {
-        "symbol": "VAIBHAVGBL",
-        "company": "Vaibhav Global Limited",
-        "dividend": 1.5,
-        "exDate": "2026-11-04",
-        "subject": "Interim Dividend - Rs 1.50 Per Share",
-        "lastPrice": 158,
-        "previousDayVolume": 319179
-      },
-      {
-        "symbol": "SILVERTUC",
-        "company": "Silver Touch Technologies Limited",
-        "dividend": 0.1,
-        "exDate": "2026-11-04",
-        "subject": "Interim Dividend - Re 0.10 Per Share",
-        "lastPrice": 122.2,
-        "previousDayVolume": 75001
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-11-05",
     "stocks": [
       {
@@ -77,8 +9,8 @@
         "dividend": 75.0,
         "exDate": "2026-11-05",
         "subject": "Interim Dividend - Rs 75 Per Share",
-        "lastPrice": 3385,
-        "previousDayVolume": 40608
+        "lastPrice": 3352,
+        "previousDayVolume": 0
       },
       {
         "symbol": "NAVINFLUOR",
@@ -86,8 +18,8 @@
         "dividend": 8.0,
         "exDate": "2026-11-05",
         "subject": "Interim Dividend - Rs 8 Per Share",
-        "lastPrice": 8530,
-        "previousDayVolume": 173729
+        "lastPrice": 8900,
+        "previousDayVolume": 0
       },
       {
         "symbol": "SUNTV",
@@ -95,8 +27,8 @@
         "dividend": 3.75,
         "exDate": "2026-11-05",
         "subject": "Interim Dividend - Rs 3.75 Per Share",
-        "lastPrice": 588,
-        "previousDayVolume": 256035
+        "lastPrice": 605.5,
+        "previousDayVolume": 0
       },
       {
         "symbol": "BSOFT",
@@ -104,8 +36,8 @@
         "dividend": 3.0,
         "exDate": "2026-11-05",
         "subject": "Interim Dividend - Rs 3 Per Share",
-        "lastPrice": 322.9,
-        "previousDayVolume": 1223125
+        "lastPrice": 324.3,
+        "previousDayVolume": 0
       },
       {
         "symbol": "ENGINERSIN",
@@ -113,8 +45,17 @@
         "dividend": 1.5,
         "exDate": "2026-11-05",
         "subject": "Interim Dividend - Rs 1.50 Per Share",
-        "lastPrice": 289.45,
-        "previousDayVolume": 8219183
+        "lastPrice": 304,
+        "previousDayVolume": 0
+      },
+      {
+        "symbol": "INDTONER",
+        "company": "Indian Toners & Developers Limited",
+        "dividend": 1.2,
+        "exDate": "2026-11-05",
+        "subject": "Interim Dividend - Rs 1.20 Per Share",
+        "lastPrice": 47.49,
+        "previousDayVolume": 0
       },
       {
         "symbol": "KRISHNADEF",
@@ -122,8 +63,8 @@
         "dividend": 0.75,
         "exDate": "2026-11-05",
         "subject": "Interim Dividend - Re 0.75 Per Share",
-        "lastPrice": 1240,
-        "previousDayVolume": 244723
+        "lastPrice": 1300,
+        "previousDayVolume": 0
       },
       {
         "symbol": "VBL",
@@ -131,8 +72,8 @@
         "dividend": 0.5,
         "exDate": "2026-11-05",
         "subject": "Interim Dividend - Re 0.50 Per Share",
-        "lastPrice": 408.15,
-        "previousDayVolume": 5314439
+        "lastPrice": 427,
+        "previousDayVolume": 0
       },
       {
         "symbol": "SHAREINDIA",
@@ -140,13 +81,81 @@
         "dividend": 0.4,
         "exDate": "2026-11-05",
         "subject": "Interim Dividend - Re 0.40 Per Share",
-        "lastPrice": 180,
-        "previousDayVolume": 22113365
+        "lastPrice": 186,
+        "previousDayVolume": 0
+      }
+    ]
+  },
+  "tomorrow": {
+    "date": "2026-11-06",
+    "stocks": [
+      {
+        "symbol": "PETRONET",
+        "company": "Petronet LNG Limited",
+        "dividend": 7.0,
+        "exDate": "2026-11-06",
+        "subject": "Interim Dividend - Rs 7 Per Share",
+        "lastPrice": 315,
+        "previousDayVolume": 0
+      },
+      {
+        "symbol": "KSCL",
+        "company": "Kaveri Seed Company Limited",
+        "dividend": 5.0,
+        "exDate": "2026-11-06",
+        "subject": "Interim Dividend - Rs  5 Per Share",
+        "lastPrice": 695.5,
+        "previousDayVolume": 0
+      },
+      {
+        "symbol": "NATIONALUM",
+        "company": "National Aluminium Company Limited",
+        "dividend": 4.5,
+        "exDate": "2026-11-06",
+        "subject": "Interim Dividend - Rs 4.50 Per Share",
+        "lastPrice": 327,
+        "previousDayVolume": 0
+      },
+      {
+        "symbol": "SUNDRMFAST",
+        "company": "Sundram Fasteners Limited",
+        "dividend": 4.05,
+        "exDate": "2026-11-06",
+        "subject": "Interim Dividend - Rs 4.05 Per Share",
+        "lastPrice": 1095.5,
+        "previousDayVolume": 0
+      },
+      {
+        "symbol": "NTPC",
+        "company": "NTPC Limited",
+        "dividend": 3.0,
+        "exDate": "2026-11-06",
+        "subject": "Interim Dividend - Rs 3 Per Share",
+        "lastPrice": 323.45,
+        "previousDayVolume": 0
+      },
+      {
+        "symbol": "KKCL",
+        "company": "Kewal Kiran Clothing Limited",
+        "dividend": 2.0,
+        "exDate": "2026-11-06",
+        "subject": "Interim Dividend - Rs 2 Per Share",
+        "lastPrice": 449,
+        "previousDayVolume": 0
+      },
+      {
+        "symbol": "RKFORGE",
+        "company": "Ramkrishna Forgings Limited",
+        "dividend": 2.0,
+        "exDate": "2026-11-06",
+        "subject": "Interim Dividend - Rs 2 Per Share",
+        "lastPrice": 716,
+        "previousDayVolume": 0
       }
     ]
   },
   "dayAfter": {
-    "date": "2026-11-06",
+    "date": "2026-11-07",
     "stocks": []
   }
 }
