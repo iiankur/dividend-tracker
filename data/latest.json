@@ -1,151 +1,70 @@
 {
-  "generatedAt": "06-Nov-2026 09:01 AM IST",
+  "generatedAt": "07-Nov-2026 08:31 AM IST",
   "today": {
-    "date": "2026-11-06",
-    "stocks": [
-      {
-        "symbol": "CARERATING",
-        "company": "CARE Ratings Limited",
-        "dividend": 10.0,
-        "exDate": "2026-11-06",
-        "subject": "Interim Dividend - Rs 10 Per Share",
-        "lastPrice": 1561,
-        "previousDayVolume": 0
-      },
-      {
-        "symbol": "PETRONET",
-        "company": "Petronet LNG Limited",
-        "dividend": 7.0,
-        "exDate": "2026-11-06",
-        "subject": "Interim Dividend - Rs 7 Per Share",
-        "lastPrice": 312,
-        "previousDayVolume": 0
-      },
-      {
-        "symbol": "QUESS",
-        "company": "Quess Corp Limited",
-        "dividend": 5.0,
-        "exDate": "2026-11-06",
-        "subject": "Interim Dividend - Rs 5 Per Share",
-        "lastPrice": 307,
-        "previousDayVolume": 0
-      },
-      {
-        "symbol": "KSCL",
-        "company": "Kaveri Seed Company Limited",
-        "dividend": 5.0,
-        "exDate": "2026-11-06",
-        "subject": "Interim Dividend - Rs  5 Per Share",
-        "lastPrice": 684.5,
-        "previousDayVolume": 0
-      },
-      {
-        "symbol": "NATIONALUM",
-        "company": "National Aluminium Company Limited",
-        "dividend": 4.5,
-        "exDate": "2026-11-06",
-        "subject": "Interim Dividend - Rs 4.50 Per Share",
-        "lastPrice": 329,
-        "previousDayVolume": 0
-      },
-      {
-        "symbol": "SUNDRMFAST",
-        "company": "Sundram Fasteners Limited",
-        "dividend": 4.05,
-        "exDate": "2026-11-06",
-        "subject": "Interim Dividend - Rs 4.05 Per Share",
-        "lastPrice": 1097,
-        "previousDayVolume": 0
-      },
-      {
-        "symbol": "HAPPSTMNDS",
-        "company": "Happiest Minds Technologies Limited",
-        "dividend": 3.05,
-        "exDate": "2026-11-06",
-        "subject": "Interim Dividend - Rs 3.05 Per Share",
-        "lastPrice": 317.4,
-        "previousDayVolume": 0
-      },
-      {
-        "symbol": "POWERGRID",
-        "company": "Power Grid Corporation of India Limited",
-        "dividend": 3.0,
-        "exDate": "2026-11-06",
-        "subject": "Interim Dividend - Rs 3 Per Share",
-        "lastPrice": 258,
-        "previousDayVolume": 0
-      },
-      {
-        "symbol": "NTPC",
-        "company": "NTPC Limited",
-        "dividend": 3.0,
-        "exDate": "2026-11-06",
-        "subject": "Interim Dividend - Rs 3 Per Share",
-        "lastPrice": 316,
-        "previousDayVolume": 0
-      },
-      {
-        "symbol": "MOIL",
-        "company": "MOIL Limited",
-        "dividend": 2.2,
-        "exDate": "2026-11-06",
-        "subject": "Interim Dividend - Rs 2.20 Per Share",
-        "lastPrice": 217.9,
-        "previousDayVolume": 0
-      },
-      {
-        "symbol": "GABRIEL",
-        "company": "Gabriel India Limited",
-        "dividend": 2.15,
-        "exDate": "2026-11-06",
-        "subject": "Interim Dividend - Rs 2.15 Per Share",
-        "lastPrice": 1390,
-        "previousDayVolume": 0
-      },
-      {
-        "symbol": "KKCL",
-        "company": "Kewal Kiran Clothing Limited",
-        "dividend": 2.0,
-        "exDate": "2026-11-06",
-        "subject": "Interim Dividend - Rs 2 Per Share",
-        "lastPrice": 523,
-        "previousDayVolume": 0
-      },
-      {
-        "symbol": "RKFORGE",
-        "company": "Ramkrishna Forgings Limited",
-        "dividend": 2.0,
-        "exDate": "2026-11-06",
-        "subject": "Interim Dividend - Rs 2 Per Share",
-        "lastPrice": 718,
-        "previousDayVolume": 0
-      },
-      {
-        "symbol": "LAURUSLABS",
-        "company": "Laurus Labs Limited",
-        "dividend": 1.0,
-        "exDate": "2026-11-06",
-        "subject": "Interim Dividend - Re 1 Per Share",
-        "lastPrice": 2346,
-        "previousDayVolume": 0
-      },
-      {
-        "symbol": "AMRUTANJAN",
-        "company": "Amrutanjan Health Care Limited",
-        "dividend": 1.0,
-        "exDate": "2026-11-06",
-        "subject": "Interim Dividend - Re 1 Per Share",
-        "lastPrice": 518.7,
-        "previousDayVolume": 0
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-11-07",
     "stocks": []
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-11-08",
     "stocks": []
+  },
+  "dayAfter": {
+    "date": "2026-11-09",
+    "stocks": [
+      {
+        "symbol": "ESABINDIA",
+        "company": "Esab India Limited",
+        "dividend": 20.0,
+        "exDate": "2026-11-09",
+        "subject": "Interim Dividend - Rs 20 Per Share",
+        "lastPrice": 5021,
+        "previousDayVolume": 6073
+      },
+      {
+        "symbol": "GANESHCP",
+        "company": "Ganesh Consumer Products Limited",
+        "dividend": 3.7,
+        "exDate": "2026-11-09",
+        "subject": "Interim Dividend - Rs 3.70 Per Share",
+        "lastPrice": 188.1,
+        "previousDayVolume": 113787
+      },
+      {
+        "symbol": "DABUR",
+        "company": "Dabur India Limited",
+        "dividend": 3.5,
+        "exDate": "2026-11-09",
+        "subject": "Interim Dividend - Rs 3.50 Per Share",
+        "lastPrice": 380.35,
+        "previousDayVolume": 1960806
+      },
+      {
+        "symbol": "METROPOLIS",
+        "company": "Metropolis Healthcare Limited",
+        "dividend": 1.0,
+        "exDate": "2026-11-09",
+        "subject": "Interim Dividend - Re 1 Per Share",
+        "lastPrice": 571.5,
+        "previousDayVolume": 201207
+      },
+      {
+        "symbol": "OSWALAGRO",
+        "company": "Oswal Agro Mills Limited",
+        "dividend": 0.5,
+        "exDate": "2026-11-09",
+        "subject": "Interim Dividend - Re 0.50 Per Share",
+        "lastPrice": 39.5,
+        "previousDayVolume": 228617
+      },
+      {
+        "symbol": "SAKSOFT",
+        "company": "Saksoft Limited",
+        "dividend": 0.5,
+        "exDate": "2026-11-09",
+        "subject": "Interim Dividend - Re 0.5 Per Share",
+        "lastPrice": 133.4,
+        "previousDayVolume": 460990
+      }
+    ]
   }
 }
