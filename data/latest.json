@@ -1,79 +1,38 @@
 {
-  "generatedAt": "09-Nov-2026 08:22 AM IST",
+  "generatedAt": "10-Nov-2026 10:13 AM IST",
   "today": {
-    "date": "2026-11-09",
-    "stocks": [
-      {
-        "symbol": "ESABINDIA",
-        "company": "Esab India Limited",
-        "dividend": 20.0,
-        "exDate": "2026-11-09",
-        "subject": "Interim Dividend - Rs 20 Per Share",
-        "lastPrice": 5050,
-        "previousDayVolume": 2399
-      },
-      {
-        "symbol": "GANESHCP",
-        "company": "Ganesh Consumer Products Limited",
-        "dividend": 3.7,
-        "exDate": "2026-11-09",
-        "subject": "Interim Dividend - Rs 3.70 Per Share",
-        "lastPrice": 188.79,
-        "previousDayVolume": 69437
-      },
-      {
-        "symbol": "DABUR",
-        "company": "Dabur India Limited",
-        "dividend": 3.5,
-        "exDate": "2026-11-09",
-        "subject": "Interim Dividend - Rs 3.50 Per Share",
-        "lastPrice": 382.8,
-        "previousDayVolume": 303433
-      },
-      {
-        "symbol": "METROPOLIS",
-        "company": "Metropolis Healthcare Limited",
-        "dividend": 1.0,
-        "exDate": "2026-11-09",
-        "subject": "Interim Dividend - Re 1 Per Share",
-        "lastPrice": 577.25,
-        "previousDayVolume": 23702
-      },
-      {
-        "symbol": "OSWALAGRO",
-        "company": "Oswal Agro Mills Limited",
-        "dividend": 0.5,
-        "exDate": "2026-11-09",
-        "subject": "Interim Dividend - Re 0.50 Per Share",
-        "lastPrice": 40.45,
-        "previousDayVolume": 37661
-      },
-      {
-        "symbol": "SAKSOFT",
-        "company": "Saksoft Limited",
-        "dividend": 0.5,
-        "exDate": "2026-11-09",
-        "subject": "Interim Dividend - Re 0.5 Per Share",
-        "lastPrice": 132.88,
-        "previousDayVolume": 129358
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-11-10",
     "stocks": []
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-11-11",
     "stocks": [
+      {
+        "symbol": "GALAXYSURF",
+        "company": "Galaxy Surfactants Limited",
+        "dividend": 18.0,
+        "exDate": "2026-11-11",
+        "subject": "Interim Dividend - Rs 18 Per Share",
+        "lastPrice": 2197.6,
+        "previousDayVolume": 24816
+      },
       {
         "symbol": "AUROPHARMA",
         "company": "Aurobindo Pharma Limited",
         "dividend": 7.0,
         "exDate": "2026-11-11",
         "subject": "Interim Dividend - Rs 7 Per Share",
-        "lastPrice": 1804,
-        "previousDayVolume": 83214
+        "lastPrice": 1855.3,
+        "previousDayVolume": 2411931
+      },
+      {
+        "symbol": "LALPATHLAB",
+        "company": "Dr. Lal Path Labs Ltd.",
+        "dividend": 5.0,
+        "exDate": "2026-11-11",
+        "subject": "Interim Dividend - Rs 5 Per Share",
+        "lastPrice": 2020.6,
+        "previousDayVolume": 340155
       },
       {
         "symbol": "CHAMBLFERT",
@@ -81,8 +40,8 @@
         "dividend": 5.0,
         "exDate": "2026-11-11",
         "subject": "Interim Dividend - Rs 5 Per Share",
-        "lastPrice": 392.95,
-        "previousDayVolume": 111556
+        "lastPrice": 389.8,
+        "previousDayVolume": 202042
       },
       {
         "symbol": "BALKRISIND",
@@ -90,17 +49,8 @@
         "dividend": 4.0,
         "exDate": "2026-11-11",
         "subject": "Interim Dividend - Rs 4 Per Share",
-        "lastPrice": 2365,
-        "previousDayVolume": 19103
-      },
-      {
-        "symbol": "BALRAMCHIN",
-        "company": "Balrampur Chini Mills Limited",
-        "dividend": 4.0,
-        "exDate": "2026-11-11",
-        "subject": "Interim Dividend - Rs 4 Per Share",
-        "lastPrice": 668,
-        "previousDayVolume": 97102
+        "lastPrice": 2335,
+        "previousDayVolume": 190037
       },
       {
         "symbol": "NRBBEARING",
@@ -108,8 +58,26 @@
         "dividend": 2.5,
         "exDate": "2026-11-11",
         "subject": "Interim Dividend - Rs 2.50 Per Share",
-        "lastPrice": 447,
-        "previousDayVolume": 103706
+        "lastPrice": 434.25,
+        "previousDayVolume": 221012
+      },
+      {
+        "symbol": "PDSL",
+        "company": "PDS Limited",
+        "dividend": 2.2,
+        "exDate": "2026-11-11",
+        "subject": "Interim Dividend - Rs 2.20 Per Share",
+        "lastPrice": 408.7,
+        "previousDayVolume": 398130
+      },
+      {
+        "symbol": "RITES",
+        "company": "RITES Limited",
+        "dividend": 1.9,
+        "exDate": "2026-11-11",
+        "subject": "Interim Dividend - Rs 1.90 Per Share",
+        "lastPrice": 197.01,
+        "previousDayVolume": 1222195
       },
       {
         "symbol": "CONCOR",
@@ -117,8 +85,8 @@
         "dividend": 1.9,
         "exDate": "2026-11-11",
         "subject": "Interim Dividend - Rs 1.90 Per Share",
-        "lastPrice": 441.6,
-        "previousDayVolume": 385471
+        "lastPrice": 446,
+        "previousDayVolume": 622941
       },
       {
         "symbol": "JMFINANCIL",
@@ -126,8 +94,62 @@
         "dividend": 1.65,
         "exDate": "2026-11-11",
         "subject": "Interim Dividend - Rs 1.65 Per Share",
-        "lastPrice": 111.65,
-        "previousDayVolume": 710701
+        "lastPrice": 112.68,
+        "previousDayVolume": 1835405
+      },
+      {
+        "symbol": "NAVNETEDUL",
+        "company": "Navneet Education Limited",
+        "dividend": 1.5,
+        "exDate": "2026-11-11",
+        "subject": "Special Dividend - Rs 1.50 Per Share/ Interim Dividend - Rs 1.50 Per Share",
+        "lastPrice": 129.15,
+        "previousDayVolume": 219342
+      },
+      {
+        "symbol": "HUDCO",
+        "company": "Housing & Urban Development Corporation Limited",
+        "dividend": 1.35,
+        "exDate": "2026-11-11",
+        "subject": "Interim Dividend - Rs 1.35 Per Share",
+        "lastPrice": 168.5,
+        "previousDayVolume": 8391828
+      },
+      {
+        "symbol": "SONATSOFTW",
+        "company": "Sonata Software Limited",
+        "dividend": 1.25,
+        "exDate": "2026-11-11",
+        "subject": "Interim Dividend - Rs 1.25 Per Share",
+        "lastPrice": 256.1,
+        "previousDayVolume": 3347198
+      },
+      {
+        "symbol": "GPTINFRA",
+        "company": "GPT Infraprojects Limited",
+        "dividend": 1.0,
+        "exDate": "2026-11-11",
+        "subject": "Interim Dividend - Re 1 Per Share",
+        "lastPrice": 112.5,
+        "previousDayVolume": 81817
+      },
+      {
+        "symbol": "ADFFOODS",
+        "company": "ADF Foods Limited",
+        "dividend": 0.6,
+        "exDate": "2026-11-11",
+        "subject": "Interim Dividend - Re 0.60 Per Share",
+        "lastPrice": 241,
+        "previousDayVolume": 54695
+      },
+      {
+        "symbol": "PREMIERENE",
+        "company": "Premier Energies Limited",
+        "dividend": 0.5,
+        "exDate": "2026-11-11",
+        "subject": "Interim Dividend - Re 0.50 Per Share",
+        "lastPrice": 886,
+        "previousDayVolume": 531442
       },
       {
         "symbol": "NBCC",
@@ -135,9 +157,13 @@
         "dividend": 0.25,
         "exDate": "2026-11-11",
         "subject": "Interim Dividend - Re 0.25 Per Share",
-        "lastPrice": 78.25,
-        "previousDayVolume": 2841768
+        "lastPrice": 80.4,
+        "previousDayVolume": 10517411
       }
     ]
+  },
+  "dayAfter": {
+    "date": "2026-11-12",
+    "stocks": []
   }
 }
