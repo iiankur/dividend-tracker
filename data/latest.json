@@ -1,169 +1,34 @@
 {
-  "generatedAt": "13-Nov-2026 09:00 AM IST",
+  "generatedAt": "14-Nov-2026 08:56 AM IST",
   "today": {
-    "date": "2026-11-13",
-    "stocks": [
-      {
-        "symbol": "GESHIP",
-        "company": "The Great Eastern Shipping Company Limited",
-        "dividend": 14.4,
-        "exDate": "2026-11-13",
-        "subject": "Interim Dividend - Rs 14.40 Per Share",
-        "lastPrice": 1442.3,
-        "previousDayVolume": 0
-      },
-      {
-        "symbol": "IGPL",
-        "company": "IG Petrochemicals Limited",
-        "dividend": 10.0,
-        "exDate": "2026-11-13",
-        "subject": "Interim Dividend - Rs 10 Per Share",
-        "lastPrice": 552,
-        "previousDayVolume": 0
-      },
-      {
-        "symbol": "SOMANYCERA",
-        "company": "Somany Ceramics Limited",
-        "dividend": 6.0,
-        "exDate": "2026-11-13",
-        "subject": "Interim Dividend - Rs 6 Per Share",
-        "lastPrice": 536.05,
-        "previousDayVolume": 0
-      },
-      {
-        "symbol": "REPCOHOME",
-        "company": "Repco Home Finance Limited",
-        "dividend": 5.0,
-        "exDate": "2026-11-13",
-        "subject": "Interim Dividend - Rs 5 Per Share",
-        "lastPrice": 388.45,
-        "previousDayVolume": 0
-      },
-      {
-        "symbol": "PGIL",
-        "company": "Pearl Global Industries Limited",
-        "dividend": 5.0,
-        "exDate": "2026-11-13",
-        "subject": "Interim Dividend - Rs 5 Per Share",
-        "lastPrice": 1350,
-        "previousDayVolume": 0
-      },
-      {
-        "symbol": "CAMS",
-        "company": "Computer Age Management Services Limited",
-        "dividend": 3.25,
-        "exDate": "2026-11-13",
-        "subject": "Interim Dividend - Rs 3.25 Per Share",
-        "lastPrice": 754.9,
-        "previousDayVolume": 0
-      },
-      {
-        "symbol": "ORIENTTECH",
-        "company": "Orient Technologies Limited",
-        "dividend": 2.0,
-        "exDate": "2026-11-13",
-        "subject": "Interim Dividend - Rs 2 Per Share",
-        "lastPrice": 214.61,
-        "previousDayVolume": 0
-      },
-      {
-        "symbol": "SBCL",
-        "company": "Shivalik Bimetal Controls Limited",
-        "dividend": 2.0,
-        "exDate": "2026-11-13",
-        "subject": "Interim Dividend - Rs 2 Per Share",
-        "lastPrice": 1036.7,
-        "previousDayVolume": 0
-      },
-      {
-        "symbol": "APTUS",
-        "company": "Aptus Value Housing Finance India Limited",
-        "dividend": 2.0,
-        "exDate": "2026-11-13",
-        "subject": "Interim Dividend - Rs 2 Per Share",
-        "lastPrice": 175,
-        "previousDayVolume": 0
-      },
-      {
-        "symbol": "DYNAMATECH",
-        "company": "Dynamatic Technologies Limited",
-        "dividend": 2.0,
-        "exDate": "2026-11-13",
-        "subject": "Interim Dividend - Rs 2 Per Share",
-        "lastPrice": 13202,
-        "previousDayVolume": 0
-      },
-      {
-        "symbol": "GOLDIAM",
-        "company": "Goldiam International Limited",
-        "dividend": 2.0,
-        "exDate": "2026-11-13",
-        "subject": "Interim Dividend - Rs 2 Per Share",
-        "lastPrice": 318.75,
-        "previousDayVolume": 0
-      },
-      {
-        "symbol": "BMWVENTLTD",
-        "company": "BMW Ventures Limited",
-        "dividend": 1.5,
-        "exDate": "2026-11-13",
-        "subject": "Interim Dividend - Rs 1.50 Per Share",
-        "lastPrice": 65.72,
-        "previousDayVolume": 0
-      },
-      {
-        "symbol": "ASTRAL",
-        "company": "Astral Limited",
-        "dividend": 1.5,
-        "exDate": "2026-11-13",
-        "subject": "Interim Dividend - Rs 1.50 Per Share",
-        "lastPrice": 1279.9,
-        "previousDayVolume": 0
-      },
-      {
-        "symbol": "PPAP",
-        "company": "PPAP Automotive Limited",
-        "dividend": 1.5,
-        "exDate": "2026-11-13",
-        "subject": "Interim Dividend - Rs 1.50 Per Share",
-        "lastPrice": 262,
-        "previousDayVolume": 0
-      },
-      {
-        "symbol": "STARCEMENT",
-        "company": "Star Cement Limited",
-        "dividend": 1.0,
-        "exDate": "2026-11-13",
-        "subject": "Interim Dividend - Re 1 Per Share",
-        "lastPrice": 178,
-        "previousDayVolume": 0
-      },
-      {
-        "symbol": "RAIN",
-        "company": "Rain Industries Limited",
-        "dividend": 0.5,
-        "exDate": "2026-11-13",
-        "subject": "Interim Dividend - Re 0.50 Per Share",
-        "lastPrice": 165.4,
-        "previousDayVolume": 0
-      },
-      {
-        "symbol": "PRECWIRE",
-        "company": "Precision Wires India Limited",
-        "dividend": 0.35,
-        "exDate": "2026-11-13",
-        "subject": "Interim Dividend - Re 0.35 Per Share",
-        "lastPrice": 401.05,
-        "previousDayVolume": 0
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-11-14",
     "stocks": []
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-11-15",
     "stocks": []
+  },
+  "dayAfter": {
+    "date": "2026-11-16",
+    "stocks": [
+      {
+        "symbol": "SCI",
+        "company": "Shipping Corporation Of India Limited",
+        "dividend": 4.0,
+        "exDate": "2026-11-16",
+        "subject": "Interim Dividend - Rs 4 Per Share",
+        "lastPrice": 271,
+        "previousDayVolume": 3645257
+      },
+      {
+        "symbol": "COCHINSHIP",
+        "company": "Cochin Shipyard Limited",
+        "dividend": 3.0,
+        "exDate": "2026-11-16",
+        "subject": "Interim Dividend - Rs 3 Per Share",
+        "lastPrice": 1178,
+        "previousDayVolume": 1477689
+      }
+    ]
   }
 }
