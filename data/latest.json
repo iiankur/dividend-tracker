@@ -1,14 +1,10 @@
 {
-  "generatedAt": "14-Nov-2026 08:56 AM IST",
+  "generatedAt": "15-Nov-2026 08:26 AM IST",
   "today": {
-    "date": "2026-11-14",
-    "stocks": []
-  },
-  "tomorrow": {
     "date": "2026-11-15",
     "stocks": []
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-11-16",
     "stocks": [
       {
@@ -28,6 +24,47 @@
         "subject": "Interim Dividend - Rs 3 Per Share",
         "lastPrice": 1178,
         "previousDayVolume": 1477689
+      }
+    ]
+  },
+  "dayAfter": {
+    "date": "2026-11-17",
+    "stocks": [
+      {
+        "symbol": "EDELALTS",
+        "company": "EAAA India Alternatives Limited",
+        "dividend": 7.0,
+        "exDate": "2026-11-17",
+        "subject": "Interim Dividend - Rs 7 Per Share",
+        "lastPrice": 1940,
+        "previousDayVolume": 475252
+      },
+      {
+        "symbol": "PFC",
+        "company": "Power Finance Corporation Limited",
+        "dividend": 4.1,
+        "exDate": "2026-11-17",
+        "subject": "Interim Dividend - Rs 4.10 Per Share",
+        "lastPrice": 334.25,
+        "previousDayVolume": 5794828
+      },
+      {
+        "symbol": "NILE",
+        "company": "Nile Limited",
+        "dividend": 3.0,
+        "exDate": "2026-11-17",
+        "subject": "Interim Dividend - Rs 3 Per Share",
+        "lastPrice": 1237,
+        "previousDayVolume": 5430
+      },
+      {
+        "symbol": "MRF",
+        "company": "MRF Limited",
+        "dividend": 3.0,
+        "exDate": "2026-11-17",
+        "subject": "Interim Dividend - Rs 3 Per Share",
+        "lastPrice": 127990,
+        "previousDayVolume": 2724
       }
     ]
   }
