@@ -1,10 +1,6 @@
 {
-  "generatedAt": "15-Nov-2026 08:26 AM IST",
+  "generatedAt": "16-Nov-2026 08:26 AM IST",
   "today": {
-    "date": "2026-11-15",
-    "stocks": []
-  },
-  "tomorrow": {
     "date": "2026-11-16",
     "stocks": [
       {
@@ -27,7 +23,7 @@
       }
     ]
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-11-17",
     "stocks": [
       {
@@ -65,6 +61,38 @@
         "subject": "Interim Dividend - Rs 3 Per Share",
         "lastPrice": 127990,
         "previousDayVolume": 2724
+      }
+    ]
+  },
+  "dayAfter": {
+    "date": "2026-11-18",
+    "stocks": [
+      {
+        "symbol": "PAGEIND",
+        "company": "Page Industries Limited",
+        "dividend": 150.0,
+        "exDate": "2026-11-18",
+        "subject": "Interim Dividend - Rs  150 Per Share",
+        "lastPrice": 31325,
+        "previousDayVolume": 232245
+      },
+      {
+        "symbol": "MANAPPURAM",
+        "company": "Manappuram Finance Limited",
+        "dividend": 1.0,
+        "exDate": "2026-11-18",
+        "subject": "Interim Dividend - Re 1 Per Share",
+        "lastPrice": 308,
+        "previousDayVolume": 31967705
+      },
+      {
+        "symbol": "TDPOWERSYS",
+        "company": "TD Power Systems Limited",
+        "dividend": 0.65,
+        "exDate": "2026-11-18",
+        "subject": "Interim Dividend - Re 0.65 Per Share",
+        "lastPrice": 634.85,
+        "previousDayVolume": 51490686
       }
     ]
   }
