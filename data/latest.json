@@ -1,29 +1,6 @@
 {
-  "generatedAt": "16-Nov-2026 08:26 AM IST",
+  "generatedAt": "17-Nov-2026 10:40 AM IST",
   "today": {
-    "date": "2026-11-16",
-    "stocks": [
-      {
-        "symbol": "SCI",
-        "company": "Shipping Corporation Of India Limited",
-        "dividend": 4.0,
-        "exDate": "2026-11-16",
-        "subject": "Interim Dividend - Rs 4 Per Share",
-        "lastPrice": 271,
-        "previousDayVolume": 3645257
-      },
-      {
-        "symbol": "COCHINSHIP",
-        "company": "Cochin Shipyard Limited",
-        "dividend": 3.0,
-        "exDate": "2026-11-16",
-        "subject": "Interim Dividend - Rs 3 Per Share",
-        "lastPrice": 1178,
-        "previousDayVolume": 1477689
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-11-17",
     "stocks": [
       {
@@ -32,8 +9,8 @@
         "dividend": 7.0,
         "exDate": "2026-11-17",
         "subject": "Interim Dividend - Rs 7 Per Share",
-        "lastPrice": 1940,
-        "previousDayVolume": 475252
+        "lastPrice": 1957.7,
+        "previousDayVolume": 58265
       },
       {
         "symbol": "PFC",
@@ -41,8 +18,8 @@
         "dividend": 4.1,
         "exDate": "2026-11-17",
         "subject": "Interim Dividend - Rs 4.10 Per Share",
-        "lastPrice": 334.25,
-        "previousDayVolume": 5794828
+        "lastPrice": 329.65,
+        "previousDayVolume": 1382515
       },
       {
         "symbol": "NILE",
@@ -50,8 +27,8 @@
         "dividend": 3.0,
         "exDate": "2026-11-17",
         "subject": "Interim Dividend - Rs 3 Per Share",
-        "lastPrice": 1237,
-        "previousDayVolume": 5430
+        "lastPrice": 1224.8,
+        "previousDayVolume": 639
       },
       {
         "symbol": "MRF",
@@ -59,12 +36,12 @@
         "dividend": 3.0,
         "exDate": "2026-11-17",
         "subject": "Interim Dividend - Rs 3 Per Share",
-        "lastPrice": 127990,
-        "previousDayVolume": 2724
+        "lastPrice": 129230,
+        "previousDayVolume": 1692
       }
     ]
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-11-18",
     "stocks": [
       {
@@ -73,8 +50,17 @@
         "dividend": 150.0,
         "exDate": "2026-11-18",
         "subject": "Interim Dividend - Rs  150 Per Share",
-        "lastPrice": 31325,
-        "previousDayVolume": 232245
+        "lastPrice": 31535,
+        "previousDayVolume": 11463
+      },
+      {
+        "symbol": "AKCAPIT",
+        "company": "AK Capital Services Limited",
+        "dividend": 18.0,
+        "exDate": "2026-11-18",
+        "subject": "Interim Dividend - Rs 18 Per Share",
+        "lastPrice": 1962.1,
+        "previousDayVolume": 316
       },
       {
         "symbol": "MANAPPURAM",
@@ -82,8 +68,8 @@
         "dividend": 1.0,
         "exDate": "2026-11-18",
         "subject": "Interim Dividend - Re 1 Per Share",
-        "lastPrice": 308,
-        "previousDayVolume": 31967705
+        "lastPrice": 302.55,
+        "previousDayVolume": 1423730
       },
       {
         "symbol": "TDPOWERSYS",
@@ -91,8 +77,31 @@
         "dividend": 0.65,
         "exDate": "2026-11-18",
         "subject": "Interim Dividend - Re 0.65 Per Share",
-        "lastPrice": 634.85,
-        "previousDayVolume": 51490686
+        "lastPrice": 630.5,
+        "previousDayVolume": 1492986
+      }
+    ]
+  },
+  "dayAfter": {
+    "date": "2026-11-19",
+    "stocks": [
+      {
+        "symbol": "INGERRAND",
+        "company": "Ingersoll Rand (India) Limited",
+        "dividend": 20.0,
+        "exDate": "2026-11-19",
+        "subject": "Interim Dividend - Rs 20 Per Share",
+        "lastPrice": 3952,
+        "previousDayVolume": 1763
+      },
+      {
+        "symbol": "NATCOPHARM",
+        "company": "Natco Pharma Limited",
+        "dividend": 1.25,
+        "exDate": "2026-11-19",
+        "subject": "Interim Dividend - Rs 1.25 Per Share",
+        "lastPrice": 822.45,
+        "previousDayVolume": 229283
       }
     ]
   }
