@@ -1,47 +1,6 @@
 {
-  "generatedAt": "17-Nov-2026 10:40 AM IST",
+  "generatedAt": "18-Nov-2026 10:08 AM IST",
   "today": {
-    "date": "2026-11-17",
-    "stocks": [
-      {
-        "symbol": "EDELALTS",
-        "company": "EAAA India Alternatives Limited",
-        "dividend": 7.0,
-        "exDate": "2026-11-17",
-        "subject": "Interim Dividend - Rs 7 Per Share",
-        "lastPrice": 1957.7,
-        "previousDayVolume": 58265
-      },
-      {
-        "symbol": "PFC",
-        "company": "Power Finance Corporation Limited",
-        "dividend": 4.1,
-        "exDate": "2026-11-17",
-        "subject": "Interim Dividend - Rs 4.10 Per Share",
-        "lastPrice": 329.65,
-        "previousDayVolume": 1382515
-      },
-      {
-        "symbol": "NILE",
-        "company": "Nile Limited",
-        "dividend": 3.0,
-        "exDate": "2026-11-17",
-        "subject": "Interim Dividend - Rs 3 Per Share",
-        "lastPrice": 1224.8,
-        "previousDayVolume": 639
-      },
-      {
-        "symbol": "MRF",
-        "company": "MRF Limited",
-        "dividend": 3.0,
-        "exDate": "2026-11-17",
-        "subject": "Interim Dividend - Rs 3 Per Share",
-        "lastPrice": 129230,
-        "previousDayVolume": 1692
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-11-18",
     "stocks": [
       {
@@ -50,8 +9,8 @@
         "dividend": 150.0,
         "exDate": "2026-11-18",
         "subject": "Interim Dividend - Rs  150 Per Share",
-        "lastPrice": 31535,
-        "previousDayVolume": 11463
+        "lastPrice": 30655,
+        "previousDayVolume": 12186
       },
       {
         "symbol": "AKCAPIT",
@@ -59,8 +18,17 @@
         "dividend": 18.0,
         "exDate": "2026-11-18",
         "subject": "Interim Dividend - Rs 18 Per Share",
-        "lastPrice": 1962.1,
-        "previousDayVolume": 316
+        "lastPrice": 1989.2,
+        "previousDayVolume": 918
+      },
+      {
+        "symbol": "ARCL",
+        "company": "ARCL Organics Limited",
+        "dividend": 1.0,
+        "exDate": "2026-11-18",
+        "subject": "Interim Dividend - Re 1 Per Share",
+        "lastPrice": 222.9,
+        "previousDayVolume": 1209
       },
       {
         "symbol": "MANAPPURAM",
@@ -68,8 +36,8 @@
         "dividend": 1.0,
         "exDate": "2026-11-18",
         "subject": "Interim Dividend - Re 1 Per Share",
-        "lastPrice": 302.55,
-        "previousDayVolume": 1423730
+        "lastPrice": 285.9,
+        "previousDayVolume": 5652727
       },
       {
         "symbol": "TDPOWERSYS",
@@ -77,12 +45,12 @@
         "dividend": 0.65,
         "exDate": "2026-11-18",
         "subject": "Interim Dividend - Re 0.65 Per Share",
-        "lastPrice": 630.5,
-        "previousDayVolume": 1492986
+        "lastPrice": 634.75,
+        "previousDayVolume": 2716900
       }
     ]
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-11-19",
     "stocks": [
       {
@@ -91,8 +59,8 @@
         "dividend": 20.0,
         "exDate": "2026-11-19",
         "subject": "Interim Dividend - Rs 20 Per Share",
-        "lastPrice": 3952,
-        "previousDayVolume": 1763
+        "lastPrice": 3900.2,
+        "previousDayVolume": 2363
       },
       {
         "symbol": "NATCOPHARM",
@@ -100,8 +68,76 @@
         "dividend": 1.25,
         "exDate": "2026-11-19",
         "subject": "Interim Dividend - Rs 1.25 Per Share",
-        "lastPrice": 822.45,
-        "previousDayVolume": 229283
+        "lastPrice": 827,
+        "previousDayVolume": 136555
+      }
+    ]
+  },
+  "dayAfter": {
+    "date": "2026-11-20",
+    "stocks": [
+      {
+        "symbol": "POLYPLEX",
+        "company": "Polyplex Corporation Limited",
+        "dividend": 12.0,
+        "exDate": "2026-11-20",
+        "subject": "Interim Dividend - Rs 12 Per Share",
+        "lastPrice": 992,
+        "previousDayVolume": 10869
+      },
+      {
+        "symbol": "OIL",
+        "company": "Oil India Limited",
+        "dividend": 7.0,
+        "exDate": "2026-11-20",
+        "subject": "Interim Dividend - Rs 7 Per Share",
+        "lastPrice": 433.5,
+        "previousDayVolume": 974828
+      },
+      {
+        "symbol": "ASHOKLEY",
+        "company": "Ashok Leyland Limited",
+        "dividend": 1.0,
+        "exDate": "2026-11-20",
+        "subject": "Interim Dividend - Re 1 Per Share",
+        "lastPrice": 158.24,
+        "previousDayVolume": 10658500
+      },
+      {
+        "symbol": "JAMNAAUTO",
+        "company": "Jamna Auto Industries Limited",
+        "dividend": 1.0,
+        "exDate": "2026-11-20",
+        "subject": "Interim Dividend - Re 1 Per Share",
+        "lastPrice": 140,
+        "previousDayVolume": 350970
+      },
+      {
+        "symbol": "VENUSPIPES",
+        "company": "Venus Pipes & Tubes Limited",
+        "dividend": 0.5,
+        "exDate": "2026-11-20",
+        "subject": "Interim Dividend - Re 0.50 Per Share",
+        "lastPrice": 1788.7,
+        "previousDayVolume": 13271
+      },
+      {
+        "symbol": "SKYWAYS",
+        "company": "Skyways Air Services Limited",
+        "dividend": 0.4,
+        "exDate": "2026-11-20",
+        "subject": "Interim Dividend - Re 0.40 Per Share",
+        "lastPrice": 131.77,
+        "previousDayVolume": 2189510
+      },
+      {
+        "symbol": "TALBROAUTO",
+        "company": "Talbros Automotive Components Limited",
+        "dividend": 0.3,
+        "exDate": "2026-11-20",
+        "subject": "Interim Dividend - Re 0.30 Per Share",
+        "lastPrice": 405.5,
+        "previousDayVolume": 33544
       }
     ]
   }
