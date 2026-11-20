@@ -1,38 +1,6 @@
 {
-  "generatedAt": "19-Nov-2026 09:51 AM IST",
+  "generatedAt": "20-Nov-2026 09:39 AM IST",
   "today": {
-    "date": "2026-11-19",
-    "stocks": [
-      {
-        "symbol": "INGERRAND",
-        "company": "Ingersoll Rand (India) Limited",
-        "dividend": 20.0,
-        "exDate": "2026-11-19",
-        "subject": "Interim Dividend - Rs 20 Per Share",
-        "lastPrice": 3826.9,
-        "previousDayVolume": 3029
-      },
-      {
-        "symbol": "NATCOPHARM",
-        "company": "Natco Pharma Limited",
-        "dividend": 1.25,
-        "exDate": "2026-11-19",
-        "subject": "Interim Dividend - Rs 1.25 Per Share",
-        "lastPrice": 807.75,
-        "previousDayVolume": 103206
-      },
-      {
-        "symbol": "VGCL",
-        "company": "Vibrant Global Capital Limited",
-        "dividend": 1.0,
-        "exDate": "2026-11-19",
-        "subject": "Interim Dividend - Re 1 Per Share",
-        "lastPrice": 60.35,
-        "previousDayVolume": 569
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-11-20",
     "stocks": [
       {
@@ -41,8 +9,8 @@
         "dividend": 20.0,
         "exDate": "2026-11-20",
         "subject": "Interim Dividend - Rs 20 Per Share",
-        "lastPrice": 495,
-        "previousDayVolume": 44507
+        "lastPrice": 446.05,
+        "previousDayVolume": 56171
       },
       {
         "symbol": "POLYPLEX",
@@ -50,8 +18,8 @@
         "dividend": 12.0,
         "exDate": "2026-11-20",
         "subject": "Interim Dividend - Rs 12 Per Share",
-        "lastPrice": 988.85,
-        "previousDayVolume": 4782
+        "lastPrice": 965.9,
+        "previousDayVolume": 13680
       },
       {
         "symbol": "OIL",
@@ -59,8 +27,8 @@
         "dividend": 7.0,
         "exDate": "2026-11-20",
         "subject": "Interim Dividend - Rs 7 Per Share",
-        "lastPrice": 435.9,
-        "previousDayVolume": 357572
+        "lastPrice": 429.15,
+        "previousDayVolume": 434686
       },
       {
         "symbol": "ALUFLUOR",
@@ -77,8 +45,8 @@
         "dividend": 1.0,
         "exDate": "2026-11-20",
         "subject": "Interim Dividend - Re 1 Per Share",
-        "lastPrice": 165.09,
-        "previousDayVolume": 6305652
+        "lastPrice": 163.99,
+        "previousDayVolume": 3045803
       },
       {
         "symbol": "JAMNAAUTO",
@@ -86,8 +54,17 @@
         "dividend": 1.0,
         "exDate": "2026-11-20",
         "subject": "Interim Dividend - Re 1 Per Share",
-        "lastPrice": 136.71,
-        "previousDayVolume": 315676
+        "lastPrice": 137.6,
+        "previousDayVolume": 258179
+      },
+      {
+        "symbol": "RAMAPHO",
+        "company": "Rama Phosphates Limited",
+        "dividend": 0.5,
+        "exDate": "2026-11-20",
+        "subject": "Interim Dividend - Re 0.50 Per Share",
+        "lastPrice": 123.48,
+        "previousDayVolume": 11605
       },
       {
         "symbol": "VENUSPIPES",
@@ -95,8 +72,17 @@
         "dividend": 0.5,
         "exDate": "2026-11-20",
         "subject": "Interim Dividend - Re 0.50 Per Share",
-        "lastPrice": 1800.6,
-        "previousDayVolume": 6639
+        "lastPrice": 1725.8,
+        "previousDayVolume": 13843
+      },
+      {
+        "symbol": "STEELCAS",
+        "company": "Steelcast Limited",
+        "dividend": 0.45,
+        "exDate": "2026-11-20",
+        "subject": "Interim Dividend - Re 0.45 Per Share",
+        "lastPrice": 382.2,
+        "previousDayVolume": 33895
       },
       {
         "symbol": "SKYWAYS",
@@ -104,8 +90,8 @@
         "dividend": 0.4,
         "exDate": "2026-11-20",
         "subject": "Interim Dividend - Re 0.40 Per Share",
-        "lastPrice": 124.97,
-        "previousDayVolume": 644678
+        "lastPrice": 118.8,
+        "previousDayVolume": 368066
       },
       {
         "symbol": "TALBROAUTO",
@@ -113,13 +99,26 @@
         "dividend": 0.3,
         "exDate": "2026-11-20",
         "subject": "Interim Dividend - Re 0.30 Per Share",
-        "lastPrice": 408.65,
-        "previousDayVolume": 19000
+        "lastPrice": 394.35,
+        "previousDayVolume": 31517
+      },
+      {
+        "symbol": "MARSONS",
+        "company": "Marsons Limited",
+        "dividend": 0.05,
+        "exDate": "2026-11-20",
+        "subject": "Interim Dividend - Re 0.05 Per Share",
+        "lastPrice": 148.84,
+        "previousDayVolume": 721773
       }
     ]
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-11-21",
+    "stocks": []
+  },
+  "dayAfter": {
+    "date": "2026-11-22",
     "stocks": []
   }
 }
