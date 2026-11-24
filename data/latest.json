@@ -1,24 +1,10 @@
 {
-  "generatedAt": "23-Nov-2026 09:23 AM IST",
+  "generatedAt": "24-Nov-2026 12:31 PM IST",
   "today": {
-    "date": "2026-11-23",
-    "stocks": [
-      {
-        "symbol": "PASHUPATI",
-        "company": "Pashupati Cotspin Limited",
-        "dividend": 0.02,
-        "exDate": "2026-11-23",
-        "subject": "Interim Dividend - Re 0.02 Per Share",
-        "lastPrice": 28.51,
-        "previousDayVolume": 10424791
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-11-24",
     "stocks": []
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-11-25",
     "stocks": [
       {
@@ -27,9 +13,13 @@
         "dividend": 0.6,
         "exDate": "2026-11-25",
         "subject": "Interim Dividend - Re 0.60 Per Share",
-        "lastPrice": 130.5,
-        "previousDayVolume": 1927
+        "lastPrice": 126.72,
+        "previousDayVolume": 15165
       }
     ]
+  },
+  "dayAfter": {
+    "date": "2026-11-26",
+    "stocks": []
   }
 }
