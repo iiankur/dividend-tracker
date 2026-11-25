@@ -1,10 +1,6 @@
 {
-  "generatedAt": "24-Nov-2026 12:31 PM IST",
+  "generatedAt": "25-Nov-2026 11:04 AM IST",
   "today": {
-    "date": "2026-11-24",
-    "stocks": []
-  },
-  "tomorrow": {
     "date": "2026-11-25",
     "stocks": [
       {
@@ -13,13 +9,27 @@
         "dividend": 0.6,
         "exDate": "2026-11-25",
         "subject": "Interim Dividend - Re 0.60 Per Share",
-        "lastPrice": 126.72,
-        "previousDayVolume": 15165
+        "lastPrice": 121.32,
+        "previousDayVolume": 24811
       }
     ]
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-11-26",
     "stocks": []
+  },
+  "dayAfter": {
+    "date": "2026-11-27",
+    "stocks": [
+      {
+        "symbol": "FUSIONCX",
+        "company": "Fusion CX Limited",
+        "dividend": 0.75,
+        "exDate": "2026-11-27",
+        "subject": "Dividend - Re 0.75 Per Share",
+        "lastPrice": 271,
+        "previousDayVolume": 116884
+      }
+    ]
   }
 }
