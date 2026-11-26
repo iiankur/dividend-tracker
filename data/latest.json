@@ -1,24 +1,10 @@
 {
-  "generatedAt": "25-Nov-2026 11:04 AM IST",
+  "generatedAt": "26-Nov-2026 10:47 AM IST",
   "today": {
-    "date": "2026-11-25",
-    "stocks": [
-      {
-        "symbol": "VRAJ",
-        "company": "Vraj Iron and Steel Limited",
-        "dividend": 0.6,
-        "exDate": "2026-11-25",
-        "subject": "Interim Dividend - Re 0.60 Per Share",
-        "lastPrice": 121.32,
-        "previousDayVolume": 24811
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-11-26",
     "stocks": []
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-11-27",
     "stocks": [
       {
@@ -27,9 +13,13 @@
         "dividend": 0.75,
         "exDate": "2026-11-27",
         "subject": "Dividend - Re 0.75 Per Share",
-        "lastPrice": 271,
-        "previousDayVolume": 116884
+        "lastPrice": 272.8,
+        "previousDayVolume": 16540
       }
     ]
+  },
+  "dayAfter": {
+    "date": "2026-11-28",
+    "stocks": []
   }
 }
