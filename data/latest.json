@@ -1,25 +1,15 @@
 {
-  "generatedAt": "27-Nov-2026 10:44 AM IST",
+  "generatedAt": "28-Nov-2026 10:21 AM IST",
   "today": {
-    "date": "2026-11-27",
-    "stocks": [
-      {
-        "symbol": "FUSIONCX",
-        "company": "Fusion CX Limited",
-        "dividend": 0.75,
-        "exDate": "2026-11-27",
-        "subject": "Dividend - Re 0.75 Per Share",
-        "lastPrice": 271.4,
-        "previousDayVolume": 15495
-      }
-    ]
-  },
-  "tomorrow": {
     "date": "2026-11-28",
     "stocks": []
   },
-  "dayAfter": {
+  "tomorrow": {
     "date": "2026-11-29",
+    "stocks": []
+  },
+  "dayAfter": {
+    "date": "2026-11-30",
     "stocks": []
   }
 }
